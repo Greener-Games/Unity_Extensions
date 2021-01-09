@@ -43,6 +43,12 @@ namespace GG.Extensions
         /// <returns></returns>
         public static async Task WaitUntil(Func<bool> condition, int frequency = 25, int timeout = -1)
         {
+            #if UNITY_WEBGL
+            while (!condition.Invoke())
+            {
+                await new WaitForSeconds(frequency / 1000);
+            }
+            #else
             var waitTask = Task.Run(async () =>
             {
                 while (!condition()) await Task.Delay(frequency);
@@ -51,6 +57,7 @@ namespace GG.Extensions
             if (waitTask != await Task.WhenAny(waitTask, 
                     Task.Delay(timeout))) 
                 throw new TimeoutException();
+#endif
         }
         
         // Adapted from https://blogs.msdn.microsoft.com/pfxteam/2012/03/05/implementing-a-simple-foreachasync-part-2/
