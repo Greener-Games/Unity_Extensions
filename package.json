@@ -1,5 +1,5 @@
 {
-  "name": "@greener-games/unity-extensions",
+  "name": "com.greener-games.unity-extensions",
   "displayName": "Unity Extensions",
   "description": "Collection of extensions for use in unity",
   "version": "0.4.0",
