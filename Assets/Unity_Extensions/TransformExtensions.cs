@@ -77,17 +77,6 @@ namespace GG.Extensions
         }
         
         
-        public static void TranslateLocalY(this Transform t, float y)
-        {
-            t.localPosition = new Vector3(t.localPosition.x, t.localPosition.y + y, t.localPosition.z);
-        }
-
-        public static void AddYRotation(this Transform t, float y)
-        {
-            t.eulerAngles = new Vector3(t.eulerAngles.x, t.eulerAngles.y + y, t.eulerAngles.z);
-        }
-        
-	    #region Gamelogic Extensions
 
 	    #region Position
 
@@ -176,7 +165,7 @@ namespace GG.Extensions
 
 		    transform.position += offset;
 	    }
-
+	    
 	    /// <summary>
 	    /// Translates this transform along the Z axis.
 	    /// </summary>
@@ -617,6 +606,16 @@ namespace GG.Extensions
 	    }
 
 	    /// <summary>
+	    /// Adds a modifier to the current y rotation
+	    /// </summary>
+	    /// <param name="transform"></param>
+	    /// <param name="y"></param>
+	    public static void AddYRotation(this Transform transform, float y)
+	    {
+		    transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y + y, transform.eulerAngles.z);
+	    }
+	    
+	    /// <summary>
 	    /// Sets the Z rotation.
 	    /// </summary>
 
@@ -804,6 +803,5 @@ namespace GG.Extensions
 
 	    #endregion 
 
-	    #endregion
     }
 }
