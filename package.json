@@ -1,0 +1,18 @@
+{
+  "name": "com.greener-games.unity-extensions",
+  "displayName": "Unity Extensions",
+  "description": "Collection of extensions for use in unity",
+  "version": "0.4.0",
+  "unity": "2018.1",
+  "license": "MIT",
+  "author": {
+    "name": "Greener Games"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Greener-Games/Unity_Extensions"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@Greener-Games"
+  }
+}
