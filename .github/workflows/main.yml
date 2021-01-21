@@ -1,8 +1,9 @@
 name: publish Node.js Package
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - master
 
 jobs:
   build:
