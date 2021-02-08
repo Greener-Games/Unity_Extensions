@@ -1,0 +1,4227 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.TransformExtensions
+  commentId: T:GG.Extensions.TransformExtensions
+  id: TransformExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.TransformExtensions.AddComponent``1(UnityEngine.Component)
+  - GG.Extensions.TransformExtensions.AddYRotation(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.CaculateMovementTime(UnityEngine.Transform,UnityEngine.Vector3,System.Single)
+  - GG.Extensions.TransformExtensions.ChildCountActive(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.DestroyChildren(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.DestroyChildrenImmediate(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.DestroyChildrenUniversal(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.FindChildRecursive(UnityEngine.Transform,System.String)
+  - GG.Extensions.TransformExtensions.FlipPostive(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.FlipX(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.FlipXY(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.FlipXYZ(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.FlipXZ(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.FlipY(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.FlipYZ(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.FlipZ(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.GetChildren(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.GetPath(UnityEngine.Component,UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.LookAtLocked(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean,System.Boolean)
+  - GG.Extensions.TransformExtensions.RectTransform(UnityEngine.Component)
+  - GG.Extensions.TransformExtensions.Reset(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.ResetLocal(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.ResetLocalPosition(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.ResetLocalRotation(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.ResetPosition(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.ResetRotation(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.ResetScale(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.RotateAroundX(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.RotateAroundY(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.RotateAroundZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByX(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByXY(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByXY(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByXYZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByXZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByXZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByY(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByYZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByYZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.ScaleByZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SelfAndAllChildren(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.SetLocalRotationX(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetLocalRotationY(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetLocalRotationZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetLocalX(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetLocalXY(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetLocalXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetLocalXZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetLocalY(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetLocalYZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetLocalZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetRotationX(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetRotationY(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetRotationZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetScaleX(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetScaleXY(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetScaleXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetScaleXZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetScaleY(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetScaleYZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetScaleZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetX(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetXY(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetY(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.SetZ(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.Sort(UnityEngine.Transform,System.Func{UnityEngine.Transform,System.IComparable})
+  - GG.Extensions.TransformExtensions.SortAlphabetically(UnityEngine.Transform)
+  - GG.Extensions.TransformExtensions.TranslateX(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.TranslateXY(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.TranslateXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.TranslateXZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.TranslateY(UnityEngine.Transform,System.Single)
+  - GG.Extensions.TransformExtensions.TranslateYZ(UnityEngine.Transform,System.Single,System.Single)
+  - GG.Extensions.TransformExtensions.TranslateZ(UnityEngine.Transform,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: TransformExtensions
+  nameWithType: TransformExtensions
+  fullName: GG.Extensions.TransformExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TransformExtensions
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 8
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class TransformExtensions
+    content.vb: Public Module TransformExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.TransformExtensions.RectTransform(UnityEngine.Component)
+  commentId: M:GG.Extensions.TransformExtensions.RectTransform(UnityEngine.Component)
+  id: RectTransform(UnityEngine.Component)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: RectTransform(Component)
+  nameWithType: TransformExtensions.RectTransform(Component)
+  fullName: GG.Extensions.TransformExtensions.RectTransform(UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: RectTransform
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 10
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static RectTransform RectTransform(this Component cp)
+    parameters:
+    - id: cp
+      type: UnityEngine.Component
+    return:
+      type: UnityEngine.RectTransform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RectTransform(cp As Component) As RectTransform
+  overload: GG.Extensions.TransformExtensions.RectTransform*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.AddComponent``1(UnityEngine.Component)
+  commentId: M:GG.Extensions.TransformExtensions.AddComponent``1(UnityEngine.Component)
+  id: AddComponent``1(UnityEngine.Component)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddComponent<T>(Component)
+  nameWithType: TransformExtensions.AddComponent<T>(Component)
+  fullName: GG.Extensions.TransformExtensions.AddComponent<T>(UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: AddComponent
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 14
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static T AddComponent<T>(this Component cp)
+          where T : Component
+    parameters:
+    - id: cp
+      type: UnityEngine.Component
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddComponent(Of T As Component)(cp As Component) As T
+  overload: GG.Extensions.TransformExtensions.AddComponent*
+  nameWithType.vb: TransformExtensions.AddComponent(Of T)(Component)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.TransformExtensions.AddComponent(Of T)(UnityEngine.Component)
+  name.vb: AddComponent(Of T)(Component)
+- uid: GG.Extensions.TransformExtensions.GetPath(UnityEngine.Component,UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.GetPath(UnityEngine.Component,UnityEngine.Transform)
+  id: GetPath(UnityEngine.Component,UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetPath(Component, Transform)
+  nameWithType: TransformExtensions.GetPath(Component, Transform)
+  fullName: GG.Extensions.TransformExtensions.GetPath(UnityEngine.Component, UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetPath
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 19
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static string GetPath(this Component component, Transform topLevel)
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+    - id: topLevel
+      type: UnityEngine.Transform
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetPath(component As Component, topLevel As Transform) As String
+  overload: GG.Extensions.TransformExtensions.GetPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ChildCountActive(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.ChildCountActive(UnityEngine.Transform)
+  id: ChildCountActive(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ChildCountActive(Transform)
+  nameWithType: TransformExtensions.ChildCountActive(Transform)
+  fullName: GG.Extensions.TransformExtensions.ChildCountActive(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ChildCountActive
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 29
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static int ChildCountActive(this Transform t)
+    parameters:
+    - id: t
+      type: UnityEngine.Transform
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ChildCountActive(t As Transform) As Integer
+  overload: GG.Extensions.TransformExtensions.ChildCountActive*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.FindChildRecursive(UnityEngine.Transform,System.String)
+  commentId: M:GG.Extensions.TransformExtensions.FindChildRecursive(UnityEngine.Transform,System.String)
+  id: FindChildRecursive(UnityEngine.Transform,System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FindChildRecursive(Transform, String)
+  nameWithType: TransformExtensions.FindChildRecursive(Transform, String)
+  fullName: GG.Extensions.TransformExtensions.FindChildRecursive(UnityEngine.Transform, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FindChildRecursive
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 35
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static Transform FindChildRecursive(this Transform aParent, string aName)
+    parameters:
+    - id: aParent
+      type: UnityEngine.Transform
+    - id: aName
+      type: System.String
+    return:
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindChildRecursive(aParent As Transform, aName As String) As Transform
+  overload: GG.Extensions.TransformExtensions.FindChildRecursive*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.CaculateMovementTime(UnityEngine.Transform,UnityEngine.Vector3,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.CaculateMovementTime(UnityEngine.Transform,UnityEngine.Vector3,System.Single)
+  id: CaculateMovementTime(UnityEngine.Transform,UnityEngine.Vector3,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: CaculateMovementTime(Transform, Vector3, Single)
+  nameWithType: TransformExtensions.CaculateMovementTime(Transform, Vector3, Single)
+  fullName: GG.Extensions.TransformExtensions.CaculateMovementTime(UnityEngine.Transform, UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: CaculateMovementTime
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 49
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static float CaculateMovementTime(this Transform t, Vector3 location, float speed)
+    parameters:
+    - id: t
+      type: UnityEngine.Transform
+    - id: location
+      type: UnityEngine.Vector3
+    - id: speed
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CaculateMovementTime(t As Transform, location As Vector3, speed As Single) As Single
+  overload: GG.Extensions.TransformExtensions.CaculateMovementTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.LookAtLocked(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:GG.Extensions.TransformExtensions.LookAtLocked(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean,System.Boolean)
+  id: LookAtLocked(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,System.Boolean,System.Boolean)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: LookAtLocked(Transform, Vector3, Vector3, Boolean, Boolean, Boolean)
+  nameWithType: TransformExtensions.LookAtLocked(Transform, Vector3, Vector3, Boolean, Boolean, Boolean)
+  fullName: GG.Extensions.TransformExtensions.LookAtLocked(UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Vector3, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LookAtLocked
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 55
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void LookAtLocked(this Transform transform, Vector3 worldPosition, Vector3 worldUp, bool lockX, bool lockY, bool LockZ)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: worldPosition
+      type: UnityEngine.Vector3
+    - id: worldUp
+      type: UnityEngine.Vector3
+    - id: lockX
+      type: System.Boolean
+    - id: lockY
+      type: System.Boolean
+    - id: LockZ
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub LookAtLocked(transform As Transform, worldPosition As Vector3, worldUp As Vector3, lockX As Boolean, lockY As Boolean, LockZ As Boolean)
+  overload: GG.Extensions.TransformExtensions.LookAtLocked*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetX(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetX(UnityEngine.Transform,System.Single)
+  id: SetX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetX(Transform, Single)
+  nameWithType: TransformExtensions.SetX(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetX
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 85
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the X position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetX(this Transform transform, float x)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetX(transform As Transform, x As Single)
+  overload: GG.Extensions.TransformExtensions.SetX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetY(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetY(UnityEngine.Transform,System.Single)
+  id: SetY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetY(Transform, Single)
+  nameWithType: TransformExtensions.SetY(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 95
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the Y position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetY(this Transform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetY(transform As Transform, y As Single)
+  overload: GG.Extensions.TransformExtensions.SetY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetZ(UnityEngine.Transform,System.Single)
+  id: SetZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetZ(Transform, Single)
+  nameWithType: TransformExtensions.SetZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 105
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the Z position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetZ(this Transform transform, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetZ(transform As Transform, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetXY(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetXY(UnityEngine.Transform,System.Single,System.Single)
+  id: SetXY(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetXY(Transform, Single, Single)
+  nameWithType: TransformExtensions.SetXY(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetXY(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetXY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 115
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the X and Y position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetXY(this Transform transform, float x, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetXY(transform As Transform, x As Single, y As Single)
+  overload: GG.Extensions.TransformExtensions.SetXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  id: SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetXZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.SetXZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetXZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetXZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 124
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the X and Z position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetXZ(this Transform transform, float x, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetXZ(transform As Transform, x As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  id: SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetYZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.SetYZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetYZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 133
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the Y and Z position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetYZ(this Transform transform, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetYZ(transform As Transform, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: SetXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetXYZ(Transform, Single, Single, Single)
+  nameWithType: TransformExtensions.SetXYZ(Transform, Single, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetXYZ(UnityEngine.Transform, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetXYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 142
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the X, Y and Z position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetXYZ(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetXYZ(transform As Transform, x As Single, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetXYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.TranslateX(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.TranslateX(UnityEngine.Transform,System.Single)
+  id: TranslateX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TranslateX(Transform, Single)
+  nameWithType: TransformExtensions.TranslateX(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.TranslateX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TranslateX
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 151
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nTranslates this transform along the X axis.\n"
+  example: []
+  syntax:
+    content: public static void TranslateX(this Transform transform, float x)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub TranslateX(transform As Transform, x As Single)
+  overload: GG.Extensions.TransformExtensions.TranslateX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.TranslateY(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.TranslateY(UnityEngine.Transform,System.Single)
+  id: TranslateY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TranslateY(Transform, Single)
+  nameWithType: TransformExtensions.TranslateY(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.TranslateY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TranslateY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 161
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nTranslates this transform along the Y axis.\n"
+  example: []
+  syntax:
+    content: public static void TranslateY(this Transform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub TranslateY(transform As Transform, y As Single)
+  overload: GG.Extensions.TransformExtensions.TranslateY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.TranslateZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.TranslateZ(UnityEngine.Transform,System.Single)
+  id: TranslateZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TranslateZ(Transform, Single)
+  nameWithType: TransformExtensions.TranslateZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.TranslateZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TranslateZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 171
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nTranslates this transform along the Z axis.\n"
+  example: []
+  syntax:
+    content: public static void TranslateZ(this Transform transform, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub TranslateZ(transform As Transform, z As Single)
+  overload: GG.Extensions.TransformExtensions.TranslateZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.TranslateXY(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.TranslateXY(UnityEngine.Transform,System.Single,System.Single)
+  id: TranslateXY(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TranslateXY(Transform, Single, Single)
+  nameWithType: TransformExtensions.TranslateXY(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.TranslateXY(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TranslateXY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 180
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nTranslates this transform along the X and Y axes.\n"
+  example: []
+  syntax:
+    content: public static void TranslateXY(this Transform transform, float x, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub TranslateXY(transform As Transform, x As Single, y As Single)
+  overload: GG.Extensions.TransformExtensions.TranslateXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.TranslateXZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.TranslateXZ(UnityEngine.Transform,System.Single,System.Single)
+  id: TranslateXZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TranslateXZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.TranslateXZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.TranslateXZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TranslateXZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 189
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nTranslates this transform along the X and Z axes.\n"
+  example: []
+  syntax:
+    content: public static void TranslateXZ(this Transform transform, float x, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub TranslateXZ(transform As Transform, x As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.TranslateXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.TranslateYZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.TranslateYZ(UnityEngine.Transform,System.Single,System.Single)
+  id: TranslateYZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TranslateYZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.TranslateYZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.TranslateYZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TranslateYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 198
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nTranslates this transform along the Y and Z axes.\n"
+  example: []
+  syntax:
+    content: public static void TranslateYZ(this Transform transform, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub TranslateYZ(transform As Transform, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.TranslateYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.TranslateXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.TranslateXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: TranslateXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TranslateXYZ(Transform, Single, Single, Single)
+  nameWithType: TransformExtensions.TranslateXYZ(Transform, Single, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.TranslateXYZ(UnityEngine.Transform, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TranslateXYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 207
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nTranslates this transform along the X, Y and Z axis.\n"
+  example: []
+  syntax:
+    content: public static void TranslateXYZ(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub TranslateXYZ(transform As Transform, x As Single, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.TranslateXYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalX(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalX(UnityEngine.Transform,System.Single)
+  id: SetLocalX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalX(Transform, Single)
+  nameWithType: TransformExtensions.SetLocalX(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalX
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 216
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local X position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalX(this Transform transform, float x)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalX(transform As Transform, x As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalY(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalY(UnityEngine.Transform,System.Single)
+  id: SetLocalY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalY(Transform, Single)
+  nameWithType: TransformExtensions.SetLocalY(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 225
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local Y position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalY(this Transform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalY(transform As Transform, y As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalZ(UnityEngine.Transform,System.Single)
+  id: SetLocalZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalZ(Transform, Single)
+  nameWithType: TransformExtensions.SetLocalZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 234
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local Z position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalZ(this Transform transform, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalZ(transform As Transform, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalXY(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalXY(UnityEngine.Transform,System.Single,System.Single)
+  id: SetLocalXY(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalXY(Transform, Single, Single)
+  nameWithType: TransformExtensions.SetLocalXY(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalXY(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalXY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 243
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local X and Y position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalXY(this Transform transform, float x, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalXY(transform As Transform, x As Single, y As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalXZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalXZ(UnityEngine.Transform,System.Single,System.Single)
+  id: SetLocalXZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalXZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.SetLocalXZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalXZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalXZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 252
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local X and Z position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalXZ(this Transform transform, float x, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalXZ(transform As Transform, x As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalYZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalYZ(UnityEngine.Transform,System.Single,System.Single)
+  id: SetLocalYZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalYZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.SetLocalYZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalYZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 261
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local Y and Z position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalYZ(this Transform transform, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalYZ(transform As Transform, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: SetLocalXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalXYZ(Transform, Single, Single, Single)
+  nameWithType: TransformExtensions.SetLocalXYZ(Transform, Single, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalXYZ(UnityEngine.Transform, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalXYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 270
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local X, Y and Z position of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalXYZ(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalXYZ(transform As Transform, x As Single, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalXYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ResetPosition(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.ResetPosition(UnityEngine.Transform)
+  id: ResetPosition(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ResetPosition(Transform)
+  nameWithType: TransformExtensions.ResetPosition(Transform)
+  fullName: GG.Extensions.TransformExtensions.ResetPosition(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ResetPosition
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 279
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the position to 0, 0, 0.\n"
+  example: []
+  syntax:
+    content: public static void ResetPosition(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ResetPosition(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.ResetPosition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ResetLocalPosition(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.ResetLocalPosition(UnityEngine.Transform)
+  id: ResetLocalPosition(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ResetLocalPosition(Transform)
+  nameWithType: TransformExtensions.ResetLocalPosition(Transform)
+  fullName: GG.Extensions.TransformExtensions.ResetLocalPosition(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ResetLocalPosition
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 287
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local position to 0, 0, 0.\n"
+  example: []
+  syntax:
+    content: public static void ResetLocalPosition(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ResetLocalPosition(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.ResetLocalPosition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetScaleX(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetScaleX(UnityEngine.Transform,System.Single)
+  id: SetScaleX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetScaleX(Transform, Single)
+  nameWithType: TransformExtensions.SetScaleX(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetScaleX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetScaleX
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 300
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local X scale of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetScaleX(this Transform transform, float x)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetScaleX(transform As Transform, x As Single)
+  overload: GG.Extensions.TransformExtensions.SetScaleX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetScaleY(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetScaleY(UnityEngine.Transform,System.Single)
+  id: SetScaleY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetScaleY(Transform, Single)
+  nameWithType: TransformExtensions.SetScaleY(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetScaleY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetScaleY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 310
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local Y scale of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetScaleY(this Transform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetScaleY(transform As Transform, y As Single)
+  overload: GG.Extensions.TransformExtensions.SetScaleY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetScaleZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetScaleZ(UnityEngine.Transform,System.Single)
+  id: SetScaleZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetScaleZ(Transform, Single)
+  nameWithType: TransformExtensions.SetScaleZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetScaleZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetScaleZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 320
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local Z scale of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetScaleZ(this Transform transform, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetScaleZ(transform As Transform, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetScaleZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetScaleXY(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetScaleXY(UnityEngine.Transform,System.Single,System.Single)
+  id: SetScaleXY(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetScaleXY(Transform, Single, Single)
+  nameWithType: TransformExtensions.SetScaleXY(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetScaleXY(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetScaleXY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 330
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local X and Y scale of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetScaleXY(this Transform transform, float x, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetScaleXY(transform As Transform, x As Single, y As Single)
+  overload: GG.Extensions.TransformExtensions.SetScaleXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetScaleXZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetScaleXZ(UnityEngine.Transform,System.Single,System.Single)
+  id: SetScaleXZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetScaleXZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.SetScaleXZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetScaleXZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetScaleXZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 340
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local X and Z scale of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetScaleXZ(this Transform transform, float x, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetScaleXZ(transform As Transform, x As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetScaleXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetScaleYZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetScaleYZ(UnityEngine.Transform,System.Single,System.Single)
+  id: SetScaleYZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetScaleYZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.SetScaleYZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetScaleYZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetScaleYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 350
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local Y and Z scale of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetScaleYZ(this Transform transform, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetScaleYZ(transform As Transform, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetScaleYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetScaleXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetScaleXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: SetScaleXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetScaleXYZ(Transform, Single, Single, Single)
+  nameWithType: TransformExtensions.SetScaleXYZ(Transform, Single, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.SetScaleXYZ(UnityEngine.Transform, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetScaleXYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 360
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local X, Y and Z scale of this transform.\n"
+  example: []
+  syntax:
+    content: public static void SetScaleXYZ(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetScaleXYZ(transform As Transform, x As Single, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.SetScaleXYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByX(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByX(UnityEngine.Transform,System.Single)
+  id: ScaleByX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByX(Transform, Single)
+  nameWithType: TransformExtensions.ScaleByX(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByX
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 370
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the X direction.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByX(this Transform transform, float x)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByX(transform As Transform, x As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByY(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByY(UnityEngine.Transform,System.Single)
+  id: ScaleByY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByY(Transform, Single)
+  nameWithType: TransformExtensions.ScaleByY(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 379
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the Y direction.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByY(this Transform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByY(transform As Transform, y As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByZ(UnityEngine.Transform,System.Single)
+  id: ScaleByZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByZ(Transform, Single)
+  nameWithType: TransformExtensions.ScaleByZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 388
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the Z direction.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByZ(this Transform transform, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByZ(transform As Transform, z As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByXY(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByXY(UnityEngine.Transform,System.Single,System.Single)
+  id: ScaleByXY(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByXY(Transform, Single, Single)
+  nameWithType: TransformExtensions.ScaleByXY(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByXY(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByXY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 397
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the X, Y direction.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByXY(this Transform transform, float x, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByXY(transform As Transform, x As Single, y As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByXZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByXZ(UnityEngine.Transform,System.Single,System.Single)
+  id: ScaleByXZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByXZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.ScaleByXZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByXZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByXZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 406
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the X, Z directions.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByXZ(this Transform transform, float x, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByXZ(transform As Transform, x As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByYZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByYZ(UnityEngine.Transform,System.Single,System.Single)
+  id: ScaleByYZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByYZ(Transform, Single, Single)
+  nameWithType: TransformExtensions.ScaleByYZ(Transform, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByYZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 415
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the Y and Z directions.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByYZ(this Transform transform, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByYZ(transform As Transform, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByXY(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByXY(UnityEngine.Transform,System.Single)
+  id: ScaleByXY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByXY(Transform, Single)
+  nameWithType: TransformExtensions.ScaleByXY(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByXY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByXY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 424
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the X and Y directions.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByXY(this Transform transform, float r)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: r
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByXY(transform As Transform, r As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByXZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByXZ(UnityEngine.Transform,System.Single)
+  id: ScaleByXZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByXZ(Transform, Single)
+  nameWithType: TransformExtensions.ScaleByXZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByXZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByXZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 433
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the X and Z directions.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByXZ(this Transform transform, float r)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: r
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByXZ(transform As Transform, r As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByYZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByYZ(UnityEngine.Transform,System.Single)
+  id: ScaleByYZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByYZ(Transform, Single)
+  nameWithType: TransformExtensions.ScaleByYZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByYZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 442
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the Y and Z directions.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByYZ(this Transform transform, float r)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: r
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByYZ(transform As Transform, r As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  id: ScaleByXYZ(UnityEngine.Transform,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByXYZ(Transform, Single, Single, Single)
+  nameWithType: TransformExtensions.ScaleByXYZ(Transform, Single, Single, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByXYZ(UnityEngine.Transform, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByXYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 451
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the X, Y and Z directions.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByXYZ(this Transform transform, float x, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByXYZ(transform As Transform, x As Single, y As Single, z As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByXYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ScaleByXYZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.ScaleByXYZ(UnityEngine.Transform,System.Single)
+  id: ScaleByXYZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScaleByXYZ(Transform, Single)
+  nameWithType: TransformExtensions.ScaleByXYZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.ScaleByXYZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ScaleByXYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 461
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nScale this transform in the X, Y and Z directions.\n"
+  example: []
+  syntax:
+    content: public static void ScaleByXYZ(this Transform transform, float r)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: r
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ScaleByXYZ(transform As Transform, r As Single)
+  overload: GG.Extensions.TransformExtensions.ScaleByXYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ResetScale(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.ResetScale(UnityEngine.Transform)
+  id: ResetScale(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ResetScale(Transform)
+  nameWithType: TransformExtensions.ResetScale(Transform)
+  fullName: GG.Extensions.TransformExtensions.ResetScale(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ResetScale
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 471
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nResets the local scale of this transform in to 1 1 1.\n"
+  example: []
+  syntax:
+    content: public static void ResetScale(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ResetScale(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.ResetScale*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.FlipX(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.FlipX(UnityEngine.Transform)
+  id: FlipX(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlipX(Transform)
+  nameWithType: TransformExtensions.FlipX(Transform)
+  fullName: GG.Extensions.TransformExtensions.FlipX(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FlipX
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 484
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nNegates the X scale.\n"
+  example: []
+  syntax:
+    content: public static void FlipX(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub FlipX(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.FlipX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.FlipY(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.FlipY(UnityEngine.Transform)
+  id: FlipY(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlipY(Transform)
+  nameWithType: TransformExtensions.FlipY(Transform)
+  fullName: GG.Extensions.TransformExtensions.FlipY(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FlipY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 493
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nNegates the Y scale.\n"
+  example: []
+  syntax:
+    content: public static void FlipY(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub FlipY(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.FlipY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.FlipZ(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.FlipZ(UnityEngine.Transform)
+  id: FlipZ(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlipZ(Transform)
+  nameWithType: TransformExtensions.FlipZ(Transform)
+  fullName: GG.Extensions.TransformExtensions.FlipZ(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FlipZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 502
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nNegates the Z scale.\n"
+  example: []
+  syntax:
+    content: public static void FlipZ(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub FlipZ(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.FlipZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.FlipXY(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.FlipXY(UnityEngine.Transform)
+  id: FlipXY(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlipXY(Transform)
+  nameWithType: TransformExtensions.FlipXY(Transform)
+  fullName: GG.Extensions.TransformExtensions.FlipXY(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FlipXY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 511
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nNegates the X and Y scale.\n"
+  example: []
+  syntax:
+    content: public static void FlipXY(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub FlipXY(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.FlipXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.FlipXZ(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.FlipXZ(UnityEngine.Transform)
+  id: FlipXZ(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlipXZ(Transform)
+  nameWithType: TransformExtensions.FlipXZ(Transform)
+  fullName: GG.Extensions.TransformExtensions.FlipXZ(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FlipXZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 520
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nNegates the X and Z scale.\n"
+  example: []
+  syntax:
+    content: public static void FlipXZ(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub FlipXZ(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.FlipXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.FlipYZ(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.FlipYZ(UnityEngine.Transform)
+  id: FlipYZ(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlipYZ(Transform)
+  nameWithType: TransformExtensions.FlipYZ(Transform)
+  fullName: GG.Extensions.TransformExtensions.FlipYZ(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FlipYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 529
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nNegates the Y and Z scale.\n"
+  example: []
+  syntax:
+    content: public static void FlipYZ(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub FlipYZ(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.FlipYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.FlipXYZ(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.FlipXYZ(UnityEngine.Transform)
+  id: FlipXYZ(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlipXYZ(Transform)
+  nameWithType: TransformExtensions.FlipXYZ(Transform)
+  fullName: GG.Extensions.TransformExtensions.FlipXYZ(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FlipXYZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 538
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nNegates the X, Y and Z scale.\n"
+  example: []
+  syntax:
+    content: public static void FlipXYZ(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub FlipXYZ(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.FlipXYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.FlipPostive(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.FlipPostive(UnityEngine.Transform)
+  id: FlipPostive(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlipPostive(Transform)
+  nameWithType: TransformExtensions.FlipPostive(Transform)
+  fullName: GG.Extensions.TransformExtensions.FlipPostive(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FlipPostive
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 547
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets all scale values to the absolute values.\n"
+  example: []
+  syntax:
+    content: public static void FlipPostive(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub FlipPostive(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.FlipPostive*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.RotateAroundX(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.RotateAroundX(UnityEngine.Transform,System.Single)
+  id: RotateAroundX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: RotateAroundX(Transform, Single)
+  nameWithType: TransformExtensions.RotateAroundX(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.RotateAroundX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: RotateAroundX
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 563
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nRotates the transform around the X axis.\n"
+  example: []
+  syntax:
+    content: public static void RotateAroundX(this Transform transform, float angle)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: angle
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub RotateAroundX(transform As Transform, angle As Single)
+  overload: GG.Extensions.TransformExtensions.RotateAroundX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.RotateAroundY(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.RotateAroundY(UnityEngine.Transform,System.Single)
+  id: RotateAroundY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: RotateAroundY(Transform, Single)
+  nameWithType: TransformExtensions.RotateAroundY(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.RotateAroundY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: RotateAroundY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 573
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nRotates the transform around the Y axis.\n"
+  example: []
+  syntax:
+    content: public static void RotateAroundY(this Transform transform, float angle)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: angle
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub RotateAroundY(transform As Transform, angle As Single)
+  overload: GG.Extensions.TransformExtensions.RotateAroundY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.RotateAroundZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.RotateAroundZ(UnityEngine.Transform,System.Single)
+  id: RotateAroundZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: RotateAroundZ(Transform, Single)
+  nameWithType: TransformExtensions.RotateAroundZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.RotateAroundZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: RotateAroundZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 583
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nRotates the transform around the Z axis.\n"
+  example: []
+  syntax:
+    content: public static void RotateAroundZ(this Transform transform, float angle)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: angle
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub RotateAroundZ(transform As Transform, angle As Single)
+  overload: GG.Extensions.TransformExtensions.RotateAroundZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetRotationX(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetRotationX(UnityEngine.Transform,System.Single)
+  id: SetRotationX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetRotationX(Transform, Single)
+  nameWithType: TransformExtensions.SetRotationX(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetRotationX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetRotationX
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 593
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the X rotation.\n"
+  example: []
+  syntax:
+    content: public static void SetRotationX(this Transform transform, float angle)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: angle
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetRotationX(transform As Transform, angle As Single)
+  overload: GG.Extensions.TransformExtensions.SetRotationX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetRotationY(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetRotationY(UnityEngine.Transform,System.Single)
+  id: SetRotationY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetRotationY(Transform, Single)
+  nameWithType: TransformExtensions.SetRotationY(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetRotationY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetRotationY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 602
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the Y rotation.\n"
+  example: []
+  syntax:
+    content: public static void SetRotationY(this Transform transform, float angle)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: angle
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetRotationY(transform As Transform, angle As Single)
+  overload: GG.Extensions.TransformExtensions.SetRotationY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.AddYRotation(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.AddYRotation(UnityEngine.Transform,System.Single)
+  id: AddYRotation(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddYRotation(Transform, Single)
+  nameWithType: TransformExtensions.AddYRotation(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.AddYRotation(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: AddYRotation
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 612
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nAdds a modifier to the current y rotation\n"
+  example: []
+  syntax:
+    content: public static void AddYRotation(this Transform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: ''
+    - id: y
+      type: System.Single
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddYRotation(transform As Transform, y As Single)
+  overload: GG.Extensions.TransformExtensions.AddYRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetRotationZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetRotationZ(UnityEngine.Transform,System.Single)
+  id: SetRotationZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetRotationZ(Transform, Single)
+  nameWithType: TransformExtensions.SetRotationZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetRotationZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetRotationZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 621
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the Z rotation.\n"
+  example: []
+  syntax:
+    content: public static void SetRotationZ(this Transform transform, float angle)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: angle
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetRotationZ(transform As Transform, angle As Single)
+  overload: GG.Extensions.TransformExtensions.SetRotationZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalRotationX(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalRotationX(UnityEngine.Transform,System.Single)
+  id: SetLocalRotationX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalRotationX(Transform, Single)
+  nameWithType: TransformExtensions.SetLocalRotationX(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalRotationX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalRotationX
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 630
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local X rotation.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalRotationX(this Transform transform, float angle)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: angle
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalRotationX(transform As Transform, angle As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalRotationX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalRotationY(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalRotationY(UnityEngine.Transform,System.Single)
+  id: SetLocalRotationY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalRotationY(Transform, Single)
+  nameWithType: TransformExtensions.SetLocalRotationY(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalRotationY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalRotationY
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 639
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local Y rotation.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalRotationY(this Transform transform, float angle)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: angle
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalRotationY(transform As Transform, angle As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalRotationY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SetLocalRotationZ(UnityEngine.Transform,System.Single)
+  commentId: M:GG.Extensions.TransformExtensions.SetLocalRotationZ(UnityEngine.Transform,System.Single)
+  id: SetLocalRotationZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLocalRotationZ(Transform, Single)
+  nameWithType: TransformExtensions.SetLocalRotationZ(Transform, Single)
+  fullName: GG.Extensions.TransformExtensions.SetLocalRotationZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetLocalRotationZ
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 648
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSets the local Z rotation.\n"
+  example: []
+  syntax:
+    content: public static void SetLocalRotationZ(this Transform transform, float angle)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: angle
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLocalRotationZ(transform As Transform, angle As Single)
+  overload: GG.Extensions.TransformExtensions.SetLocalRotationZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ResetRotation(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.ResetRotation(UnityEngine.Transform)
+  id: ResetRotation(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ResetRotation(Transform)
+  nameWithType: TransformExtensions.ResetRotation(Transform)
+  fullName: GG.Extensions.TransformExtensions.ResetRotation(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ResetRotation
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 657
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nResets the rotation to 0, 0, 0.\n"
+  example: []
+  syntax:
+    content: public static void ResetRotation(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ResetRotation(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.ResetRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ResetLocalRotation(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.ResetLocalRotation(UnityEngine.Transform)
+  id: ResetLocalRotation(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ResetLocalRotation(Transform)
+  nameWithType: TransformExtensions.ResetLocalRotation(Transform)
+  fullName: GG.Extensions.TransformExtensions.ResetLocalRotation(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ResetLocalRotation
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 666
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nResets the local rotation to 0, 0, 0.\n"
+  example: []
+  syntax:
+    content: public static void ResetLocalRotation(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ResetLocalRotation(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.ResetLocalRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.ResetLocal(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.ResetLocal(UnityEngine.Transform)
+  id: ResetLocal(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: ResetLocal(Transform)
+  nameWithType: TransformExtensions.ResetLocal(Transform)
+  fullName: GG.Extensions.TransformExtensions.ResetLocal(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ResetLocal
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 679
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nResets the ;local position, local rotation, and local scale.\n"
+  example: []
+  syntax:
+    content: public static void ResetLocal(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ResetLocal(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.ResetLocal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.Reset(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.Reset(UnityEngine.Transform)
+  id: Reset(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Reset(Transform)
+  nameWithType: TransformExtensions.Reset(Transform)
+  fullName: GG.Extensions.TransformExtensions.Reset(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Reset
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 691
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nResets the position, rotation, and local scale.\n"
+  example: []
+  syntax:
+    content: public static void Reset(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Reset(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.Reset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.DestroyChildren(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.DestroyChildren(UnityEngine.Transform)
+  id: DestroyChildren(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: DestroyChildren(Transform)
+  nameWithType: TransformExtensions.DestroyChildren(Transform)
+  fullName: GG.Extensions.TransformExtensions.DestroyChildren(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DestroyChildren
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 702
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void DestroyChildren(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub DestroyChildren(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.DestroyChildren*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.DestroyChildrenImmediate(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.DestroyChildrenImmediate(UnityEngine.Transform)
+  id: DestroyChildrenImmediate(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: DestroyChildrenImmediate(Transform)
+  nameWithType: TransformExtensions.DestroyChildrenImmediate(Transform)
+  fullName: GG.Extensions.TransformExtensions.DestroyChildrenImmediate(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DestroyChildrenImmediate
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 720
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void DestroyChildrenImmediate(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub DestroyChildrenImmediate(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.DestroyChildrenImmediate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.DestroyChildrenUniversal(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.DestroyChildrenUniversal(UnityEngine.Transform)
+  id: DestroyChildrenUniversal(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: DestroyChildrenUniversal(Transform)
+  nameWithType: TransformExtensions.DestroyChildrenUniversal(Transform)
+  fullName: GG.Extensions.TransformExtensions.DestroyChildrenUniversal(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DestroyChildrenUniversal
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 738
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void DestroyChildrenUniversal(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub DestroyChildrenUniversal(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.DestroyChildrenUniversal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.GetChildren(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.GetChildren(UnityEngine.Transform)
+  id: GetChildren(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetChildren(Transform)
+  nameWithType: TransformExtensions.GetChildren(Transform)
+  fullName: GG.Extensions.TransformExtensions.GetChildren(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetChildren
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 750
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static List<Transform> GetChildren(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Transform}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetChildren(transform As Transform) As List(Of Transform)
+  overload: GG.Extensions.TransformExtensions.GetChildren*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.Sort(UnityEngine.Transform,System.Func{UnityEngine.Transform,System.IComparable})
+  commentId: M:GG.Extensions.TransformExtensions.Sort(UnityEngine.Transform,System.Func{UnityEngine.Transform,System.IComparable})
+  id: Sort(UnityEngine.Transform,System.Func{UnityEngine.Transform,System.IComparable})
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Sort(Transform, Func<Transform, IComparable>)
+  nameWithType: TransformExtensions.Sort(Transform, Func<Transform, IComparable>)
+  fullName: GG.Extensions.TransformExtensions.Sort(UnityEngine.Transform, System.Func<UnityEngine.Transform, System.IComparable>)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Sort
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 763
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void Sort(this Transform transform, Func<Transform, IComparable> sortFunction)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: sortFunction
+      type: System.Func{UnityEngine.Transform,System.IComparable}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Sort(transform As Transform, sortFunction As Func(Of Transform, IComparable))
+  overload: GG.Extensions.TransformExtensions.Sort*
+  nameWithType.vb: TransformExtensions.Sort(Transform, Func(Of Transform, IComparable))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.TransformExtensions.Sort(UnityEngine.Transform, System.Func(Of UnityEngine.Transform, System.IComparable))
+  name.vb: Sort(Transform, Func(Of Transform, IComparable))
+- uid: GG.Extensions.TransformExtensions.SortAlphabetically(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.SortAlphabetically(UnityEngine.Transform)
+  id: SortAlphabetically(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SortAlphabetically(Transform)
+  nameWithType: TransformExtensions.SortAlphabetically(Transform)
+  fullName: GG.Extensions.TransformExtensions.SortAlphabetically(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SortAlphabetically
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 774
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void SortAlphabetically(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SortAlphabetically(transform As Transform)
+  overload: GG.Extensions.TransformExtensions.SortAlphabetically*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.TransformExtensions.SelfAndAllChildren(UnityEngine.Transform)
+  commentId: M:GG.Extensions.TransformExtensions.SelfAndAllChildren(UnityEngine.Transform)
+  id: SelfAndAllChildren(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SelfAndAllChildren(Transform)
+  nameWithType: TransformExtensions.SelfAndAllChildren(Transform)
+  fullName: GG.Extensions.TransformExtensions.SelfAndAllChildren(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/TransformExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SelfAndAllChildren
+    path: ../Assets/Unity_Extensions/TransformExtensions.cs
+    startLine: 782
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nA lazy enumerable of this objects transform, and all it&apos;s children down the hierarchy.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<Transform> SelfAndAllChildren(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    return:
+      type: System.Collections.Generic.IEnumerable{UnityEngine.Transform}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SelfAndAllChildren(transform As Transform) As IEnumerable(Of Transform)
+  overload: GG.Extensions.TransformExtensions.SelfAndAllChildren*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.TransformExtensions.RectTransform*
+  commentId: Overload:GG.Extensions.TransformExtensions.RectTransform
+  name: RectTransform
+  nameWithType: TransformExtensions.RectTransform
+  fullName: GG.Extensions.TransformExtensions.RectTransform
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.RectTransform
+  commentId: T:UnityEngine.RectTransform
+  parent: UnityEngine
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: UnityEngine.RectTransform
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: GG.Extensions.TransformExtensions.AddComponent*
+  commentId: Overload:GG.Extensions.TransformExtensions.AddComponent
+  name: AddComponent
+  nameWithType: TransformExtensions.AddComponent
+  fullName: GG.Extensions.TransformExtensions.AddComponent
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: GG.Extensions.TransformExtensions.GetPath*
+  commentId: Overload:GG.Extensions.TransformExtensions.GetPath
+  name: GetPath
+  nameWithType: TransformExtensions.GetPath
+  fullName: GG.Extensions.TransformExtensions.GetPath
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GG.Extensions.TransformExtensions.ChildCountActive*
+  commentId: Overload:GG.Extensions.TransformExtensions.ChildCountActive
+  name: ChildCountActive
+  nameWithType: TransformExtensions.ChildCountActive
+  fullName: GG.Extensions.TransformExtensions.ChildCountActive
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GG.Extensions.TransformExtensions.FindChildRecursive*
+  commentId: Overload:GG.Extensions.TransformExtensions.FindChildRecursive
+  name: FindChildRecursive
+  nameWithType: TransformExtensions.FindChildRecursive
+  fullName: GG.Extensions.TransformExtensions.FindChildRecursive
+- uid: GG.Extensions.TransformExtensions.CaculateMovementTime*
+  commentId: Overload:GG.Extensions.TransformExtensions.CaculateMovementTime
+  name: CaculateMovementTime
+  nameWithType: TransformExtensions.CaculateMovementTime
+  fullName: GG.Extensions.TransformExtensions.CaculateMovementTime
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: GG.Extensions.TransformExtensions.LookAtLocked*
+  commentId: Overload:GG.Extensions.TransformExtensions.LookAtLocked
+  name: LookAtLocked
+  nameWithType: TransformExtensions.LookAtLocked
+  fullName: GG.Extensions.TransformExtensions.LookAtLocked
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GG.Extensions.TransformExtensions.SetX*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetX
+  name: SetX
+  nameWithType: TransformExtensions.SetX
+  fullName: GG.Extensions.TransformExtensions.SetX
+- uid: GG.Extensions.TransformExtensions.SetY*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetY
+  name: SetY
+  nameWithType: TransformExtensions.SetY
+  fullName: GG.Extensions.TransformExtensions.SetY
+- uid: GG.Extensions.TransformExtensions.SetZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetZ
+  name: SetZ
+  nameWithType: TransformExtensions.SetZ
+  fullName: GG.Extensions.TransformExtensions.SetZ
+- uid: GG.Extensions.TransformExtensions.SetXY*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetXY
+  name: SetXY
+  nameWithType: TransformExtensions.SetXY
+  fullName: GG.Extensions.TransformExtensions.SetXY
+- uid: GG.Extensions.TransformExtensions.SetXZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetXZ
+  name: SetXZ
+  nameWithType: TransformExtensions.SetXZ
+  fullName: GG.Extensions.TransformExtensions.SetXZ
+- uid: GG.Extensions.TransformExtensions.SetYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetYZ
+  name: SetYZ
+  nameWithType: TransformExtensions.SetYZ
+  fullName: GG.Extensions.TransformExtensions.SetYZ
+- uid: GG.Extensions.TransformExtensions.SetXYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetXYZ
+  name: SetXYZ
+  nameWithType: TransformExtensions.SetXYZ
+  fullName: GG.Extensions.TransformExtensions.SetXYZ
+- uid: GG.Extensions.TransformExtensions.TranslateX*
+  commentId: Overload:GG.Extensions.TransformExtensions.TranslateX
+  name: TranslateX
+  nameWithType: TransformExtensions.TranslateX
+  fullName: GG.Extensions.TransformExtensions.TranslateX
+- uid: GG.Extensions.TransformExtensions.TranslateY*
+  commentId: Overload:GG.Extensions.TransformExtensions.TranslateY
+  name: TranslateY
+  nameWithType: TransformExtensions.TranslateY
+  fullName: GG.Extensions.TransformExtensions.TranslateY
+- uid: GG.Extensions.TransformExtensions.TranslateZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.TranslateZ
+  name: TranslateZ
+  nameWithType: TransformExtensions.TranslateZ
+  fullName: GG.Extensions.TransformExtensions.TranslateZ
+- uid: GG.Extensions.TransformExtensions.TranslateXY*
+  commentId: Overload:GG.Extensions.TransformExtensions.TranslateXY
+  name: TranslateXY
+  nameWithType: TransformExtensions.TranslateXY
+  fullName: GG.Extensions.TransformExtensions.TranslateXY
+- uid: GG.Extensions.TransformExtensions.TranslateXZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.TranslateXZ
+  name: TranslateXZ
+  nameWithType: TransformExtensions.TranslateXZ
+  fullName: GG.Extensions.TransformExtensions.TranslateXZ
+- uid: GG.Extensions.TransformExtensions.TranslateYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.TranslateYZ
+  name: TranslateYZ
+  nameWithType: TransformExtensions.TranslateYZ
+  fullName: GG.Extensions.TransformExtensions.TranslateYZ
+- uid: GG.Extensions.TransformExtensions.TranslateXYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.TranslateXYZ
+  name: TranslateXYZ
+  nameWithType: TransformExtensions.TranslateXYZ
+  fullName: GG.Extensions.TransformExtensions.TranslateXYZ
+- uid: GG.Extensions.TransformExtensions.SetLocalX*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalX
+  name: SetLocalX
+  nameWithType: TransformExtensions.SetLocalX
+  fullName: GG.Extensions.TransformExtensions.SetLocalX
+- uid: GG.Extensions.TransformExtensions.SetLocalY*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalY
+  name: SetLocalY
+  nameWithType: TransformExtensions.SetLocalY
+  fullName: GG.Extensions.TransformExtensions.SetLocalY
+- uid: GG.Extensions.TransformExtensions.SetLocalZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalZ
+  name: SetLocalZ
+  nameWithType: TransformExtensions.SetLocalZ
+  fullName: GG.Extensions.TransformExtensions.SetLocalZ
+- uid: GG.Extensions.TransformExtensions.SetLocalXY*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalXY
+  name: SetLocalXY
+  nameWithType: TransformExtensions.SetLocalXY
+  fullName: GG.Extensions.TransformExtensions.SetLocalXY
+- uid: GG.Extensions.TransformExtensions.SetLocalXZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalXZ
+  name: SetLocalXZ
+  nameWithType: TransformExtensions.SetLocalXZ
+  fullName: GG.Extensions.TransformExtensions.SetLocalXZ
+- uid: GG.Extensions.TransformExtensions.SetLocalYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalYZ
+  name: SetLocalYZ
+  nameWithType: TransformExtensions.SetLocalYZ
+  fullName: GG.Extensions.TransformExtensions.SetLocalYZ
+- uid: GG.Extensions.TransformExtensions.SetLocalXYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalXYZ
+  name: SetLocalXYZ
+  nameWithType: TransformExtensions.SetLocalXYZ
+  fullName: GG.Extensions.TransformExtensions.SetLocalXYZ
+- uid: GG.Extensions.TransformExtensions.ResetPosition*
+  commentId: Overload:GG.Extensions.TransformExtensions.ResetPosition
+  name: ResetPosition
+  nameWithType: TransformExtensions.ResetPosition
+  fullName: GG.Extensions.TransformExtensions.ResetPosition
+- uid: GG.Extensions.TransformExtensions.ResetLocalPosition*
+  commentId: Overload:GG.Extensions.TransformExtensions.ResetLocalPosition
+  name: ResetLocalPosition
+  nameWithType: TransformExtensions.ResetLocalPosition
+  fullName: GG.Extensions.TransformExtensions.ResetLocalPosition
+- uid: GG.Extensions.TransformExtensions.SetScaleX*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetScaleX
+  name: SetScaleX
+  nameWithType: TransformExtensions.SetScaleX
+  fullName: GG.Extensions.TransformExtensions.SetScaleX
+- uid: GG.Extensions.TransformExtensions.SetScaleY*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetScaleY
+  name: SetScaleY
+  nameWithType: TransformExtensions.SetScaleY
+  fullName: GG.Extensions.TransformExtensions.SetScaleY
+- uid: GG.Extensions.TransformExtensions.SetScaleZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetScaleZ
+  name: SetScaleZ
+  nameWithType: TransformExtensions.SetScaleZ
+  fullName: GG.Extensions.TransformExtensions.SetScaleZ
+- uid: GG.Extensions.TransformExtensions.SetScaleXY*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetScaleXY
+  name: SetScaleXY
+  nameWithType: TransformExtensions.SetScaleXY
+  fullName: GG.Extensions.TransformExtensions.SetScaleXY
+- uid: GG.Extensions.TransformExtensions.SetScaleXZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetScaleXZ
+  name: SetScaleXZ
+  nameWithType: TransformExtensions.SetScaleXZ
+  fullName: GG.Extensions.TransformExtensions.SetScaleXZ
+- uid: GG.Extensions.TransformExtensions.SetScaleYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetScaleYZ
+  name: SetScaleYZ
+  nameWithType: TransformExtensions.SetScaleYZ
+  fullName: GG.Extensions.TransformExtensions.SetScaleYZ
+- uid: GG.Extensions.TransformExtensions.SetScaleXYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetScaleXYZ
+  name: SetScaleXYZ
+  nameWithType: TransformExtensions.SetScaleXYZ
+  fullName: GG.Extensions.TransformExtensions.SetScaleXYZ
+- uid: GG.Extensions.TransformExtensions.ScaleByX*
+  commentId: Overload:GG.Extensions.TransformExtensions.ScaleByX
+  name: ScaleByX
+  nameWithType: TransformExtensions.ScaleByX
+  fullName: GG.Extensions.TransformExtensions.ScaleByX
+- uid: GG.Extensions.TransformExtensions.ScaleByY*
+  commentId: Overload:GG.Extensions.TransformExtensions.ScaleByY
+  name: ScaleByY
+  nameWithType: TransformExtensions.ScaleByY
+  fullName: GG.Extensions.TransformExtensions.ScaleByY
+- uid: GG.Extensions.TransformExtensions.ScaleByZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.ScaleByZ
+  name: ScaleByZ
+  nameWithType: TransformExtensions.ScaleByZ
+  fullName: GG.Extensions.TransformExtensions.ScaleByZ
+- uid: GG.Extensions.TransformExtensions.ScaleByXY*
+  commentId: Overload:GG.Extensions.TransformExtensions.ScaleByXY
+  name: ScaleByXY
+  nameWithType: TransformExtensions.ScaleByXY
+  fullName: GG.Extensions.TransformExtensions.ScaleByXY
+- uid: GG.Extensions.TransformExtensions.ScaleByXZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.ScaleByXZ
+  name: ScaleByXZ
+  nameWithType: TransformExtensions.ScaleByXZ
+  fullName: GG.Extensions.TransformExtensions.ScaleByXZ
+- uid: GG.Extensions.TransformExtensions.ScaleByYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.ScaleByYZ
+  name: ScaleByYZ
+  nameWithType: TransformExtensions.ScaleByYZ
+  fullName: GG.Extensions.TransformExtensions.ScaleByYZ
+- uid: GG.Extensions.TransformExtensions.ScaleByXYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.ScaleByXYZ
+  name: ScaleByXYZ
+  nameWithType: TransformExtensions.ScaleByXYZ
+  fullName: GG.Extensions.TransformExtensions.ScaleByXYZ
+- uid: GG.Extensions.TransformExtensions.ResetScale*
+  commentId: Overload:GG.Extensions.TransformExtensions.ResetScale
+  name: ResetScale
+  nameWithType: TransformExtensions.ResetScale
+  fullName: GG.Extensions.TransformExtensions.ResetScale
+- uid: GG.Extensions.TransformExtensions.FlipX*
+  commentId: Overload:GG.Extensions.TransformExtensions.FlipX
+  name: FlipX
+  nameWithType: TransformExtensions.FlipX
+  fullName: GG.Extensions.TransformExtensions.FlipX
+- uid: GG.Extensions.TransformExtensions.FlipY*
+  commentId: Overload:GG.Extensions.TransformExtensions.FlipY
+  name: FlipY
+  nameWithType: TransformExtensions.FlipY
+  fullName: GG.Extensions.TransformExtensions.FlipY
+- uid: GG.Extensions.TransformExtensions.FlipZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.FlipZ
+  name: FlipZ
+  nameWithType: TransformExtensions.FlipZ
+  fullName: GG.Extensions.TransformExtensions.FlipZ
+- uid: GG.Extensions.TransformExtensions.FlipXY*
+  commentId: Overload:GG.Extensions.TransformExtensions.FlipXY
+  name: FlipXY
+  nameWithType: TransformExtensions.FlipXY
+  fullName: GG.Extensions.TransformExtensions.FlipXY
+- uid: GG.Extensions.TransformExtensions.FlipXZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.FlipXZ
+  name: FlipXZ
+  nameWithType: TransformExtensions.FlipXZ
+  fullName: GG.Extensions.TransformExtensions.FlipXZ
+- uid: GG.Extensions.TransformExtensions.FlipYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.FlipYZ
+  name: FlipYZ
+  nameWithType: TransformExtensions.FlipYZ
+  fullName: GG.Extensions.TransformExtensions.FlipYZ
+- uid: GG.Extensions.TransformExtensions.FlipXYZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.FlipXYZ
+  name: FlipXYZ
+  nameWithType: TransformExtensions.FlipXYZ
+  fullName: GG.Extensions.TransformExtensions.FlipXYZ
+- uid: GG.Extensions.TransformExtensions.FlipPostive*
+  commentId: Overload:GG.Extensions.TransformExtensions.FlipPostive
+  name: FlipPostive
+  nameWithType: TransformExtensions.FlipPostive
+  fullName: GG.Extensions.TransformExtensions.FlipPostive
+- uid: GG.Extensions.TransformExtensions.RotateAroundX*
+  commentId: Overload:GG.Extensions.TransformExtensions.RotateAroundX
+  name: RotateAroundX
+  nameWithType: TransformExtensions.RotateAroundX
+  fullName: GG.Extensions.TransformExtensions.RotateAroundX
+- uid: GG.Extensions.TransformExtensions.RotateAroundY*
+  commentId: Overload:GG.Extensions.TransformExtensions.RotateAroundY
+  name: RotateAroundY
+  nameWithType: TransformExtensions.RotateAroundY
+  fullName: GG.Extensions.TransformExtensions.RotateAroundY
+- uid: GG.Extensions.TransformExtensions.RotateAroundZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.RotateAroundZ
+  name: RotateAroundZ
+  nameWithType: TransformExtensions.RotateAroundZ
+  fullName: GG.Extensions.TransformExtensions.RotateAroundZ
+- uid: GG.Extensions.TransformExtensions.SetRotationX*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetRotationX
+  name: SetRotationX
+  nameWithType: TransformExtensions.SetRotationX
+  fullName: GG.Extensions.TransformExtensions.SetRotationX
+- uid: GG.Extensions.TransformExtensions.SetRotationY*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetRotationY
+  name: SetRotationY
+  nameWithType: TransformExtensions.SetRotationY
+  fullName: GG.Extensions.TransformExtensions.SetRotationY
+- uid: GG.Extensions.TransformExtensions.AddYRotation*
+  commentId: Overload:GG.Extensions.TransformExtensions.AddYRotation
+  name: AddYRotation
+  nameWithType: TransformExtensions.AddYRotation
+  fullName: GG.Extensions.TransformExtensions.AddYRotation
+- uid: GG.Extensions.TransformExtensions.SetRotationZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetRotationZ
+  name: SetRotationZ
+  nameWithType: TransformExtensions.SetRotationZ
+  fullName: GG.Extensions.TransformExtensions.SetRotationZ
+- uid: GG.Extensions.TransformExtensions.SetLocalRotationX*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalRotationX
+  name: SetLocalRotationX
+  nameWithType: TransformExtensions.SetLocalRotationX
+  fullName: GG.Extensions.TransformExtensions.SetLocalRotationX
+- uid: GG.Extensions.TransformExtensions.SetLocalRotationY*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalRotationY
+  name: SetLocalRotationY
+  nameWithType: TransformExtensions.SetLocalRotationY
+  fullName: GG.Extensions.TransformExtensions.SetLocalRotationY
+- uid: GG.Extensions.TransformExtensions.SetLocalRotationZ*
+  commentId: Overload:GG.Extensions.TransformExtensions.SetLocalRotationZ
+  name: SetLocalRotationZ
+  nameWithType: TransformExtensions.SetLocalRotationZ
+  fullName: GG.Extensions.TransformExtensions.SetLocalRotationZ
+- uid: GG.Extensions.TransformExtensions.ResetRotation*
+  commentId: Overload:GG.Extensions.TransformExtensions.ResetRotation
+  name: ResetRotation
+  nameWithType: TransformExtensions.ResetRotation
+  fullName: GG.Extensions.TransformExtensions.ResetRotation
+- uid: GG.Extensions.TransformExtensions.ResetLocalRotation*
+  commentId: Overload:GG.Extensions.TransformExtensions.ResetLocalRotation
+  name: ResetLocalRotation
+  nameWithType: TransformExtensions.ResetLocalRotation
+  fullName: GG.Extensions.TransformExtensions.ResetLocalRotation
+- uid: GG.Extensions.TransformExtensions.ResetLocal*
+  commentId: Overload:GG.Extensions.TransformExtensions.ResetLocal
+  name: ResetLocal
+  nameWithType: TransformExtensions.ResetLocal
+  fullName: GG.Extensions.TransformExtensions.ResetLocal
+- uid: GG.Extensions.TransformExtensions.Reset*
+  commentId: Overload:GG.Extensions.TransformExtensions.Reset
+  name: Reset
+  nameWithType: TransformExtensions.Reset
+  fullName: GG.Extensions.TransformExtensions.Reset
+- uid: GG.Extensions.TransformExtensions.DestroyChildren*
+  commentId: Overload:GG.Extensions.TransformExtensions.DestroyChildren
+  name: DestroyChildren
+  nameWithType: TransformExtensions.DestroyChildren
+  fullName: GG.Extensions.TransformExtensions.DestroyChildren
+- uid: GG.Extensions.TransformExtensions.DestroyChildrenImmediate*
+  commentId: Overload:GG.Extensions.TransformExtensions.DestroyChildrenImmediate
+  name: DestroyChildrenImmediate
+  nameWithType: TransformExtensions.DestroyChildrenImmediate
+  fullName: GG.Extensions.TransformExtensions.DestroyChildrenImmediate
+- uid: GG.Extensions.TransformExtensions.DestroyChildrenUniversal*
+  commentId: Overload:GG.Extensions.TransformExtensions.DestroyChildrenUniversal
+  name: DestroyChildrenUniversal
+  nameWithType: TransformExtensions.DestroyChildrenUniversal
+  fullName: GG.Extensions.TransformExtensions.DestroyChildrenUniversal
+- uid: GG.Extensions.TransformExtensions.GetChildren*
+  commentId: Overload:GG.Extensions.TransformExtensions.GetChildren
+  name: GetChildren
+  nameWithType: TransformExtensions.GetChildren
+  fullName: GG.Extensions.TransformExtensions.GetChildren
+- uid: System.Collections.Generic.List{UnityEngine.Transform}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Transform}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Transform>
+  nameWithType: List<Transform>
+  fullName: System.Collections.Generic.List<UnityEngine.Transform>
+  nameWithType.vb: List(Of Transform)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Transform)
+  name.vb: List(Of Transform)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: UnityEngine.Transform
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: UnityEngine.Transform
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: GG.Extensions.TransformExtensions.Sort*
+  commentId: Overload:GG.Extensions.TransformExtensions.Sort
+  name: Sort
+  nameWithType: TransformExtensions.Sort
+  fullName: GG.Extensions.TransformExtensions.Sort
+- uid: System.Func{UnityEngine.Transform,System.IComparable}
+  commentId: T:System.Func{UnityEngine.Transform,System.IComparable}
+  parent: System
+  definition: System.Func`2
+  name: Func<Transform, IComparable>
+  nameWithType: Func<Transform, IComparable>
+  fullName: System.Func<UnityEngine.Transform, System.IComparable>
+  nameWithType.vb: Func(Of Transform, IComparable)
+  fullName.vb: System.Func(Of UnityEngine.Transform, System.IComparable)
+  name.vb: Func(Of Transform, IComparable)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: UnityEngine.Transform
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IComparable
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: UnityEngine.Transform
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IComparable
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GG.Extensions.TransformExtensions.SortAlphabetically*
+  commentId: Overload:GG.Extensions.TransformExtensions.SortAlphabetically
+  name: SortAlphabetically
+  nameWithType: TransformExtensions.SortAlphabetically
+  fullName: GG.Extensions.TransformExtensions.SortAlphabetically
+- uid: GG.Extensions.TransformExtensions.SelfAndAllChildren*
+  commentId: Overload:GG.Extensions.TransformExtensions.SelfAndAllChildren
+  name: SelfAndAllChildren
+  nameWithType: TransformExtensions.SelfAndAllChildren
+  fullName: GG.Extensions.TransformExtensions.SelfAndAllChildren
+- uid: System.Collections.Generic.IEnumerable{UnityEngine.Transform}
+  commentId: T:System.Collections.Generic.IEnumerable{UnityEngine.Transform}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Transform>
+  nameWithType: IEnumerable<Transform>
+  fullName: System.Collections.Generic.IEnumerable<UnityEngine.Transform>
+  nameWithType.vb: IEnumerable(Of Transform)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of UnityEngine.Transform)
+  name.vb: IEnumerable(Of Transform)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: UnityEngine.Transform
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: UnityEngine.Transform
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

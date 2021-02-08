@@ -1,0 +1,713 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.SecurityExtensions
+  commentId: T:GG.Extensions.SecurityExtensions
+  id: SecurityExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.SecurityExtensions.AesDecryption(System.Byte[],System.String,System.String)
+  - GG.Extensions.SecurityExtensions.AesEncryption(System.String,System.String,System.String)
+  - GG.Extensions.SecurityExtensions.BytesToString(System.Byte[])
+  - GG.Extensions.SecurityExtensions.GetHash(System.String)
+  - GG.Extensions.SecurityExtensions.GetHashString(System.String)
+  - GG.Extensions.SecurityExtensions.PasswordHashCompare(System.String,System.String)
+  - GG.Extensions.SecurityExtensions.PasswordHashEncrypt(System.String)
+  - GG.Extensions.SecurityExtensions.SaltKeyDecrypt(System.String[],System.String)
+  - GG.Extensions.SecurityExtensions.SaltKeyEncrypt(System.String,System.String)
+  - GG.Extensions.SecurityExtensions.StringToBytes(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SecurityExtensions
+  nameWithType: SecurityExtensions
+  fullName: GG.Extensions.SecurityExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SecurityExtensions
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 15
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nSecurity Behaviour e.g. Hashing and the like\n"
+  example: []
+  syntax:
+    content: public static class SecurityExtensions
+    content.vb: Public Module SecurityExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.SecurityExtensions.BytesToString(System.Byte[])
+  commentId: M:GG.Extensions.SecurityExtensions.BytesToString(System.Byte[])
+  id: BytesToString(System.Byte[])
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: BytesToString(Byte[])
+  nameWithType: SecurityExtensions.BytesToString(Byte[])
+  fullName: GG.Extensions.SecurityExtensions.BytesToString(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: BytesToString
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 24
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nConvert a byte array into string\n"
+  example: []
+  syntax:
+    content: public static string BytesToString(byte[] _in)
+    parameters:
+    - id: _in
+      type: System.Byte[]
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function BytesToString(_in As Byte()) As String
+  overload: GG.Extensions.SecurityExtensions.BytesToString*
+  nameWithType.vb: SecurityExtensions.BytesToString(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.SecurityExtensions.BytesToString(System.Byte())
+  name.vb: BytesToString(Byte())
+- uid: GG.Extensions.SecurityExtensions.StringToBytes(System.String)
+  commentId: M:GG.Extensions.SecurityExtensions.StringToBytes(System.String)
+  id: StringToBytes(System.String)
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: StringToBytes(String)
+  nameWithType: SecurityExtensions.StringToBytes(String)
+  fullName: GG.Extensions.SecurityExtensions.StringToBytes(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: StringToBytes
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 40
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nconvert a string into bytes\n"
+  example: []
+  syntax:
+    content: public static byte[] StringToBytes(string _in)
+    parameters:
+    - id: _in
+      type: System.String
+      description: ''
+    return:
+      type: System.Byte[]
+      description: ''
+    content.vb: Public Shared Function StringToBytes(_in As String) As Byte()
+  overload: GG.Extensions.SecurityExtensions.StringToBytes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.SecurityExtensions.GetHash(System.String)
+  commentId: M:GG.Extensions.SecurityExtensions.GetHash(System.String)
+  id: GetHash(System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetHash(String)
+  nameWithType: SecurityExtensions.GetHash(String)
+  fullName: GG.Extensions.SecurityExtensions.GetHash(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetHash
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 56
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nGet the SHA256 hash of the input\n"
+  example: []
+  syntax:
+    content: public static byte[] GetHash(this string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: Input String
+    return:
+      type: System.Byte[]
+      description: The SHA256 hash
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetHash(input As String) As Byte()
+  overload: GG.Extensions.SecurityExtensions.GetHash*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.SecurityExtensions.GetHashString(System.String)
+  commentId: M:GG.Extensions.SecurityExtensions.GetHashString(System.String)
+  id: GetHashString(System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetHashString(String)
+  nameWithType: SecurityExtensions.GetHashString(String)
+  fullName: GG.Extensions.SecurityExtensions.GetHashString(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetHashString
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 67
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nGet the input string in a SHA256 hash format\n"
+  example: []
+  syntax:
+    content: public static string GetHashString(this string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: The string to hash
+    return:
+      type: System.String
+      description: The hashed version of the string
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetHashString(input As String) As String
+  overload: GG.Extensions.SecurityExtensions.GetHashString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.SecurityExtensions.PasswordHashEncrypt(System.String)
+  commentId: M:GG.Extensions.SecurityExtensions.PasswordHashEncrypt(System.String)
+  id: PasswordHashEncrypt(System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: PasswordHashEncrypt(String)
+  nameWithType: SecurityExtensions.PasswordHashEncrypt(String)
+  fullName: GG.Extensions.SecurityExtensions.PasswordHashEncrypt(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: PasswordHashEncrypt
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 84
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nEncrypt the string using a randomly generated salt key\n"
+  example: []
+  syntax:
+    content: public static string PasswordHashEncrypt(this string toEncrypt)
+    parameters:
+    - id: toEncrypt
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PasswordHashEncrypt(toEncrypt As String) As String
+  overload: GG.Extensions.SecurityExtensions.PasswordHashEncrypt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.SecurityExtensions.PasswordHashCompare(System.String,System.String)
+  commentId: M:GG.Extensions.SecurityExtensions.PasswordHashCompare(System.String,System.String)
+  id: PasswordHashCompare(System.String,System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: PasswordHashCompare(String, String)
+  nameWithType: SecurityExtensions.PasswordHashCompare(String, String)
+  fullName: GG.Extensions.SecurityExtensions.PasswordHashCompare(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: PasswordHashCompare
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 106
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nEncrypt the data by the salt key of the source and compare the encrypted data\n"
+  example: []
+  syntax:
+    content: public static bool PasswordHashCompare(this string password, string original)
+    parameters:
+    - id: password
+      type: System.String
+      description: ''
+    - id: original
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PasswordHashCompare(password As String, original As String) As Boolean
+  overload: GG.Extensions.SecurityExtensions.PasswordHashCompare*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.SecurityExtensions.SaltKeyEncrypt(System.String,System.String)
+  commentId: M:GG.Extensions.SecurityExtensions.SaltKeyEncrypt(System.String,System.String)
+  id: SaltKeyEncrypt(System.String,System.String)
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: SaltKeyEncrypt(String, String)
+  nameWithType: SecurityExtensions.SaltKeyEncrypt(String, String)
+  fullName: GG.Extensions.SecurityExtensions.SaltKeyEncrypt(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SaltKeyEncrypt
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 133
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static List<string> SaltKeyEncrypt(string data, string salt)
+    parameters:
+    - id: data
+      type: System.String
+    - id: salt
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Shared Function SaltKeyEncrypt(data As String, salt As String) As List(Of String)
+  overload: GG.Extensions.SecurityExtensions.SaltKeyEncrypt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.SecurityExtensions.SaltKeyDecrypt(System.String[],System.String)
+  commentId: M:GG.Extensions.SecurityExtensions.SaltKeyDecrypt(System.String[],System.String)
+  id: SaltKeyDecrypt(System.String[],System.String)
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: SaltKeyDecrypt(String[], String)
+  nameWithType: SecurityExtensions.SaltKeyDecrypt(String[], String)
+  fullName: GG.Extensions.SecurityExtensions.SaltKeyDecrypt(System.String[], System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SaltKeyDecrypt
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 152
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static string SaltKeyDecrypt(string[] data, string salt)
+    parameters:
+    - id: data
+      type: System.String[]
+    - id: salt
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function SaltKeyDecrypt(data As String(), salt As String) As String
+  overload: GG.Extensions.SecurityExtensions.SaltKeyDecrypt*
+  nameWithType.vb: SecurityExtensions.SaltKeyDecrypt(String(), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.SecurityExtensions.SaltKeyDecrypt(System.String(), System.String)
+  name.vb: SaltKeyDecrypt(String(), String)
+- uid: GG.Extensions.SecurityExtensions.AesEncryption(System.String,System.String,System.String)
+  commentId: M:GG.Extensions.SecurityExtensions.AesEncryption(System.String,System.String,System.String)
+  id: AesEncryption(System.String,System.String,System.String)
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: AesEncryption(String, String, String)
+  nameWithType: SecurityExtensions.AesEncryption(String, String, String)
+  fullName: GG.Extensions.SecurityExtensions.AesEncryption(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: AesEncryption
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 175
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static string AesEncryption(string rawValue, string key, string iv)
+    parameters:
+    - id: rawValue
+      type: System.String
+    - id: key
+      type: System.String
+    - id: iv
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function AesEncryption(rawValue As String, key As String, iv As String) As String
+  overload: GG.Extensions.SecurityExtensions.AesEncryption*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.SecurityExtensions.AesDecryption(System.Byte[],System.String,System.String)
+  commentId: M:GG.Extensions.SecurityExtensions.AesDecryption(System.Byte[],System.String,System.String)
+  id: AesDecryption(System.Byte[],System.String,System.String)
+  parent: GG.Extensions.SecurityExtensions
+  langs:
+  - csharp
+  - vb
+  name: AesDecryption(Byte[], String, String)
+  nameWithType: SecurityExtensions.AesDecryption(Byte[], String, String)
+  fullName: GG.Extensions.SecurityExtensions.AesDecryption(System.Byte[], System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/SecurityExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: AesDecryption
+    path: ../Assets/Unity_Extensions/SecurityExtensions.cs
+    startLine: 218
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nDecrypt the byte array into a ascii readable string\n"
+  example: []
+  syntax:
+    content: public static string AesDecryption(byte[] rawValue, string key, string iv)
+    parameters:
+    - id: rawValue
+      type: System.Byte[]
+      description: ''
+    - id: key
+      type: System.String
+      description: ''
+    - id: iv
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function AesDecryption(rawValue As Byte(), key As String, iv As String) As String
+  overload: GG.Extensions.SecurityExtensions.AesDecryption*
+  nameWithType.vb: SecurityExtensions.AesDecryption(Byte(), String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.SecurityExtensions.AesDecryption(System.Byte(), System.String, System.String)
+  name.vb: AesDecryption(Byte(), String, String)
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.SecurityExtensions.BytesToString*
+  commentId: Overload:GG.Extensions.SecurityExtensions.BytesToString
+  name: BytesToString
+  nameWithType: SecurityExtensions.BytesToString
+  fullName: GG.Extensions.SecurityExtensions.BytesToString
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GG.Extensions.SecurityExtensions.StringToBytes*
+  commentId: Overload:GG.Extensions.SecurityExtensions.StringToBytes
+  name: StringToBytes
+  nameWithType: SecurityExtensions.StringToBytes
+  fullName: GG.Extensions.SecurityExtensions.StringToBytes
+- uid: GG.Extensions.SecurityExtensions.GetHash*
+  commentId: Overload:GG.Extensions.SecurityExtensions.GetHash
+  name: GetHash
+  nameWithType: SecurityExtensions.GetHash
+  fullName: GG.Extensions.SecurityExtensions.GetHash
+- uid: GG.Extensions.SecurityExtensions.GetHashString*
+  commentId: Overload:GG.Extensions.SecurityExtensions.GetHashString
+  name: GetHashString
+  nameWithType: SecurityExtensions.GetHashString
+  fullName: GG.Extensions.SecurityExtensions.GetHashString
+- uid: GG.Extensions.SecurityExtensions.PasswordHashEncrypt*
+  commentId: Overload:GG.Extensions.SecurityExtensions.PasswordHashEncrypt
+  name: PasswordHashEncrypt
+  nameWithType: SecurityExtensions.PasswordHashEncrypt
+  fullName: GG.Extensions.SecurityExtensions.PasswordHashEncrypt
+- uid: GG.Extensions.SecurityExtensions.PasswordHashCompare*
+  commentId: Overload:GG.Extensions.SecurityExtensions.PasswordHashCompare
+  name: PasswordHashCompare
+  nameWithType: SecurityExtensions.PasswordHashCompare
+  fullName: GG.Extensions.SecurityExtensions.PasswordHashCompare
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GG.Extensions.SecurityExtensions.SaltKeyEncrypt*
+  commentId: Overload:GG.Extensions.SecurityExtensions.SaltKeyEncrypt
+  name: SaltKeyEncrypt
+  nameWithType: SecurityExtensions.SaltKeyEncrypt
+  fullName: GG.Extensions.SecurityExtensions.SaltKeyEncrypt
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: GG.Extensions.SecurityExtensions.SaltKeyDecrypt*
+  commentId: Overload:GG.Extensions.SecurityExtensions.SaltKeyDecrypt
+  name: SaltKeyDecrypt
+  nameWithType: SecurityExtensions.SaltKeyDecrypt
+  fullName: GG.Extensions.SecurityExtensions.SaltKeyDecrypt
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: GG.Extensions.SecurityExtensions.AesEncryption*
+  commentId: Overload:GG.Extensions.SecurityExtensions.AesEncryption
+  name: AesEncryption
+  nameWithType: SecurityExtensions.AesEncryption
+  fullName: GG.Extensions.SecurityExtensions.AesEncryption
+- uid: GG.Extensions.SecurityExtensions.AesDecryption*
+  commentId: Overload:GG.Extensions.SecurityExtensions.AesDecryption
+  name: AesDecryption
+  nameWithType: SecurityExtensions.AesDecryption
+  fullName: GG.Extensions.SecurityExtensions.AesDecryption

@@ -1,0 +1,901 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.LayerMaskExtensions
+  commentId: T:GG.Extensions.LayerMaskExtensions
+  id: LayerMaskExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.LayerMaskExtensions.AddToMask(UnityEngine.LayerMask,System.String[])
+  - GG.Extensions.LayerMaskExtensions.ContainsLayer(UnityEngine.LayerMask,System.Int32)
+  - GG.Extensions.LayerMaskExtensions.ContainsLayer(UnityEngine.LayerMask,System.String)
+  - GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.Int32[])
+  - GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.String[])
+  - GG.Extensions.LayerMaskExtensions.Inverse(UnityEngine.LayerMask)
+  - GG.Extensions.LayerMaskExtensions.LayerNumbersToMask(System.Int32[])
+  - GG.Extensions.LayerMaskExtensions.MaskToNames(UnityEngine.LayerMask)
+  - GG.Extensions.LayerMaskExtensions.MaskToString(UnityEngine.LayerMask)
+  - GG.Extensions.LayerMaskExtensions.MaskToString(UnityEngine.LayerMask,System.String)
+  - GG.Extensions.LayerMaskExtensions.MoveToLayer(UnityEngine.Transform,System.Int32,System.Boolean)
+  - GG.Extensions.LayerMaskExtensions.MoveToLayer(UnityEngine.Transform,System.String,System.Boolean)
+  - GG.Extensions.LayerMaskExtensions.MoveToLayer``1(UnityEngine.Transform,System.Int32)
+  - GG.Extensions.LayerMaskExtensions.MoveToLayer``1(UnityEngine.Transform,System.String)
+  - GG.Extensions.LayerMaskExtensions.NamesToMask(System.String[])
+  - GG.Extensions.LayerMaskExtensions.RemoveFromMask(UnityEngine.LayerMask,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: LayerMaskExtensions
+  nameWithType: LayerMaskExtensions
+  fullName: GG.Extensions.LayerMaskExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LayerMaskExtensions
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 9
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class LayerMaskExtensions
+    content.vb: Public Module LayerMaskExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.String[])
+  commentId: M:GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.String[])
+  id: CreateLayerMask(System.String[])
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateLayerMask(String[])
+  nameWithType: LayerMaskExtensions.CreateLayerMask(String[])
+  fullName: GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: CreateLayerMask
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 11
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static LayerMask CreateLayerMask(params string[] layerNames)
+    parameters:
+    - id: layerNames
+      type: System.String[]
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: Public Shared Function CreateLayerMask(ParamArray layerNames As String()) As LayerMask
+  overload: GG.Extensions.LayerMaskExtensions.CreateLayerMask*
+  nameWithType.vb: LayerMaskExtensions.CreateLayerMask(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.String())
+  name.vb: CreateLayerMask(String())
+- uid: GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.Int32[])
+  commentId: M:GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.Int32[])
+  id: CreateLayerMask(System.Int32[])
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateLayerMask(Int32[])
+  nameWithType: LayerMaskExtensions.CreateLayerMask(Int32[])
+  fullName: GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.Int32[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: CreateLayerMask
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 16
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static LayerMask CreateLayerMask(params int[] layerNumbers)
+    parameters:
+    - id: layerNumbers
+      type: System.Int32[]
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: Public Shared Function CreateLayerMask(ParamArray layerNumbers As Integer()) As LayerMask
+  overload: GG.Extensions.LayerMaskExtensions.CreateLayerMask*
+  nameWithType.vb: LayerMaskExtensions.CreateLayerMask(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.LayerMaskExtensions.CreateLayerMask(System.Int32())
+  name.vb: CreateLayerMask(Int32())
+- uid: GG.Extensions.LayerMaskExtensions.NamesToMask(System.String[])
+  commentId: M:GG.Extensions.LayerMaskExtensions.NamesToMask(System.String[])
+  id: NamesToMask(System.String[])
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: NamesToMask(String[])
+  nameWithType: LayerMaskExtensions.NamesToMask(String[])
+  fullName: GG.Extensions.LayerMaskExtensions.NamesToMask(System.String[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: NamesToMask
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 21
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static LayerMask NamesToMask(params string[] layerNames)
+    parameters:
+    - id: layerNames
+      type: System.String[]
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: Public Shared Function NamesToMask(ParamArray layerNames As String()) As LayerMask
+  overload: GG.Extensions.LayerMaskExtensions.NamesToMask*
+  nameWithType.vb: LayerMaskExtensions.NamesToMask(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.LayerMaskExtensions.NamesToMask(System.String())
+  name.vb: NamesToMask(String())
+- uid: GG.Extensions.LayerMaskExtensions.LayerNumbersToMask(System.Int32[])
+  commentId: M:GG.Extensions.LayerMaskExtensions.LayerNumbersToMask(System.Int32[])
+  id: LayerNumbersToMask(System.Int32[])
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: LayerNumbersToMask(Int32[])
+  nameWithType: LayerMaskExtensions.LayerNumbersToMask(Int32[])
+  fullName: GG.Extensions.LayerMaskExtensions.LayerNumbersToMask(System.Int32[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LayerNumbersToMask
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 32
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static LayerMask LayerNumbersToMask(params int[] layerNumbers)
+    parameters:
+    - id: layerNumbers
+      type: System.Int32[]
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: Public Shared Function LayerNumbersToMask(ParamArray layerNumbers As Integer()) As LayerMask
+  overload: GG.Extensions.LayerMaskExtensions.LayerNumbersToMask*
+  nameWithType.vb: LayerMaskExtensions.LayerNumbersToMask(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.LayerMaskExtensions.LayerNumbersToMask(System.Int32())
+  name.vb: LayerNumbersToMask(Int32())
+- uid: GG.Extensions.LayerMaskExtensions.Inverse(UnityEngine.LayerMask)
+  commentId: M:GG.Extensions.LayerMaskExtensions.Inverse(UnityEngine.LayerMask)
+  id: Inverse(UnityEngine.LayerMask)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: Inverse(LayerMask)
+  nameWithType: LayerMaskExtensions.Inverse(LayerMask)
+  fullName: GG.Extensions.LayerMaskExtensions.Inverse(UnityEngine.LayerMask)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Inverse
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 43
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static LayerMask Inverse(this LayerMask original)
+    parameters:
+    - id: original
+      type: UnityEngine.LayerMask
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Inverse(original As LayerMask) As LayerMask
+  overload: GG.Extensions.LayerMaskExtensions.Inverse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.LayerMaskExtensions.AddToMask(UnityEngine.LayerMask,System.String[])
+  commentId: M:GG.Extensions.LayerMaskExtensions.AddToMask(UnityEngine.LayerMask,System.String[])
+  id: AddToMask(UnityEngine.LayerMask,System.String[])
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddToMask(LayerMask, String[])
+  nameWithType: LayerMaskExtensions.AddToMask(LayerMask, String[])
+  fullName: GG.Extensions.LayerMaskExtensions.AddToMask(UnityEngine.LayerMask, System.String[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: AddToMask
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 48
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static LayerMask AddToMask(this LayerMask original, params string[] layerNames)
+    parameters:
+    - id: original
+      type: UnityEngine.LayerMask
+    - id: layerNames
+      type: System.String[]
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddToMask(original As LayerMask, ParamArray layerNames As String()) As LayerMask
+  overload: GG.Extensions.LayerMaskExtensions.AddToMask*
+  nameWithType.vb: LayerMaskExtensions.AddToMask(LayerMask, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.LayerMaskExtensions.AddToMask(UnityEngine.LayerMask, System.String())
+  name.vb: AddToMask(LayerMask, String())
+- uid: GG.Extensions.LayerMaskExtensions.RemoveFromMask(UnityEngine.LayerMask,System.String[])
+  commentId: M:GG.Extensions.LayerMaskExtensions.RemoveFromMask(UnityEngine.LayerMask,System.String[])
+  id: RemoveFromMask(UnityEngine.LayerMask,System.String[])
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromMask(LayerMask, String[])
+  nameWithType: LayerMaskExtensions.RemoveFromMask(LayerMask, String[])
+  fullName: GG.Extensions.LayerMaskExtensions.RemoveFromMask(UnityEngine.LayerMask, System.String[])
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: RemoveFromMask
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 53
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static LayerMask RemoveFromMask(this LayerMask original, params string[] layerNames)
+    parameters:
+    - id: original
+      type: UnityEngine.LayerMask
+    - id: layerNames
+      type: System.String[]
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveFromMask(original As LayerMask, ParamArray layerNames As String()) As LayerMask
+  overload: GG.Extensions.LayerMaskExtensions.RemoveFromMask*
+  nameWithType.vb: LayerMaskExtensions.RemoveFromMask(LayerMask, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.LayerMaskExtensions.RemoveFromMask(UnityEngine.LayerMask, System.String())
+  name.vb: RemoveFromMask(LayerMask, String())
+- uid: GG.Extensions.LayerMaskExtensions.MaskToNames(UnityEngine.LayerMask)
+  commentId: M:GG.Extensions.LayerMaskExtensions.MaskToNames(UnityEngine.LayerMask)
+  id: MaskToNames(UnityEngine.LayerMask)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaskToNames(LayerMask)
+  nameWithType: LayerMaskExtensions.MaskToNames(LayerMask)
+  fullName: GG.Extensions.LayerMaskExtensions.MaskToNames(UnityEngine.LayerMask)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MaskToNames
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 59
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static string[] MaskToNames(this LayerMask original)
+    parameters:
+    - id: original
+      type: UnityEngine.LayerMask
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MaskToNames(original As LayerMask) As String()
+  overload: GG.Extensions.LayerMaskExtensions.MaskToNames*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.LayerMaskExtensions.MaskToString(UnityEngine.LayerMask)
+  commentId: M:GG.Extensions.LayerMaskExtensions.MaskToString(UnityEngine.LayerMask)
+  id: MaskToString(UnityEngine.LayerMask)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaskToString(LayerMask)
+  nameWithType: LayerMaskExtensions.MaskToString(LayerMask)
+  fullName: GG.Extensions.LayerMaskExtensions.MaskToString(UnityEngine.LayerMask)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MaskToString
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 79
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static string MaskToString(this LayerMask original)
+    parameters:
+    - id: original
+      type: UnityEngine.LayerMask
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MaskToString(original As LayerMask) As String
+  overload: GG.Extensions.LayerMaskExtensions.MaskToString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.LayerMaskExtensions.MaskToString(UnityEngine.LayerMask,System.String)
+  commentId: M:GG.Extensions.LayerMaskExtensions.MaskToString(UnityEngine.LayerMask,System.String)
+  id: MaskToString(UnityEngine.LayerMask,System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaskToString(LayerMask, String)
+  nameWithType: LayerMaskExtensions.MaskToString(LayerMask, String)
+  fullName: GG.Extensions.LayerMaskExtensions.MaskToString(UnityEngine.LayerMask, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MaskToString
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 84
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static string MaskToString(this LayerMask original, string delimiter)
+    parameters:
+    - id: original
+      type: UnityEngine.LayerMask
+    - id: delimiter
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MaskToString(original As LayerMask, delimiter As String) As String
+  overload: GG.Extensions.LayerMaskExtensions.MaskToString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.LayerMaskExtensions.MoveToLayer(UnityEngine.Transform,System.String,System.Boolean)
+  commentId: M:GG.Extensions.LayerMaskExtensions.MoveToLayer(UnityEngine.Transform,System.String,System.Boolean)
+  id: MoveToLayer(UnityEngine.Transform,System.String,System.Boolean)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MoveToLayer(Transform, String, Boolean)
+  nameWithType: LayerMaskExtensions.MoveToLayer(Transform, String, Boolean)
+  fullName: GG.Extensions.LayerMaskExtensions.MoveToLayer(UnityEngine.Transform, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MoveToLayer
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 89
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void MoveToLayer(this Transform root, string layer, bool recursive = true)
+    parameters:
+    - id: root
+      type: UnityEngine.Transform
+    - id: layer
+      type: System.String
+    - id: recursive
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub MoveToLayer(root As Transform, layer As String, recursive As Boolean = True)
+  overload: GG.Extensions.LayerMaskExtensions.MoveToLayer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.LayerMaskExtensions.MoveToLayer(UnityEngine.Transform,System.Int32,System.Boolean)
+  commentId: M:GG.Extensions.LayerMaskExtensions.MoveToLayer(UnityEngine.Transform,System.Int32,System.Boolean)
+  id: MoveToLayer(UnityEngine.Transform,System.Int32,System.Boolean)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MoveToLayer(Transform, Int32, Boolean)
+  nameWithType: LayerMaskExtensions.MoveToLayer(Transform, Int32, Boolean)
+  fullName: GG.Extensions.LayerMaskExtensions.MoveToLayer(UnityEngine.Transform, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MoveToLayer
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 94
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void MoveToLayer(this Transform root, int layer, bool recursive = true)
+    parameters:
+    - id: root
+      type: UnityEngine.Transform
+    - id: layer
+      type: System.Int32
+    - id: recursive
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub MoveToLayer(root As Transform, layer As Integer, recursive As Boolean = True)
+  overload: GG.Extensions.LayerMaskExtensions.MoveToLayer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.LayerMaskExtensions.MoveToLayer``1(UnityEngine.Transform,System.String)
+  commentId: M:GG.Extensions.LayerMaskExtensions.MoveToLayer``1(UnityEngine.Transform,System.String)
+  id: MoveToLayer``1(UnityEngine.Transform,System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MoveToLayer<T>(Transform, String)
+  nameWithType: LayerMaskExtensions.MoveToLayer<T>(Transform, String)
+  fullName: GG.Extensions.LayerMaskExtensions.MoveToLayer<T>(UnityEngine.Transform, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MoveToLayer
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 107
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static void MoveToLayer<T>(this Transform root, string layer)
+          where T : Component
+    parameters:
+    - id: root
+      type: UnityEngine.Transform
+    - id: layer
+      type: System.String
+    typeParameters:
+    - id: T
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub MoveToLayer(Of T As Component)(root As Transform, layer As String)
+  overload: GG.Extensions.LayerMaskExtensions.MoveToLayer*
+  nameWithType.vb: LayerMaskExtensions.MoveToLayer(Of T)(Transform, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.LayerMaskExtensions.MoveToLayer(Of T)(UnityEngine.Transform, System.String)
+  name.vb: MoveToLayer(Of T)(Transform, String)
+- uid: GG.Extensions.LayerMaskExtensions.MoveToLayer``1(UnityEngine.Transform,System.Int32)
+  commentId: M:GG.Extensions.LayerMaskExtensions.MoveToLayer``1(UnityEngine.Transform,System.Int32)
+  id: MoveToLayer``1(UnityEngine.Transform,System.Int32)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MoveToLayer<T>(Transform, Int32)
+  nameWithType: LayerMaskExtensions.MoveToLayer<T>(Transform, Int32)
+  fullName: GG.Extensions.LayerMaskExtensions.MoveToLayer<T>(UnityEngine.Transform, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MoveToLayer
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 112
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static void MoveToLayer<T>(this Transform root, int layerNumber)
+          where T : Component
+    parameters:
+    - id: root
+      type: UnityEngine.Transform
+    - id: layerNumber
+      type: System.Int32
+    typeParameters:
+    - id: T
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub MoveToLayer(Of T As Component)(root As Transform, layerNumber As Integer)
+  overload: GG.Extensions.LayerMaskExtensions.MoveToLayer*
+  nameWithType.vb: LayerMaskExtensions.MoveToLayer(Of T)(Transform, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.LayerMaskExtensions.MoveToLayer(Of T)(UnityEngine.Transform, System.Int32)
+  name.vb: MoveToLayer(Of T)(Transform, Int32)
+- uid: GG.Extensions.LayerMaskExtensions.ContainsLayer(UnityEngine.LayerMask,System.Int32)
+  commentId: M:GG.Extensions.LayerMaskExtensions.ContainsLayer(UnityEngine.LayerMask,System.Int32)
+  id: ContainsLayer(UnityEngine.LayerMask,System.Int32)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: ContainsLayer(LayerMask, Int32)
+  nameWithType: LayerMaskExtensions.ContainsLayer(LayerMask, Int32)
+  fullName: GG.Extensions.LayerMaskExtensions.ContainsLayer(UnityEngine.LayerMask, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ContainsLayer
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 120
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static bool ContainsLayer(this LayerMask mask, int layer)
+    parameters:
+    - id: mask
+      type: UnityEngine.LayerMask
+    - id: layer
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ContainsLayer(mask As LayerMask, layer As Integer) As Boolean
+  overload: GG.Extensions.LayerMaskExtensions.ContainsLayer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.LayerMaskExtensions.ContainsLayer(UnityEngine.LayerMask,System.String)
+  commentId: M:GG.Extensions.LayerMaskExtensions.ContainsLayer(UnityEngine.LayerMask,System.String)
+  id: ContainsLayer(UnityEngine.LayerMask,System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.LayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: ContainsLayer(LayerMask, String)
+  nameWithType: LayerMaskExtensions.ContainsLayer(LayerMask, String)
+  fullName: GG.Extensions.LayerMaskExtensions.ContainsLayer(UnityEngine.LayerMask, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/LayerMaskExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ContainsLayer
+    path: ../Assets/Unity_Extensions/LayerMaskExtensions.cs
+    startLine: 125
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static bool ContainsLayer(this LayerMask mask, string layer)
+    parameters:
+    - id: mask
+      type: UnityEngine.LayerMask
+    - id: layer
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ContainsLayer(mask As LayerMask, layer As String) As Boolean
+  overload: GG.Extensions.LayerMaskExtensions.ContainsLayer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.LayerMaskExtensions.CreateLayerMask*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.CreateLayerMask
+  name: CreateLayerMask
+  nameWithType: LayerMaskExtensions.CreateLayerMask
+  fullName: GG.Extensions.LayerMaskExtensions.CreateLayerMask
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: UnityEngine.LayerMask
+  commentId: T:UnityEngine.LayerMask
+  parent: UnityEngine
+  isExternal: true
+  name: LayerMask
+  nameWithType: LayerMask
+  fullName: UnityEngine.LayerMask
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: GG.Extensions.LayerMaskExtensions.NamesToMask*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.NamesToMask
+  name: NamesToMask
+  nameWithType: LayerMaskExtensions.NamesToMask
+  fullName: GG.Extensions.LayerMaskExtensions.NamesToMask
+- uid: GG.Extensions.LayerMaskExtensions.LayerNumbersToMask*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.LayerNumbersToMask
+  name: LayerNumbersToMask
+  nameWithType: LayerMaskExtensions.LayerNumbersToMask
+  fullName: GG.Extensions.LayerMaskExtensions.LayerNumbersToMask
+- uid: GG.Extensions.LayerMaskExtensions.Inverse*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.Inverse
+  name: Inverse
+  nameWithType: LayerMaskExtensions.Inverse
+  fullName: GG.Extensions.LayerMaskExtensions.Inverse
+- uid: GG.Extensions.LayerMaskExtensions.AddToMask*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.AddToMask
+  name: AddToMask
+  nameWithType: LayerMaskExtensions.AddToMask
+  fullName: GG.Extensions.LayerMaskExtensions.AddToMask
+- uid: GG.Extensions.LayerMaskExtensions.RemoveFromMask*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.RemoveFromMask
+  name: RemoveFromMask
+  nameWithType: LayerMaskExtensions.RemoveFromMask
+  fullName: GG.Extensions.LayerMaskExtensions.RemoveFromMask
+- uid: GG.Extensions.LayerMaskExtensions.MaskToNames*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.MaskToNames
+  name: MaskToNames
+  nameWithType: LayerMaskExtensions.MaskToNames
+  fullName: GG.Extensions.LayerMaskExtensions.MaskToNames
+- uid: GG.Extensions.LayerMaskExtensions.MaskToString*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.MaskToString
+  name: MaskToString
+  nameWithType: LayerMaskExtensions.MaskToString
+  fullName: GG.Extensions.LayerMaskExtensions.MaskToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GG.Extensions.LayerMaskExtensions.MoveToLayer*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.MoveToLayer
+  name: MoveToLayer
+  nameWithType: LayerMaskExtensions.MoveToLayer
+  fullName: GG.Extensions.LayerMaskExtensions.MoveToLayer
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GG.Extensions.LayerMaskExtensions.ContainsLayer*
+  commentId: Overload:GG.Extensions.LayerMaskExtensions.ContainsLayer
+  name: ContainsLayer
+  nameWithType: LayerMaskExtensions.ContainsLayer
+  fullName: GG.Extensions.LayerMaskExtensions.ContainsLayer

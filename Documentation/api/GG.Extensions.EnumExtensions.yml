@@ -1,0 +1,872 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.EnumExtensions
+  commentId: T:GG.Extensions.EnumExtensions
+  id: EnumExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.EnumExtensions.AsList``1
+  - GG.Extensions.EnumExtensions.ClearFlags``1(``0,``0)
+  - GG.Extensions.EnumExtensions.CombineFlags``1(System.Collections.Generic.IEnumerable{``0})
+  - GG.Extensions.EnumExtensions.CycleEnum``1(``0)
+  - GG.Extensions.EnumExtensions.GetDescription``1(``0)
+  - GG.Extensions.EnumExtensions.GetDescriptions``1
+  - GG.Extensions.EnumExtensions.GetEnumValueFromDescription``1(System.String)
+  - GG.Extensions.EnumExtensions.GetFlags``1(``0)
+  - GG.Extensions.EnumExtensions.IsFlagSet``1(``0,``0)
+  - GG.Extensions.EnumExtensions.SetFlags``1(``0,``0)
+  - GG.Extensions.EnumExtensions.SetFlags``1(``0,``0,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: EnumExtensions
+  nameWithType: EnumExtensions
+  fullName: GG.Extensions.EnumExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: EnumExtensions
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 8
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class EnumExtensions
+    content.vb: Public Module EnumExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.EnumExtensions.GetDescription``1(``0)
+  commentId: M:GG.Extensions.EnumExtensions.GetDescription``1(``0)
+  id: GetDescription``1(``0)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetDescription<T>(T)
+  nameWithType: EnumExtensions.GetDescription<T>(T)
+  fullName: GG.Extensions.EnumExtensions.GetDescription<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetDescription
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 16
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nReturns the description assigned to the enum value throguh system.componentmodel\n"
+  example: []
+  syntax:
+    content: public static string GetDescription<T>(this T value)
+    parameters:
+    - id: value
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDescription(Of T)(value As T) As String
+  overload: GG.Extensions.EnumExtensions.GetDescription*
+  nameWithType.vb: EnumExtensions.GetDescription(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.GetDescription(Of T)(T)
+  name.vb: GetDescription(Of T)(T)
+- uid: GG.Extensions.EnumExtensions.GetDescriptions``1
+  commentId: M:GG.Extensions.EnumExtensions.GetDescriptions``1
+  id: GetDescriptions``1
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetDescriptions<T>()
+  nameWithType: EnumExtensions.GetDescriptions<T>()
+  fullName: GG.Extensions.EnumExtensions.GetDescriptions<T>()
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetDescriptions
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 36
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static IEnumerable<string> GetDescriptions<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Shared Function GetDescriptions(Of T) As IEnumerable(Of String)
+  overload: GG.Extensions.EnumExtensions.GetDescriptions*
+  nameWithType.vb: EnumExtensions.GetDescriptions(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.GetDescriptions(Of T)()
+  name.vb: GetDescriptions(Of T)()
+- uid: GG.Extensions.EnumExtensions.GetEnumValueFromDescription``1(System.String)
+  commentId: M:GG.Extensions.EnumExtensions.GetEnumValueFromDescription``1(System.String)
+  id: GetEnumValueFromDescription``1(System.String)
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetEnumValueFromDescription<T>(String)
+  nameWithType: EnumExtensions.GetEnumValueFromDescription<T>(String)
+  fullName: GG.Extensions.EnumExtensions.GetEnumValueFromDescription<T>(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetEnumValueFromDescription
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 46
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static T GetEnumValueFromDescription<T>(string description)
+    parameters:
+    - id: description
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetEnumValueFromDescription(Of T)(description As String) As T
+  overload: GG.Extensions.EnumExtensions.GetEnumValueFromDescription*
+  nameWithType.vb: EnumExtensions.GetEnumValueFromDescription(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.GetEnumValueFromDescription(Of T)(System.String)
+  name.vb: GetEnumValueFromDescription(Of T)(String)
+- uid: GG.Extensions.EnumExtensions.IsFlagSet``1(``0,``0)
+  commentId: M:GG.Extensions.EnumExtensions.IsFlagSet``1(``0,``0)
+  id: IsFlagSet``1(``0,``0)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsFlagSet<T>(T, T)
+  nameWithType: EnumExtensions.IsFlagSet<T>(T, T)
+  fullName: GG.Extensions.EnumExtensions.IsFlagSet<T>(T, T)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: IsFlagSet
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 68
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static bool IsFlagSet<T>(this T value, T flag)
+          where T : struct
+    parameters:
+    - id: value
+      type: '{T}'
+    - id: flag
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsFlagSet(Of T As Structure)(value As T, flag As T) As Boolean
+  overload: GG.Extensions.EnumExtensions.IsFlagSet*
+  nameWithType.vb: EnumExtensions.IsFlagSet(Of T)(T, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.IsFlagSet(Of T)(T, T)
+  name.vb: IsFlagSet(Of T)(T, T)
+- uid: GG.Extensions.EnumExtensions.GetFlags``1(``0)
+  commentId: M:GG.Extensions.EnumExtensions.GetFlags``1(``0)
+  id: GetFlags``1(``0)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetFlags<T>(T)
+  nameWithType: EnumExtensions.GetFlags<T>(T)
+  fullName: GG.Extensions.EnumExtensions.GetFlags<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetFlags
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 76
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static IEnumerable<T> GetFlags<T>(this T value)
+          where T : struct
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFlags(Of T As Structure)(value As T) As IEnumerable(Of T)
+  overload: GG.Extensions.EnumExtensions.GetFlags*
+  nameWithType.vb: EnumExtensions.GetFlags(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.GetFlags(Of T)(T)
+  name.vb: GetFlags(Of T)(T)
+- uid: GG.Extensions.EnumExtensions.SetFlags``1(``0,``0,System.Boolean)
+  commentId: M:GG.Extensions.EnumExtensions.SetFlags``1(``0,``0,System.Boolean)
+  id: SetFlags``1(``0,``0,System.Boolean)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetFlags<T>(T, T, Boolean)
+  nameWithType: EnumExtensions.SetFlags<T>(T, T, Boolean)
+  fullName: GG.Extensions.EnumExtensions.SetFlags<T>(T, T, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetFlags
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 86
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static T SetFlags<T>(this T value, T flags, bool on)
+          where T : struct
+    parameters:
+    - id: value
+      type: '{T}'
+    - id: flags
+      type: '{T}'
+    - id: on
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetFlags(Of T As Structure)(value As T, flags As T, on As Boolean) As T
+  overload: GG.Extensions.EnumExtensions.SetFlags*
+  nameWithType.vb: EnumExtensions.SetFlags(Of T)(T, T, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.SetFlags(Of T)(T, T, System.Boolean)
+  name.vb: SetFlags(Of T)(T, T, Boolean)
+- uid: GG.Extensions.EnumExtensions.SetFlags``1(``0,``0)
+  commentId: M:GG.Extensions.EnumExtensions.SetFlags``1(``0,``0)
+  id: SetFlags``1(``0,``0)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetFlags<T>(T, T)
+  nameWithType: EnumExtensions.SetFlags<T>(T, T)
+  fullName: GG.Extensions.EnumExtensions.SetFlags<T>(T, T)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SetFlags
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 103
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static T SetFlags<T>(this T value, T flags)
+          where T : struct
+    parameters:
+    - id: value
+      type: '{T}'
+    - id: flags
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetFlags(Of T As Structure)(value As T, flags As T) As T
+  overload: GG.Extensions.EnumExtensions.SetFlags*
+  nameWithType.vb: EnumExtensions.SetFlags(Of T)(T, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.SetFlags(Of T)(T, T)
+  name.vb: SetFlags(Of T)(T, T)
+- uid: GG.Extensions.EnumExtensions.ClearFlags``1(``0,``0)
+  commentId: M:GG.Extensions.EnumExtensions.ClearFlags``1(``0,``0)
+  id: ClearFlags``1(``0,``0)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClearFlags<T>(T, T)
+  nameWithType: EnumExtensions.ClearFlags<T>(T, T)
+  fullName: GG.Extensions.EnumExtensions.ClearFlags<T>(T, T)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ClearFlags
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 108
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static T ClearFlags<T>(this T value, T flags)
+          where T : struct
+    parameters:
+    - id: value
+      type: '{T}'
+    - id: flags
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ClearFlags(Of T As Structure)(value As T, flags As T) As T
+  overload: GG.Extensions.EnumExtensions.ClearFlags*
+  nameWithType.vb: EnumExtensions.ClearFlags(Of T)(T, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.ClearFlags(Of T)(T, T)
+  name.vb: ClearFlags(Of T)(T, T)
+- uid: GG.Extensions.EnumExtensions.CombineFlags``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:GG.Extensions.EnumExtensions.CombineFlags``1(System.Collections.Generic.IEnumerable{``0})
+  id: CombineFlags``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: CombineFlags<T>(IEnumerable<T>)
+  nameWithType: EnumExtensions.CombineFlags<T>(IEnumerable<T>)
+  fullName: GG.Extensions.EnumExtensions.CombineFlags<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: CombineFlags
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 113
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static T CombineFlags<T>(this IEnumerable<T> flags)
+          where T : struct
+    parameters:
+    - id: flags
+      type: System.Collections.Generic.IEnumerable{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CombineFlags(Of T As Structure)(flags As IEnumerable(Of T)) As T
+  overload: GG.Extensions.EnumExtensions.CombineFlags*
+  nameWithType.vb: EnumExtensions.CombineFlags(Of T)(IEnumerable(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.CombineFlags(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: CombineFlags(Of T)(IEnumerable(Of T))
+- uid: GG.Extensions.EnumExtensions.CycleEnum``1(``0)
+  commentId: M:GG.Extensions.EnumExtensions.CycleEnum``1(``0)
+  id: CycleEnum``1(``0)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: CycleEnum<T>(T)
+  nameWithType: EnumExtensions.CycleEnum<T>(T)
+  fullName: GG.Extensions.EnumExtensions.CycleEnum<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: CycleEnum
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 126
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static T CycleEnum<T>(this T enumerable)
+          where T : struct, IConvertible
+    parameters:
+    - id: enumerable
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CycleEnum(Of T As {Structure, IConvertible})(enumerable As T) As T
+  overload: GG.Extensions.EnumExtensions.CycleEnum*
+  nameWithType.vb: EnumExtensions.CycleEnum(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.CycleEnum(Of T)(T)
+  name.vb: CycleEnum(Of T)(T)
+- uid: GG.Extensions.EnumExtensions.AsList``1
+  commentId: M:GG.Extensions.EnumExtensions.AsList``1
+  id: AsList``1
+  parent: GG.Extensions.EnumExtensions
+  langs:
+  - csharp
+  - vb
+  name: AsList<T>()
+  nameWithType: EnumExtensions.AsList<T>()
+  fullName: GG.Extensions.EnumExtensions.AsList<T>()
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: AsList
+    path: ../Assets/Unity_Extensions/EnumExtensions.cs
+    startLine: 143
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static List<string> AsList<T>()
+          where T : struct, Enum
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Shared Function AsList(Of T As {Structure,  Enum}) As List(Of String)
+  overload: GG.Extensions.EnumExtensions.AsList*
+  nameWithType.vb: EnumExtensions.AsList(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumExtensions.AsList(Of T)()
+  name.vb: AsList(Of T)()
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.EnumExtensions.GetDescription*
+  commentId: Overload:GG.Extensions.EnumExtensions.GetDescription
+  name: GetDescription
+  nameWithType: EnumExtensions.GetDescription
+  fullName: GG.Extensions.EnumExtensions.GetDescription
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: GG.Extensions.EnumExtensions.GetDescriptions*
+  commentId: Overload:GG.Extensions.EnumExtensions.GetDescriptions
+  name: GetDescriptions
+  nameWithType: EnumExtensions.GetDescriptions
+  fullName: GG.Extensions.EnumExtensions.GetDescriptions
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: GG.Extensions.EnumExtensions.GetEnumValueFromDescription*
+  commentId: Overload:GG.Extensions.EnumExtensions.GetEnumValueFromDescription
+  name: GetEnumValueFromDescription
+  nameWithType: EnumExtensions.GetEnumValueFromDescription
+  fullName: GG.Extensions.EnumExtensions.GetEnumValueFromDescription
+- uid: GG.Extensions.EnumExtensions.IsFlagSet*
+  commentId: Overload:GG.Extensions.EnumExtensions.IsFlagSet
+  name: IsFlagSet
+  nameWithType: EnumExtensions.IsFlagSet
+  fullName: GG.Extensions.EnumExtensions.IsFlagSet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GG.Extensions.EnumExtensions.GetFlags*
+  commentId: Overload:GG.Extensions.EnumExtensions.GetFlags
+  name: GetFlags
+  nameWithType: EnumExtensions.GetFlags
+  fullName: GG.Extensions.EnumExtensions.GetFlags
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GG.Extensions.EnumExtensions.SetFlags*
+  commentId: Overload:GG.Extensions.EnumExtensions.SetFlags
+  name: SetFlags
+  nameWithType: EnumExtensions.SetFlags
+  fullName: GG.Extensions.EnumExtensions.SetFlags
+- uid: GG.Extensions.EnumExtensions.ClearFlags*
+  commentId: Overload:GG.Extensions.EnumExtensions.ClearFlags
+  name: ClearFlags
+  nameWithType: EnumExtensions.ClearFlags
+  fullName: GG.Extensions.EnumExtensions.ClearFlags
+- uid: GG.Extensions.EnumExtensions.CombineFlags*
+  commentId: Overload:GG.Extensions.EnumExtensions.CombineFlags
+  name: CombineFlags
+  nameWithType: EnumExtensions.CombineFlags
+  fullName: GG.Extensions.EnumExtensions.CombineFlags
+- uid: GG.Extensions.EnumExtensions.CycleEnum*
+  commentId: Overload:GG.Extensions.EnumExtensions.CycleEnum
+  name: CycleEnum
+  nameWithType: EnumExtensions.CycleEnum
+  fullName: GG.Extensions.EnumExtensions.CycleEnum
+- uid: GG.Extensions.EnumExtensions.AsList*
+  commentId: Overload:GG.Extensions.EnumExtensions.AsList
+  name: AsList
+  nameWithType: EnumExtensions.AsList
+  fullName: GG.Extensions.EnumExtensions.AsList
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

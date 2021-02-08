@@ -1,0 +1,822 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.MathsExtensions
+  commentId: T:GG.Extensions.MathsExtensions
+  id: MathsExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.MathsExtensions.Div(System.Int32,System.Int32)
+  - GG.Extensions.MathsExtensions.FloorDiv(System.Int32,System.Int32)
+  - GG.Extensions.MathsExtensions.FloorMod(System.Int32,System.Int32)
+  - GG.Extensions.MathsExtensions.FloorMod(System.Single,System.Single)
+  - GG.Extensions.MathsExtensions.FloorToInt(System.Single)
+  - GG.Extensions.MathsExtensions.Frac(System.Single)
+  - GG.Extensions.MathsExtensions.InRange(System.Single,System.Single,System.Single)
+  - GG.Extensions.MathsExtensions.InRange01(System.Single)
+  - GG.Extensions.MathsExtensions.Mod(System.Int32,System.Int32)
+  - GG.Extensions.MathsExtensions.Mod(System.Single,System.Single)
+  - GG.Extensions.MathsExtensions.Sign(System.Int32)
+  - GG.Extensions.MathsExtensions.Sign(System.Single)
+  - GG.Extensions.MathsExtensions.Sqrt3
+  - GG.Extensions.MathsExtensions.Wlerp01(System.Single,System.Single,System.Single)
+  - GG.Extensions.MathsExtensions.Wrap01(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: MathsExtensions
+  nameWithType: MathsExtensions
+  fullName: GG.Extensions.MathsExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MathsExtensions
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 7
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class MathsExtensions
+    content.vb: Public Module MathsExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.MathsExtensions.Sqrt3
+  commentId: F:GG.Extensions.MathsExtensions.Sqrt3
+  id: Sqrt3
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Sqrt3
+  nameWithType: MathsExtensions.Sqrt3
+  fullName: GG.Extensions.MathsExtensions.Sqrt3
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Sqrt3
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 11
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly float Sqrt3
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Sqrt3 As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.MathsExtensions.Wlerp01(System.Single,System.Single,System.Single)
+  commentId: M:GG.Extensions.MathsExtensions.Wlerp01(System.Single,System.Single,System.Single)
+  id: Wlerp01(System.Single,System.Single,System.Single)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Wlerp01(Single, Single, Single)
+  nameWithType: MathsExtensions.Wlerp01(Single, Single, Single)
+  fullName: GG.Extensions.MathsExtensions.Wlerp01(System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Wlerp01
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 30
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nLinearly interpolates between two values between 0 and 1 if values wrap around from 1 back to 0.\n"
+  remarks: This is useful, for example, in lerping between angles.
+  example:
+  - "\n<pre><code>float angleInRad1 = 1;\nfloat angleInRad2 = 5;\nfloat revolution = Mathf.PI * 2;\nfloat interpolation = WLerp(angleInRad1 / revolution, angleInRad2 / revolution, 0.5f);\n\n//interpolation == (5 + 1 + Mathf.PI * 2)/2 = 3 + Mathf.PI</code></pre>\n"
+  syntax:
+    content: public static float Wlerp01(float v1, float v2, float t)
+    parameters:
+    - id: v1
+      type: System.Single
+    - id: v2
+      type: System.Single
+    - id: t
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Wlerp01(v1 As Single, v2 As Single, t As Single) As Single
+  overload: GG.Extensions.MathsExtensions.Wlerp01*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.InRange01(System.Single)
+  commentId: M:GG.Extensions.MathsExtensions.InRange01(System.Single)
+  id: InRange01(System.Single)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InRange01(Single)
+  nameWithType: MathsExtensions.InRange01(Single)
+  fullName: GG.Extensions.MathsExtensions.InRange01(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: InRange01
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 51
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nTests whether the given value lies in the range [0, 1).\n"
+  example: []
+  syntax:
+    content: public static bool InRange01(float value)
+    parameters:
+    - id: value
+      type: System.Single
+      description: The value to check.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the given value is equal or greater than 0 and smaller than 1, <code>false</code> otherwise.
+    content.vb: Public Shared Function InRange01(value As Single) As Boolean
+  overload: GG.Extensions.MathsExtensions.InRange01*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.InRange(System.Single,System.Single,System.Single)
+  commentId: M:GG.Extensions.MathsExtensions.InRange(System.Single,System.Single,System.Single)
+  id: InRange(System.Single,System.Single,System.Single)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InRange(Single, Single, Single)
+  nameWithType: MathsExtensions.InRange(Single, Single, Single)
+  fullName: GG.Extensions.MathsExtensions.InRange(System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: InRange
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 64
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nTests whether the given value lies in the half-open interval specified by its endpoints, that is, whether the value\nlies in the interval <code>[closedLeft, openRight)</code>.\n"
+  example: []
+  syntax:
+    content: public static bool InRange(float value, float closedLeft, float openRight)
+    parameters:
+    - id: value
+      type: System.Single
+      description: The value to check.
+    - id: closedLeft
+      type: System.Single
+      description: The left end of the interval.
+    - id: openRight
+      type: System.Single
+      description: The right end of the interval.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the given value is equal or greater than <code>closedLeft</code> and smaller than <code>openRight</code>, <code>false</code> otherwise.
+    content.vb: Public Shared Function InRange(value As Single, closedLeft As Single, openRight As Single) As Boolean
+  overload: GG.Extensions.MathsExtensions.InRange*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.FloorMod(System.Int32,System.Int32)
+  commentId: M:GG.Extensions.MathsExtensions.FloorMod(System.Int32,System.Int32)
+  id: FloorMod(System.Int32,System.Int32)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: FloorMod(Int32, Int32)
+  nameWithType: MathsExtensions.FloorMod(Int32, Int32)
+  fullName: GG.Extensions.MathsExtensions.FloorMod(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FloorMod
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 75
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nMod operator that also works for negative m.\n"
+  example: []
+  syntax:
+    content: public static int FloorMod(int m, int n)
+    parameters:
+    - id: m
+      type: System.Int32
+      description: The m.
+    - id: n
+      type: System.Int32
+      description: The n.
+    return:
+      type: System.Int32
+      description: System.Int32.
+    content.vb: Public Shared Function FloorMod(m As Integer, n As Integer) As Integer
+  overload: GG.Extensions.MathsExtensions.FloorMod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.FloorMod(System.Single,System.Single)
+  commentId: M:GG.Extensions.MathsExtensions.FloorMod(System.Single,System.Single)
+  id: FloorMod(System.Single,System.Single)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: FloorMod(Single, Single)
+  nameWithType: MathsExtensions.FloorMod(Single, Single)
+  fullName: GG.Extensions.MathsExtensions.FloorMod(System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FloorMod
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 91
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nMod operator that also works for negative m.\n"
+  example: []
+  syntax:
+    content: public static float FloorMod(float m, float n)
+    parameters:
+    - id: m
+      type: System.Single
+      description: The m.
+    - id: n
+      type: System.Single
+      description: The n.
+    return:
+      type: System.Single
+      description: System.Int32.
+    content.vb: Public Shared Function FloorMod(m As Single, n As Single) As Single
+  overload: GG.Extensions.MathsExtensions.FloorMod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.FloorDiv(System.Int32,System.Int32)
+  commentId: M:GG.Extensions.MathsExtensions.FloorDiv(System.Int32,System.Int32)
+  id: FloorDiv(System.Int32,System.Int32)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: FloorDiv(Int32, Int32)
+  nameWithType: MathsExtensions.FloorDiv(Int32, Int32)
+  fullName: GG.Extensions.MathsExtensions.FloorDiv(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FloorDiv
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 107
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nFloor division that also work for negative m.\n"
+  example: []
+  syntax:
+    content: public static int FloorDiv(int m, int n)
+    parameters:
+    - id: m
+      type: System.Int32
+      description: The m.
+    - id: n
+      type: System.Int32
+      description: The n.
+    return:
+      type: System.Int32
+      description: System.Int32.
+    content.vb: Public Shared Function FloorDiv(m As Integer, n As Integer) As Integer
+  overload: GG.Extensions.MathsExtensions.FloorDiv*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.Frac(System.Single)
+  commentId: M:GG.Extensions.MathsExtensions.Frac(System.Single)
+  id: Frac(System.Single)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Frac(Single)
+  nameWithType: MathsExtensions.Frac(Single)
+  fullName: GG.Extensions.MathsExtensions.Frac(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Frac
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 130
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nReturns the fractional part of a floating point number.\n"
+  remarks: The result is always the number minus the number&apos;s floor.
+  example: []
+  syntax:
+    content: public static float Frac(float x)
+    parameters:
+    - id: x
+      type: System.Single
+      description: The number to get the fractional part of.
+    return:
+      type: System.Single
+      description: The fractional part of the given number.
+    content.vb: Public Shared Function Frac(x As Single) As Single
+  overload: GG.Extensions.MathsExtensions.Frac*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.Sign(System.Single)
+  commentId: M:GG.Extensions.MathsExtensions.Sign(System.Single)
+  id: Sign(System.Single)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Sign(Single)
+  nameWithType: MathsExtensions.Sign(Single)
+  fullName: GG.Extensions.MathsExtensions.Sign(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Sign
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 139
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nReturns the sign function evaluated at the given value.\n"
+  example: []
+  syntax:
+    content: public static int Sign(float x)
+    parameters:
+    - id: x
+      type: System.Single
+    return:
+      type: System.Int32
+      description: 1 if the given value is positive, -1 if it is negative, and 0 if it is 0.
+    content.vb: Public Shared Function Sign(x As Single) As Integer
+  overload: GG.Extensions.MathsExtensions.Sign*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.Sign(System.Int32)
+  commentId: M:GG.Extensions.MathsExtensions.Sign(System.Int32)
+  id: Sign(System.Int32)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Sign(Int32)
+  nameWithType: MathsExtensions.Sign(Int32)
+  fullName: GG.Extensions.MathsExtensions.Sign(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Sign
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 151
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nReturns the sign function evaluated at the given value.\n"
+  example: []
+  syntax:
+    content: public static int Sign(int p)
+    parameters:
+    - id: p
+      type: System.Int32
+    return:
+      type: System.Int32
+      description: 1 if the given value is positive, -1 if it is negative, and 0 if it is 0.
+    content.vb: Public Shared Function Sign(p As Integer) As Integer
+  overload: GG.Extensions.MathsExtensions.Sign*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.Div(System.Int32,System.Int32)
+  commentId: M:GG.Extensions.MathsExtensions.Div(System.Int32,System.Int32)
+  id: Div(System.Int32,System.Int32)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Div(Int32, Int32)
+  nameWithType: MathsExtensions.Div(Int32, Int32)
+  fullName: GG.Extensions.MathsExtensions.Div(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Div
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 163
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      [Obsolete("Use FloorDiv instead")]
+
+      public static int Div(int m, int n)
+    parameters:
+    - id: m
+      type: System.Int32
+    - id: n
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Obsolete("Use FloorDiv instead")>
+
+      Public Shared Function Div(m As Integer, n As Integer) As Integer
+  overload: GG.Extensions.MathsExtensions.Div*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use FloorDiv instead
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.Mod(System.Int32,System.Int32)
+  commentId: M:GG.Extensions.MathsExtensions.Mod(System.Int32,System.Int32)
+  id: Mod(System.Int32,System.Int32)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mod(Int32, Int32)
+  nameWithType: MathsExtensions.Mod(Int32, Int32)
+  fullName: GG.Extensions.MathsExtensions.Mod(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Mod
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 169
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      [Obsolete("Use FloorMod instead")]
+
+      public static int Mod(int m, int n)
+    parameters:
+    - id: m
+      type: System.Int32
+    - id: n
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Obsolete("Use FloorMod instead")>
+
+      Public Shared Function Mod(m As Integer, n As Integer) As Integer
+  overload: GG.Extensions.MathsExtensions.Mod*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use FloorMod instead
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.Mod(System.Single,System.Single)
+  commentId: M:GG.Extensions.MathsExtensions.Mod(System.Single,System.Single)
+  id: Mod(System.Single,System.Single)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mod(Single, Single)
+  nameWithType: MathsExtensions.Mod(Single, Single)
+  fullName: GG.Extensions.MathsExtensions.Mod(System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Mod
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 175
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      [Obsolete("Use FloorMod instead")]
+
+      public static float Mod(float m, float n)
+    parameters:
+    - id: m
+      type: System.Single
+    - id: n
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: >-
+      <Obsolete("Use FloorMod instead")>
+
+      Public Shared Function Mod(m As Single, n As Single) As Single
+  overload: GG.Extensions.MathsExtensions.Mod*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use FloorMod instead
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.FloorToInt(System.Single)
+  commentId: M:GG.Extensions.MathsExtensions.FloorToInt(System.Single)
+  id: FloorToInt(System.Single)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: FloorToInt(Single)
+  nameWithType: MathsExtensions.FloorToInt(Single)
+  fullName: GG.Extensions.MathsExtensions.FloorToInt(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FloorToInt
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 184
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nReturns the highest integer equal to the given float.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use Mathf.FloorToInt")]
+
+      public static int FloorToInt(float x)
+    parameters:
+    - id: x
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Obsolete("Use Mathf.FloorToInt")>
+
+      Public Shared Function FloorToInt(x As Single) As Integer
+  overload: GG.Extensions.MathsExtensions.FloorToInt*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Mathf.FloorToInt
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MathsExtensions.Wrap01(System.Single)
+  commentId: M:GG.Extensions.MathsExtensions.Wrap01(System.Single)
+  id: Wrap01(System.Single)
+  parent: GG.Extensions.MathsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Wrap01(Single)
+  nameWithType: MathsExtensions.Wrap01(Single)
+  fullName: GG.Extensions.MathsExtensions.Wrap01(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MathsExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Wrap01
+    path: ../Assets/Unity_Extensions/MathsExtensions.cs
+    startLine: 190
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      [Obsolete("Use Frac instead.")]
+
+      public static float Wrap01(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: >-
+      <Obsolete("Use Frac instead.")>
+
+      Public Shared Function Wrap01(value As Single) As Single
+  overload: GG.Extensions.MathsExtensions.Wrap01*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Frac instead.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: GG.Extensions.MathsExtensions.Wlerp01*
+  commentId: Overload:GG.Extensions.MathsExtensions.Wlerp01
+  name: Wlerp01
+  nameWithType: MathsExtensions.Wlerp01
+  fullName: GG.Extensions.MathsExtensions.Wlerp01
+- uid: GG.Extensions.MathsExtensions.InRange01*
+  commentId: Overload:GG.Extensions.MathsExtensions.InRange01
+  name: InRange01
+  nameWithType: MathsExtensions.InRange01
+  fullName: GG.Extensions.MathsExtensions.InRange01
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GG.Extensions.MathsExtensions.InRange*
+  commentId: Overload:GG.Extensions.MathsExtensions.InRange
+  name: InRange
+  nameWithType: MathsExtensions.InRange
+  fullName: GG.Extensions.MathsExtensions.InRange
+- uid: GG.Extensions.MathsExtensions.FloorMod*
+  commentId: Overload:GG.Extensions.MathsExtensions.FloorMod
+  name: FloorMod
+  nameWithType: MathsExtensions.FloorMod
+  fullName: GG.Extensions.MathsExtensions.FloorMod
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GG.Extensions.MathsExtensions.FloorDiv*
+  commentId: Overload:GG.Extensions.MathsExtensions.FloorDiv
+  name: FloorDiv
+  nameWithType: MathsExtensions.FloorDiv
+  fullName: GG.Extensions.MathsExtensions.FloorDiv
+- uid: GG.Extensions.MathsExtensions.Frac*
+  commentId: Overload:GG.Extensions.MathsExtensions.Frac
+  name: Frac
+  nameWithType: MathsExtensions.Frac
+  fullName: GG.Extensions.MathsExtensions.Frac
+- uid: GG.Extensions.MathsExtensions.Sign*
+  commentId: Overload:GG.Extensions.MathsExtensions.Sign
+  name: Sign
+  nameWithType: MathsExtensions.Sign
+  fullName: GG.Extensions.MathsExtensions.Sign
+- uid: GG.Extensions.MathsExtensions.Div*
+  commentId: Overload:GG.Extensions.MathsExtensions.Div
+  name: Div
+  nameWithType: MathsExtensions.Div
+  fullName: GG.Extensions.MathsExtensions.Div
+- uid: GG.Extensions.MathsExtensions.Mod*
+  commentId: Overload:GG.Extensions.MathsExtensions.Mod
+  name: Mod
+  nameWithType: MathsExtensions.Mod
+  fullName: GG.Extensions.MathsExtensions.Mod
+- uid: GG.Extensions.MathsExtensions.FloorToInt*
+  commentId: Overload:GG.Extensions.MathsExtensions.FloorToInt
+  name: FloorToInt
+  nameWithType: MathsExtensions.FloorToInt
+  fullName: GG.Extensions.MathsExtensions.FloorToInt
+- uid: GG.Extensions.MathsExtensions.Wrap01*
+  commentId: Overload:GG.Extensions.MathsExtensions.Wrap01
+  name: Wrap01
+  nameWithType: MathsExtensions.Wrap01
+  fullName: GG.Extensions.MathsExtensions.Wrap01

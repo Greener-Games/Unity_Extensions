@@ -1,0 +1,517 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.GameObjectExtensions
+  commentId: T:GG.Extensions.GameObjectExtensions
+  id: GameObjectExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.GameObjectExtensions.ChangeMaterial(UnityEngine.GameObject,UnityEngine.Material)
+  - GG.Extensions.GameObjectExtensions.DestoryDontDestroyOnLoad(UnityEngine.GameObject)
+  - GG.Extensions.GameObjectExtensions.DontDestroyOnLoad(UnityEngine.GameObject)
+  - GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf``1(UnityEngine.GameObject)
+  - GG.Extensions.GameObjectExtensions.GetOrAddComponent``1(UnityEngine.Component)
+  - GG.Extensions.GameObjectExtensions.GetOrAddComponent``1(UnityEngine.GameObject)
+  - GG.Extensions.GameObjectExtensions.GetSavedObjects
+  langs:
+  - csharp
+  - vb
+  name: GameObjectExtensions
+  nameWithType: GameObjectExtensions
+  fullName: GG.Extensions.GameObjectExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/GameObjectExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GameObjectExtensions
+    path: ../Assets/Unity_Extensions/GameObjectExtensions.cs
+    startLine: 6
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class GameObjectExtensions
+    content.vb: Public Module GameObjectExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.GameObjectExtensions.GetOrAddComponent``1(UnityEngine.Component)
+  commentId: M:GG.Extensions.GameObjectExtensions.GetOrAddComponent``1(UnityEngine.Component)
+  id: GetOrAddComponent``1(UnityEngine.Component)
+  isExtensionMethod: true
+  parent: GG.Extensions.GameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetOrAddComponent<T>(Component)
+  nameWithType: GameObjectExtensions.GetOrAddComponent<T>(Component)
+  fullName: GG.Extensions.GameObjectExtensions.GetOrAddComponent<T>(UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/GameObjectExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetOrAddComponent
+    path: ../Assets/Unity_Extensions/GameObjectExtensions.cs
+    startLine: 14
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static T GetOrAddComponent<T>(this Component child)
+          where T : Component
+    parameters:
+    - id: child
+      type: UnityEngine.Component
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetOrAddComponent(Of T As Component)(child As Component) As T
+  overload: GG.Extensions.GameObjectExtensions.GetOrAddComponent*
+  nameWithType.vb: GameObjectExtensions.GetOrAddComponent(Of T)(Component)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.GameObjectExtensions.GetOrAddComponent(Of T)(UnityEngine.Component)
+  name.vb: GetOrAddComponent(Of T)(Component)
+- uid: GG.Extensions.GameObjectExtensions.GetOrAddComponent``1(UnityEngine.GameObject)
+  commentId: M:GG.Extensions.GameObjectExtensions.GetOrAddComponent``1(UnityEngine.GameObject)
+  id: GetOrAddComponent``1(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: GG.Extensions.GameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetOrAddComponent<T>(GameObject)
+  nameWithType: GameObjectExtensions.GetOrAddComponent<T>(GameObject)
+  fullName: GG.Extensions.GameObjectExtensions.GetOrAddComponent<T>(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/GameObjectExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetOrAddComponent
+    path: ../Assets/Unity_Extensions/GameObjectExtensions.cs
+    startLine: 31
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: >-
+      public static T GetOrAddComponent<T>(this GameObject child)
+          where T : Component
+    parameters:
+    - id: child
+      type: UnityEngine.GameObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetOrAddComponent(Of T As Component)(child As GameObject) As T
+  overload: GG.Extensions.GameObjectExtensions.GetOrAddComponent*
+  nameWithType.vb: GameObjectExtensions.GetOrAddComponent(Of T)(GameObject)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.GameObjectExtensions.GetOrAddComponent(Of T)(UnityEngine.GameObject)
+  name.vb: GetOrAddComponent(Of T)(GameObject)
+- uid: GG.Extensions.GameObjectExtensions.ChangeMaterial(UnityEngine.GameObject,UnityEngine.Material)
+  commentId: M:GG.Extensions.GameObjectExtensions.ChangeMaterial(UnityEngine.GameObject,UnityEngine.Material)
+  id: ChangeMaterial(UnityEngine.GameObject,UnityEngine.Material)
+  isExtensionMethod: true
+  parent: GG.Extensions.GameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: ChangeMaterial(GameObject, Material)
+  nameWithType: GameObjectExtensions.ChangeMaterial(GameObject, Material)
+  fullName: GG.Extensions.GameObjectExtensions.ChangeMaterial(UnityEngine.GameObject, UnityEngine.Material)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/GameObjectExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ChangeMaterial
+    path: ../Assets/Unity_Extensions/GameObjectExtensions.cs
+    startLine: 36
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void ChangeMaterial(this GameObject go, Material newMat)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+    - id: newMat
+      type: UnityEngine.Material
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ChangeMaterial(go As GameObject, newMat As Material)
+  overload: GG.Extensions.GameObjectExtensions.ChangeMaterial*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf``1(UnityEngine.GameObject)
+  commentId: M:GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf``1(UnityEngine.GameObject)
+  id: GetComponentInParentIgnoreSelf``1(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: GG.Extensions.GameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInParentIgnoreSelf<T>(GameObject)
+  nameWithType: GameObjectExtensions.GetComponentInParentIgnoreSelf<T>(GameObject)
+  fullName: GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf<T>(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/GameObjectExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetComponentInParentIgnoreSelf
+    path: ../Assets/Unity_Extensions/GameObjectExtensions.cs
+    startLine: 50
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static T GetComponentInParentIgnoreSelf<T>(this GameObject go)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetComponentInParentIgnoreSelf(Of T)(go As GameObject) As T
+  overload: GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf*
+  nameWithType.vb: GameObjectExtensions.GetComponentInParentIgnoreSelf(Of T)(GameObject)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf(Of T)(UnityEngine.GameObject)
+  name.vb: GetComponentInParentIgnoreSelf(Of T)(GameObject)
+- uid: GG.Extensions.GameObjectExtensions.DontDestroyOnLoad(UnityEngine.GameObject)
+  commentId: M:GG.Extensions.GameObjectExtensions.DontDestroyOnLoad(UnityEngine.GameObject)
+  id: DontDestroyOnLoad(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: GG.Extensions.GameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: DontDestroyOnLoad(GameObject)
+  nameWithType: GameObjectExtensions.DontDestroyOnLoad(GameObject)
+  fullName: GG.Extensions.GameObjectExtensions.DontDestroyOnLoad(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/GameObjectExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DontDestroyOnLoad
+    path: ../Assets/Unity_Extensions/GameObjectExtensions.cs
+    startLine: 59
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nUse this for dont destory on load to keep referances for the find object of type all\n"
+  example: []
+  syntax:
+    content: public static void DontDestroyOnLoad(this GameObject obj)
+    parameters:
+    - id: obj
+      type: UnityEngine.GameObject
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub DontDestroyOnLoad(obj As GameObject)
+  overload: GG.Extensions.GameObjectExtensions.DontDestroyOnLoad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.GameObjectExtensions.DestoryDontDestroyOnLoad(UnityEngine.GameObject)
+  commentId: M:GG.Extensions.GameObjectExtensions.DestoryDontDestroyOnLoad(UnityEngine.GameObject)
+  id: DestoryDontDestroyOnLoad(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: GG.Extensions.GameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: DestoryDontDestroyOnLoad(GameObject)
+  nameWithType: GameObjectExtensions.DestoryDontDestroyOnLoad(GameObject)
+  fullName: GG.Extensions.GameObjectExtensions.DestoryDontDestroyOnLoad(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/GameObjectExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DestoryDontDestroyOnLoad
+    path: ../Assets/Unity_Extensions/GameObjectExtensions.cs
+    startLine: 65
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void DestoryDontDestroyOnLoad(this GameObject obj)
+    parameters:
+    - id: obj
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub DestoryDontDestroyOnLoad(obj As GameObject)
+  overload: GG.Extensions.GameObjectExtensions.DestoryDontDestroyOnLoad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.GameObjectExtensions.GetSavedObjects
+  commentId: M:GG.Extensions.GameObjectExtensions.GetSavedObjects
+  id: GetSavedObjects
+  parent: GG.Extensions.GameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetSavedObjects()
+  nameWithType: GameObjectExtensions.GetSavedObjects()
+  fullName: GG.Extensions.GameObjectExtensions.GetSavedObjects()
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/GameObjectExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetSavedObjects
+    path: ../Assets/Unity_Extensions/GameObjectExtensions.cs
+    startLine: 71
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static List<GameObject> GetSavedObjects()
+    return:
+      type: System.Collections.Generic.List{UnityEngine.GameObject}
+    content.vb: Public Shared Function GetSavedObjects As List(Of GameObject)
+  overload: GG.Extensions.GameObjectExtensions.GetSavedObjects*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.GameObjectExtensions.GetOrAddComponent*
+  commentId: Overload:GG.Extensions.GameObjectExtensions.GetOrAddComponent
+  name: GetOrAddComponent
+  nameWithType: GameObjectExtensions.GetOrAddComponent
+  fullName: GG.Extensions.GameObjectExtensions.GetOrAddComponent
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: GG.Extensions.GameObjectExtensions.ChangeMaterial*
+  commentId: Overload:GG.Extensions.GameObjectExtensions.ChangeMaterial
+  name: ChangeMaterial
+  nameWithType: GameObjectExtensions.ChangeMaterial
+  fullName: GG.Extensions.GameObjectExtensions.ChangeMaterial
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf*
+  commentId: Overload:GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf
+  name: GetComponentInParentIgnoreSelf
+  nameWithType: GameObjectExtensions.GetComponentInParentIgnoreSelf
+  fullName: GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf
+- uid: GG.Extensions.GameObjectExtensions.DontDestroyOnLoad*
+  commentId: Overload:GG.Extensions.GameObjectExtensions.DontDestroyOnLoad
+  name: DontDestroyOnLoad
+  nameWithType: GameObjectExtensions.DontDestroyOnLoad
+  fullName: GG.Extensions.GameObjectExtensions.DontDestroyOnLoad
+- uid: GG.Extensions.GameObjectExtensions.DestoryDontDestroyOnLoad*
+  commentId: Overload:GG.Extensions.GameObjectExtensions.DestoryDontDestroyOnLoad
+  name: DestoryDontDestroyOnLoad
+  nameWithType: GameObjectExtensions.DestoryDontDestroyOnLoad
+  fullName: GG.Extensions.GameObjectExtensions.DestoryDontDestroyOnLoad
+- uid: GG.Extensions.GameObjectExtensions.GetSavedObjects*
+  commentId: Overload:GG.Extensions.GameObjectExtensions.GetSavedObjects
+  name: GetSavedObjects
+  nameWithType: GameObjectExtensions.GetSavedObjects
+  fullName: GG.Extensions.GameObjectExtensions.GetSavedObjects
+- uid: System.Collections.Generic.List{UnityEngine.GameObject}
+  commentId: T:System.Collections.Generic.List{UnityEngine.GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<UnityEngine.GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

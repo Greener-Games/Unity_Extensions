@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.StringExtensions
+  commentId: T:GG.Extensions.StringExtensions
+  id: StringExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.StringExtensions.ExtractInitialsFromName(System.String)
+  - GG.Extensions.StringExtensions.FirstNameAndInitial(System.String)
+  - GG.Extensions.StringExtensions.TitleCase(System.String)
+  - GG.Extensions.StringExtensions.TitleCase(System.String,System.Globalization.CultureInfo)
+  - GG.Extensions.StringExtensions.TitleCase(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: GG.Extensions.StringExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/StringExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: StringExtensions
+    path: ../Assets/Unity_Extensions/StringExtensions.cs
+    startLine: 6
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class StringExtensions
+    content.vb: Public Module StringExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.StringExtensions.ExtractInitialsFromName(System.String)
+  commentId: M:GG.Extensions.StringExtensions.ExtractInitialsFromName(System.String)
+  id: ExtractInitialsFromName(System.String)
+  parent: GG.Extensions.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: ExtractInitialsFromName(String)
+  nameWithType: StringExtensions.ExtractInitialsFromName(String)
+  fullName: GG.Extensions.StringExtensions.ExtractInitialsFromName(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/StringExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ExtractInitialsFromName
+    path: ../Assets/Unity_Extensions/StringExtensions.cs
+    startLine: 38
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nGiven a person&apos;s first and last name, we&apos;ll make our best guess to extract up to two initials, hopefully\nrepresenting their first and last name, skipping any middle initials, Jr/Sr/III suffixes, etc. The letters \nwill be returned together in ALL CAPS, e.g. &quot;TW&quot;. \n\nThe way it parses names for many common styles:\n\nMason Zhwiti                -> MZ\nmason lowercase zhwiti      -> MZ\nMason G Zhwiti              -> MZ\nMason G. Zhwiti             -> MZ\nJohn Queue Public           -> JP\nJohn Q. Public, Jr.         -> JP\nJohn Q Public Jr.           -> JP\nThurston Howell III         -> TH\nThurston Howell, III        -> TH\nMalcolm X                   -> MX\nA Ron                       -> AR\nA A Ron                     -> AR\nMadonna                     -> M\nChris O&apos;Donnell             -> CO\nMalcolm McDowell            -> MM\nRobert &quot;Rocky&quot; Balboa, Sr.  -> RB\n1Bobby 2Tables              -> BT\nÉric Ígor                   -> ÉÍ\n행운의 복숭아                 -> 행복\n\n"
+  example: []
+  syntax:
+    content: public static string ExtractInitialsFromName(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The full name of a person.
+    return:
+      type: System.String
+      description: One to two uppercase initials, without punctuation.
+    content.vb: Public Shared Function ExtractInitialsFromName(name As String) As String
+  overload: GG.Extensions.StringExtensions.ExtractInitialsFromName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.StringExtensions.FirstNameAndInitial(System.String)
+  commentId: M:GG.Extensions.StringExtensions.FirstNameAndInitial(System.String)
+  id: FirstNameAndInitial(System.String)
+  parent: GG.Extensions.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: FirstNameAndInitial(String)
+  nameWithType: StringExtensions.FirstNameAndInitial(String)
+  fullName: GG.Extensions.StringExtensions.FirstNameAndInitial(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/StringExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FirstNameAndInitial
+    path: ../Assets/Unity_Extensions/StringExtensions.cs
+    startLine: 61
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static string FirstNameAndInitial(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FirstNameAndInitial(name As String) As String
+  overload: GG.Extensions.StringExtensions.FirstNameAndInitial*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.StringExtensions.TitleCase(System.String)
+  commentId: M:GG.Extensions.StringExtensions.TitleCase(System.String)
+  id: TitleCase(System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TitleCase(String)
+  nameWithType: StringExtensions.TitleCase(String)
+  fullName: GG.Extensions.StringExtensions.TitleCase(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/StringExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TitleCase
+    path: ../Assets/Unity_Extensions/StringExtensions.cs
+    startLine: 70
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nUse the current thread&apos;s culture info for conversion\n"
+  example: []
+  syntax:
+    content: public static string TitleCase(this string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TitleCase(str As String) As String
+  overload: GG.Extensions.StringExtensions.TitleCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.StringExtensions.TitleCase(System.String,System.String)
+  commentId: M:GG.Extensions.StringExtensions.TitleCase(System.String,System.String)
+  id: TitleCase(System.String,System.String)
+  isExtensionMethod: true
+  parent: GG.Extensions.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TitleCase(String, String)
+  nameWithType: StringExtensions.TitleCase(String, String)
+  fullName: GG.Extensions.StringExtensions.TitleCase(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/StringExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TitleCase
+    path: ../Assets/Unity_Extensions/StringExtensions.cs
+    startLine: 79
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nOverload which uses the culture info with the specified name\n"
+  example: []
+  syntax:
+    content: public static string TitleCase(this string str, string cultureInfoName)
+    parameters:
+    - id: str
+      type: System.String
+    - id: cultureInfoName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TitleCase(str As String, cultureInfoName As String) As String
+  overload: GG.Extensions.StringExtensions.TitleCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.StringExtensions.TitleCase(System.String,System.Globalization.CultureInfo)
+  commentId: M:GG.Extensions.StringExtensions.TitleCase(System.String,System.Globalization.CultureInfo)
+  id: TitleCase(System.String,System.Globalization.CultureInfo)
+  isExtensionMethod: true
+  parent: GG.Extensions.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TitleCase(String, CultureInfo)
+  nameWithType: StringExtensions.TitleCase(String, CultureInfo)
+  fullName: GG.Extensions.StringExtensions.TitleCase(System.String, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/StringExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TitleCase
+    path: ../Assets/Unity_Extensions/StringExtensions.cs
+    startLine: 88
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nOverload which uses the specified culture info\n"
+  example: []
+  syntax:
+    content: public static string TitleCase(this string str, CultureInfo cultureInfo)
+    parameters:
+    - id: str
+      type: System.String
+    - id: cultureInfo
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TitleCase(str As String, cultureInfo As CultureInfo) As String
+  overload: GG.Extensions.StringExtensions.TitleCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.StringExtensions.ExtractInitialsFromName*
+  commentId: Overload:GG.Extensions.StringExtensions.ExtractInitialsFromName
+  name: ExtractInitialsFromName
+  nameWithType: StringExtensions.ExtractInitialsFromName
+  fullName: GG.Extensions.StringExtensions.ExtractInitialsFromName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GG.Extensions.StringExtensions.FirstNameAndInitial*
+  commentId: Overload:GG.Extensions.StringExtensions.FirstNameAndInitial
+  name: FirstNameAndInitial
+  nameWithType: StringExtensions.FirstNameAndInitial
+  fullName: GG.Extensions.StringExtensions.FirstNameAndInitial
+- uid: GG.Extensions.StringExtensions.TitleCase*
+  commentId: Overload:GG.Extensions.StringExtensions.TitleCase
+  name: TitleCase
+  nameWithType: StringExtensions.TitleCase
+  fullName: GG.Extensions.StringExtensions.TitleCase
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization

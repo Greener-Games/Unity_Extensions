@@ -1,0 +1,2515 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.DebugExtension
+  commentId: T:GG.Extensions.DebugExtension
+  id: DebugExtension
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.DebugExtension.DebugArrow(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugArrow(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugBounds(UnityEngine.Bounds,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugBounds(UnityEngine.Bounds,UnityEngine.Color,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCapsule(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCapsule(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCylinder(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugCylinder(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugPoint(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugPoint(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugWireSphere(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DebugWireSphere(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  - GG.Extensions.DebugExtension.DrawArrow(UnityEngine.Vector3,UnityEngine.Vector3)
+  - GG.Extensions.DebugExtension.DrawArrow(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color)
+  - GG.Extensions.DebugExtension.DrawBounds(UnityEngine.Bounds)
+  - GG.Extensions.DebugExtension.DrawBounds(UnityEngine.Bounds,UnityEngine.Color)
+  - GG.Extensions.DebugExtension.DrawCapsule(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  - GG.Extensions.DebugExtension.DrawCapsule(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  - GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,System.Single)
+  - GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  - GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  - GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  - GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,System.Single)
+  - GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  - GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  - GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  - GG.Extensions.DebugExtension.DrawCylinder(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  - GG.Extensions.DebugExtension.DrawCylinder(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  - GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3)
+  - GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Vector3)
+  - GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3)
+  - GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  - GG.Extensions.DebugExtension.DrawPoint(UnityEngine.Vector3,System.Single)
+  - GG.Extensions.DebugExtension.DrawPoint(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  - GG.Extensions.DebugExtension.MethodsOfObject(System.Object,System.Boolean)
+  - GG.Extensions.DebugExtension.MethodsOfType(System.Type,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: DebugExtension
+  nameWithType: DebugExtension
+  fullName: GG.Extensions.DebugExtension
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugExtension
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 6
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class DebugExtension
+    content.vb: Public Module DebugExtension
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.DebugExtension.DebugPoint(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugPoint(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  id: DebugPoint(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugPoint(Vector3, Color, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugPoint(Vector3, Color, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugPoint(UnityEngine.Vector3, UnityEngine.Color, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugPoint
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 28
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a point.\n"
+  example: []
+  syntax:
+    content: public static void DebugPoint(Vector3 position, Color color, float scale = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The point to debug.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the point.\n"
+    - id: scale
+      type: System.Single
+      description: "\n- The size of the point.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the point.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not this point should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugPoint(position As Vector3, color As Color, scale As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugPoint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugPoint(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugPoint(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  id: DebugPoint(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugPoint(Vector3, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugPoint(Vector3, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugPoint(UnityEngine.Vector3, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugPoint
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 52
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a point.\n"
+  example: []
+  syntax:
+    content: public static void DebugPoint(Vector3 position, float scale = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The point to debug.\n"
+    - id: scale
+      type: System.Single
+      description: "\n- The size of the point.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the point.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not this point should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugPoint(position As Vector3, scale As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugPoint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugBounds(UnityEngine.Bounds,UnityEngine.Color,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugBounds(UnityEngine.Bounds,UnityEngine.Color,System.Single,System.Boolean)
+  id: DebugBounds(UnityEngine.Bounds,UnityEngine.Color,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugBounds(Bounds, Color, Single, Boolean)
+  nameWithType: DebugExtension.DebugBounds(Bounds, Color, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugBounds(UnityEngine.Bounds, UnityEngine.Color, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugBounds
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 72
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs an axis-aligned bounding box.\n"
+  example: []
+  syntax:
+    content: public static void DebugBounds(Bounds bounds, Color color, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+      description: "\n- The bounds to debug.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the bounds.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the bounds.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the bounds should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugBounds(bounds As Bounds, color As Color, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugBounds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugBounds(UnityEngine.Bounds,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugBounds(UnityEngine.Bounds,System.Single,System.Boolean)
+  id: DebugBounds(UnityEngine.Bounds,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugBounds(Bounds, Single, Boolean)
+  nameWithType: DebugExtension.DebugBounds(Bounds, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugBounds(UnityEngine.Bounds, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugBounds
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 118
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs an axis-aligned bounding box.\n"
+  example: []
+  syntax:
+    content: public static void DebugBounds(Bounds bounds, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+      description: "\n- The bounds to debug.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the bounds.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the bounds should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugBounds(bounds As Bounds, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugBounds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3,System.Single,System.Boolean)
+  id: DebugLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugLocalCube(Transform, Vector3, Color, Vector3, Single, Boolean)
+  nameWithType: DebugExtension.DebugLocalCube(Transform, Vector3, Color, Vector3, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Color, UnityEngine.Vector3, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugLocalCube
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 144
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a local cube.\n"
+  example: []
+  syntax:
+    content: public static void DebugLocalCube(Transform transform, Vector3 size, Color color, Vector3 center = default(Vector3), float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: "\n- The transform that the cube will be local to.\n"
+    - id: size
+      type: UnityEngine.Vector3
+      description: "\n- The size of the cube.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- Color of the cube.\n"
+    - id: center
+      type: UnityEngine.Vector3
+      description: "\n- The position (relative to transform) where the cube will be debugged.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cube.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cube should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugLocalCube(transform As Transform, size As Vector3, color As Color, center As Vector3 = Nothing, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugLocalCube*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  id: DebugLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugLocalCube(Transform, Vector3, Vector3, Single, Boolean)
+  nameWithType: DebugExtension.DebugLocalCube(Transform, Vector3, Vector3, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugLocalCube
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 192
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a local cube.\n"
+  example: []
+  syntax:
+    content: public static void DebugLocalCube(Transform transform, Vector3 size, Vector3 center = default(Vector3), float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: "\n- The transform that the cube will be local to.\n"
+    - id: size
+      type: UnityEngine.Vector3
+      description: "\n- The size of the cube.\n"
+    - id: center
+      type: UnityEngine.Vector3
+      description: "\n- The position (relative to transform) where the cube will be debugged.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cube.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cube should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugLocalCube(transform As Transform, size As Vector3, center As Vector3 = Nothing, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugLocalCube*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3,System.Single,System.Boolean)
+  id: DebugLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugLocalCube(Matrix4x4, Vector3, Color, Vector3, Single, Boolean)
+  nameWithType: DebugExtension.DebugLocalCube(Matrix4x4, Vector3, Color, Vector3, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Matrix4x4, UnityEngine.Vector3, UnityEngine.Color, UnityEngine.Vector3, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugLocalCube
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 218
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a local cube.\n"
+  example: []
+  syntax:
+    content: public static void DebugLocalCube(Matrix4x4 space, Vector3 size, Color color, Vector3 center = default(Vector3), float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: space
+      type: UnityEngine.Matrix4x4
+      description: "\n- The space the cube will be local to.\n"
+    - id: size
+      type: UnityEngine.Vector3
+      description: "\n- The size of the cube.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- Color of the cube.\n"
+    - id: center
+      type: UnityEngine.Vector3
+      description: "\n- The position (relative to transform) where the cube will be debugged.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cube.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cube should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugLocalCube(space As Matrix4x4, size As Vector3, color As Color, center As Vector3 = Nothing, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugLocalCube*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  id: DebugLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugLocalCube(Matrix4x4, Vector3, Vector3, Single, Boolean)
+  nameWithType: DebugExtension.DebugLocalCube(Matrix4x4, Vector3, Vector3, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugLocalCube(UnityEngine.Matrix4x4, UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugLocalCube
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 268
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a local cube.\n"
+  example: []
+  syntax:
+    content: public static void DebugLocalCube(Matrix4x4 space, Vector3 size, Vector3 center = default(Vector3), float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: space
+      type: UnityEngine.Matrix4x4
+      description: "\n- The space the cube will be local to.\n"
+    - id: size
+      type: UnityEngine.Vector3
+      description: "\n- The size of the cube.\n"
+    - id: center
+      type: UnityEngine.Vector3
+      description: "\n- The position (relative to transform) where the cube will be debugged.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cube.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cube should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugLocalCube(space As Matrix4x4, size As Vector3, center As Vector3 = Nothing, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugLocalCube*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  id: DebugCircle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCircle(Vector3, Vector3, Color, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCircle(Vector3, Vector3, Color, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCircle
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 294
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a circle.\n"
+  example: []
+  syntax:
+    content: public static void DebugCircle(Vector3 position, Vector3 up, Color color, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- Where the center of the circle will be positioned.\n"
+    - id: up
+      type: UnityEngine.Vector3
+      description: "\n- The direction perpendicular to the surface of the circle.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the circle.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the circle.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the circle.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the circle should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCircle(position As Vector3, up As Vector3, color As Color, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCircle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  id: DebugCircle(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCircle(Vector3, Color, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCircle(Vector3, Color, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3, UnityEngine.Color, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCircle
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 350
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a circle.\n"
+  example: []
+  syntax:
+    content: public static void DebugCircle(Vector3 position, Color color, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- Where the center of the circle will be positioned.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the circle.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the circle.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the circle.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the circle should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCircle(position As Vector3, color As Color, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCircle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  id: DebugCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCircle(Vector3, Vector3, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCircle(Vector3, Vector3, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCircle
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 373
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a circle.\n"
+  example: []
+  syntax:
+    content: public static void DebugCircle(Vector3 position, Vector3 up, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- Where the center of the circle will be positioned.\n"
+    - id: up
+      type: UnityEngine.Vector3
+      description: "\n- The direction perpendicular to the surface of the circle.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the circle.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the circle.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the circle should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCircle(position As Vector3, up As Vector3, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCircle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  id: DebugCircle(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCircle(Vector3, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCircle(Vector3, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCircle(UnityEngine.Vector3, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCircle
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 393
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a circle.\n"
+  example: []
+  syntax:
+    content: public static void DebugCircle(Vector3 position, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- Where the center of the circle will be positioned.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the circle.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the circle.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the circle should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCircle(position As Vector3, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCircle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugWireSphere(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugWireSphere(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  id: DebugWireSphere(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugWireSphere(Vector3, Color, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugWireSphere(Vector3, Color, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugWireSphere(UnityEngine.Vector3, UnityEngine.Color, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugWireSphere
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 416
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a wire sphere.\n"
+  example: []
+  syntax:
+    content: public static void DebugWireSphere(Vector3 position, Color color, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position of the center of the sphere.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the sphere.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the sphere.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the sphere.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the sphere should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugWireSphere(position As Vector3, color As Color, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugWireSphere*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugWireSphere(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugWireSphere(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  id: DebugWireSphere(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugWireSphere(Vector3, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugWireSphere(Vector3, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugWireSphere(UnityEngine.Vector3, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugWireSphere
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 460
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a wire sphere.\n"
+  example: []
+  syntax:
+    content: public static void DebugWireSphere(Vector3 position, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position of the center of the sphere.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the sphere.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the sphere.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the sphere should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugWireSphere(position As Vector3, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugWireSphere*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCylinder(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCylinder(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  id: DebugCylinder(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCylinder(Vector3, Vector3, Color, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCylinder(Vector3, Vector3, Color, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCylinder(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCylinder
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 486
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a cylinder.\n"
+  example: []
+  syntax:
+    content: public static void DebugCylinder(Vector3 start, Vector3 end, Color color, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector3
+      description: "\n- The position of one end of the cylinder.\n"
+    - id: end
+      type: UnityEngine.Vector3
+      description: "\n- The position of the other end of the cylinder.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the cylinder.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the cylinder.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cylinder.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cylinder should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCylinder(start As Vector3, end As Vector3, color As Color, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCylinder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCylinder(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCylinder(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  id: DebugCylinder(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCylinder(Vector3, Vector3, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCylinder(Vector3, Vector3, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCylinder(UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCylinder
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 531
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a cylinder.\n"
+  example: []
+  syntax:
+    content: public static void DebugCylinder(Vector3 start, Vector3 end, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector3
+      description: "\n- The position of one end of the cylinder.\n"
+    - id: end
+      type: UnityEngine.Vector3
+      description: "\n- The position of the other end of the cylinder.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the cylinder.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cylinder.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cylinder should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCylinder(start As Vector3, end As Vector3, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCylinder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  id: DebugCone(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCone(Vector3, Vector3, Color, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCone(Vector3, Vector3, Color, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCone
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 557
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a cone.\n"
+  example: []
+  syntax:
+    content: public static void DebugCone(Vector3 position, Vector3 direction, Color color, float angle = 45F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position for the tip of the cone.\n"
+    - id: direction
+      type: UnityEngine.Vector3
+      description: "\n- The direction for the cone gets wider in.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the cone.\n"
+    - id: angle
+      type: System.Single
+      description: "\n- The angle of the cone.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cone.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cone should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCone(position As Vector3, direction As Vector3, color As Color, angle As Single = 45F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  id: DebugCone(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCone(Vector3, Vector3, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCone(Vector3, Vector3, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCone
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 603
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a cone.\n"
+  example: []
+  syntax:
+    content: public static void DebugCone(Vector3 position, Vector3 direction, float angle = 45F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position for the tip of the cone.\n"
+    - id: direction
+      type: UnityEngine.Vector3
+      description: "\n- The direction for the cone gets wider in.\n"
+    - id: angle
+      type: System.Single
+      description: "\n- The angle of the cone.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cone.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cone should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCone(position As Vector3, direction As Vector3, angle As Single = 45F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  id: DebugCone(UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCone(Vector3, Color, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCone(Vector3, Color, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3, UnityEngine.Color, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCone
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 626
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a cone.\n"
+  example: []
+  syntax:
+    content: public static void DebugCone(Vector3 position, Color color, float angle = 45F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position for the tip of the cone.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the cone.\n"
+    - id: angle
+      type: System.Single
+      description: "\n- The angle of the cone.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cone.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cone should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCone(position As Vector3, color As Color, angle As Single = 45F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  id: DebugCone(UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCone(Vector3, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCone(Vector3, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCone(UnityEngine.Vector3, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCone
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 646
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a cone.\n"
+  example: []
+  syntax:
+    content: public static void DebugCone(Vector3 position, float angle = 45F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position for the tip of the cone.\n"
+    - id: angle
+      type: System.Single
+      description: "\n- The angle of the cone.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the cone.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the cone should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCone(position As Vector3, angle As Single = 45F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugArrow(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugArrow(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Boolean)
+  id: DebugArrow(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugArrow(Vector3, Vector3, Color, Single, Boolean)
+  nameWithType: DebugExtension.DebugArrow(Vector3, Vector3, Color, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugArrow(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugArrow
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 669
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs an arrow.\n"
+  example: []
+  syntax:
+    content: public static void DebugArrow(Vector3 position, Vector3 direction, Color color, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The start position of the arrow.\n"
+    - id: direction
+      type: UnityEngine.Vector3
+      description: "\n- The direction the arrow will point in.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the arrow.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the arrow.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the arrow should be faded when behind other objects. \n"
+    content.vb: Public Shared Sub DebugArrow(position As Vector3, direction As Vector3, color As Color, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugArrow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugArrow(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugArrow(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  id: DebugArrow(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugArrow(Vector3, Vector3, Single, Boolean)
+  nameWithType: DebugExtension.DebugArrow(Vector3, Vector3, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugArrow(UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugArrow
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 690
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs an arrow.\n"
+  example: []
+  syntax:
+    content: public static void DebugArrow(Vector3 position, Vector3 direction, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The start position of the arrow.\n"
+    - id: direction
+      type: UnityEngine.Vector3
+      description: "\n- The direction the arrow will point in.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the arrow.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the arrow should be faded when behind other objects. \n"
+    content.vb: Public Shared Sub DebugArrow(position As Vector3, direction As Vector3, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugArrow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCapsule(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCapsule(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  id: DebugCapsule(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCapsule(Vector3, Vector3, Color, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCapsule(Vector3, Vector3, Color, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCapsule(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCapsule
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 716
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a capsule.\n"
+  example: []
+  syntax:
+    content: public static void DebugCapsule(Vector3 start, Vector3 end, Color color, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector3
+      description: "\n- The position of one end of the capsule.\n"
+    - id: end
+      type: UnityEngine.Vector3
+      description: "\n- The position of the other end of the capsule.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the capsule.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the capsule.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the capsule.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the capsule should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCapsule(start As Vector3, end As Vector3, color As Color, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCapsule*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DebugCapsule(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.DebugCapsule(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  id: DebugCapsule(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugCapsule(Vector3, Vector3, Single, Single, Boolean)
+  nameWithType: DebugExtension.DebugCapsule(Vector3, Vector3, Single, Single, Boolean)
+  fullName: GG.Extensions.DebugExtension.DebugCapsule(UnityEngine.Vector3, UnityEngine.Vector3, System.Single, System.Single, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DebugCapsule
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 775
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Debugs a capsule.\n"
+  example: []
+  syntax:
+    content: public static void DebugCapsule(Vector3 start, Vector3 end, float radius = 1F, float duration = 0F, bool depthTest = true)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector3
+      description: "\n- The position of one end of the capsule.\n"
+    - id: end
+      type: UnityEngine.Vector3
+      description: "\n- The position of the other end of the capsule.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the capsule.\n"
+    - id: duration
+      type: System.Single
+      description: "\n- How long to draw the capsule.\n"
+    - id: depthTest
+      type: System.Boolean
+      description: "\n- Whether or not the capsule should be faded when behind other objects.\n"
+    content.vb: Public Shared Sub DebugCapsule(start As Vector3, end As Vector3, radius As Single = 1F, duration As Single = 0F, depthTest As Boolean = True)
+  overload: GG.Extensions.DebugExtension.DebugCapsule*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawPoint(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawPoint(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  id: DrawPoint(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawPoint(Vector3, Color, Single)
+  nameWithType: DebugExtension.DrawPoint(Vector3, Color, Single)
+  fullName: GG.Extensions.DebugExtension.DrawPoint(UnityEngine.Vector3, UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawPoint
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 796
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a point.\n"
+  example: []
+  syntax:
+    content: public static void DrawPoint(Vector3 position, Color color, float scale = 1F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The point to draw.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the drawn point.\n"
+    - id: scale
+      type: System.Single
+      description: "\n- The size of the drawn point.\n"
+    content.vb: Public Shared Sub DrawPoint(position As Vector3, color As Color, scale As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawPoint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawPoint(UnityEngine.Vector3,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawPoint(UnityEngine.Vector3,System.Single)
+  id: DrawPoint(UnityEngine.Vector3,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawPoint(Vector3, Single)
+  nameWithType: DebugExtension.DrawPoint(Vector3, Single)
+  fullName: GG.Extensions.DebugExtension.DrawPoint(UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawPoint
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 817
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a point.\n"
+  example: []
+  syntax:
+    content: public static void DrawPoint(Vector3 position, float scale = 1F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The point to draw.\n"
+    - id: scale
+      type: System.Single
+      description: "\n- The size of the drawn point.\n"
+    content.vb: Public Shared Sub DrawPoint(position As Vector3, scale As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawPoint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawBounds(UnityEngine.Bounds,UnityEngine.Color)
+  commentId: M:GG.Extensions.DebugExtension.DrawBounds(UnityEngine.Bounds,UnityEngine.Color)
+  id: DrawBounds(UnityEngine.Bounds,UnityEngine.Color)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawBounds(Bounds, Color)
+  nameWithType: DebugExtension.DrawBounds(Bounds, Color)
+  fullName: GG.Extensions.DebugExtension.DrawBounds(UnityEngine.Bounds, UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawBounds
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 831
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws an axis-aligned bounding box.\n"
+  example: []
+  syntax:
+    content: public static void DrawBounds(Bounds bounds, Color color)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+      description: "\n- The bounds to draw.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the bounds.\n"
+    content.vb: Public Shared Sub DrawBounds(bounds As Bounds, color As Color)
+  overload: GG.Extensions.DebugExtension.DrawBounds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawBounds(UnityEngine.Bounds)
+  commentId: M:GG.Extensions.DebugExtension.DrawBounds(UnityEngine.Bounds)
+  id: DrawBounds(UnityEngine.Bounds)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawBounds(Bounds)
+  nameWithType: DebugExtension.DrawBounds(Bounds)
+  fullName: GG.Extensions.DebugExtension.DrawBounds(UnityEngine.Bounds)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawBounds
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 876
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws an axis-aligned bounding box.\n"
+  example: []
+  syntax:
+    content: public static void DrawBounds(Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+      description: "\n- The bounds to draw.\n"
+    content.vb: Public Shared Sub DrawBounds(bounds As Bounds)
+  overload: GG.Extensions.DebugExtension.DrawBounds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3)
+  commentId: M:GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3)
+  id: DrawLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawLocalCube(Transform, Vector3, Color, Vector3)
+  nameWithType: DebugExtension.DrawLocalCube(Transform, Vector3, Color, Vector3)
+  fullName: GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Color, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawLocalCube
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 896
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a local cube.\n"
+  example: []
+  syntax:
+    content: public static void DrawLocalCube(Transform transform, Vector3 size, Color color, Vector3 center = default(Vector3))
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: "\n- The transform the cube will be local to.\n"
+    - id: size
+      type: UnityEngine.Vector3
+      description: "\n- The local size of the cube.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the cube.\n"
+    - id: center
+      type: UnityEngine.Vector3
+      description: "\n- The local position of the cube.\n"
+    content.vb: Public Shared Sub DrawLocalCube(transform As Transform, size As Vector3, color As Color, center As Vector3 = Nothing)
+  overload: GG.Extensions.DebugExtension.DrawLocalCube*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  id: DrawLocalCube(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawLocalCube(Transform, Vector3, Vector3)
+  nameWithType: DebugExtension.DrawLocalCube(Transform, Vector3, Vector3)
+  fullName: GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawLocalCube
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 943
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a local cube.\n"
+  example: []
+  syntax:
+    content: public static void DrawLocalCube(Transform transform, Vector3 size, Vector3 center = default(Vector3))
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: "\n- The transform the cube will be local to.\n"
+    - id: size
+      type: UnityEngine.Vector3
+      description: "\n- The local size of the cube.\n"
+    - id: center
+      type: UnityEngine.Vector3
+      description: "\n- The local position of the cube.\n"
+    content.vb: Public Shared Sub DrawLocalCube(transform As Transform, size As Vector3, center As Vector3 = Nothing)
+  overload: GG.Extensions.DebugExtension.DrawLocalCube*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3)
+  commentId: M:GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3)
+  id: DrawLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Color,UnityEngine.Vector3)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawLocalCube(Matrix4x4, Vector3, Color, Vector3)
+  nameWithType: DebugExtension.DrawLocalCube(Matrix4x4, Vector3, Color, Vector3)
+  fullName: GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Matrix4x4, UnityEngine.Vector3, UnityEngine.Color, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawLocalCube
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 963
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a local cube.\n"
+  example: []
+  syntax:
+    content: public static void DrawLocalCube(Matrix4x4 space, Vector3 size, Color color, Vector3 center = default(Vector3))
+    parameters:
+    - id: space
+      type: UnityEngine.Matrix4x4
+      description: "\n- The space the cube will be local to.\n"
+    - id: size
+      type: UnityEngine.Vector3
+      description: "\n- The local size of the cube.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the cube.\n"
+    - id: center
+      type: UnityEngine.Vector3
+      description: "\n- The local position of the cube.\n"
+    content.vb: Public Shared Sub DrawLocalCube(space As Matrix4x4, size As Vector3, color As Color, center As Vector3 = Nothing)
+  overload: GG.Extensions.DebugExtension.DrawLocalCube*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Vector3)
+  id: DrawLocalCube(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Vector3)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawLocalCube(Matrix4x4, Vector3, Vector3)
+  nameWithType: DebugExtension.DrawLocalCube(Matrix4x4, Vector3, Vector3)
+  fullName: GG.Extensions.DebugExtension.DrawLocalCube(UnityEngine.Matrix4x4, UnityEngine.Vector3, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawLocalCube
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1010
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a local cube.\n"
+  example: []
+  syntax:
+    content: public static void DrawLocalCube(Matrix4x4 space, Vector3 size, Vector3 center = default(Vector3))
+    parameters:
+    - id: space
+      type: UnityEngine.Matrix4x4
+      description: "\n- The space the cube will be local to.\n"
+    - id: size
+      type: UnityEngine.Vector3
+      description: "\n- The local size of the cube.\n"
+    - id: center
+      type: UnityEngine.Vector3
+      description: "\n- The local position of the cube.\n"
+    content.vb: Public Shared Sub DrawLocalCube(space As Matrix4x4, size As Vector3, center As Vector3 = Nothing)
+  overload: GG.Extensions.DebugExtension.DrawLocalCube*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  id: DrawCircle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle(Vector3, Vector3, Color, Single)
+  nameWithType: DebugExtension.DrawCircle(Vector3, Vector3, Color, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCircle
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1030
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a circle.\n"
+  example: []
+  syntax:
+    content: public static void DrawCircle(Vector3 position, Vector3 up, Color color, float radius = 1F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- Where the center of the circle will be positioned.\n"
+    - id: up
+      type: UnityEngine.Vector3
+      description: "\n- The direction perpendicular to the surface of the circle.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the circle.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the circle.\n"
+    content.vb: Public Shared Sub DrawCircle(position As Vector3, up As Vector3, color As Color, radius As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawCircle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  id: DrawCircle(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle(Vector3, Color, Single)
+  nameWithType: DebugExtension.DrawCircle(Vector3, Color, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3, UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCircle
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1083
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a circle.\n"
+  example: []
+  syntax:
+    content: public static void DrawCircle(Vector3 position, Color color, float radius = 1F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- Where the center of the circle will be positioned.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the circle.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the circle.\n"
+    content.vb: Public Shared Sub DrawCircle(position As Vector3, color As Color, radius As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawCircle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  id: DrawCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle(Vector3, Vector3, Single)
+  nameWithType: DebugExtension.DrawCircle(Vector3, Vector3, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCircle
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1100
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a circle.\n"
+  example: []
+  syntax:
+    content: public static void DrawCircle(Vector3 position, Vector3 up, float radius = 1F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- Where the center of the circle will be positioned.\n"
+    - id: up
+      type: UnityEngine.Vector3
+      description: "\n- The direction perpendicular to the surface of the circle.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the circle.\n"
+    content.vb: Public Shared Sub DrawCircle(position As Vector3, up As Vector3, radius As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawCircle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3,System.Single)
+  id: DrawCircle(UnityEngine.Vector3,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle(Vector3, Single)
+  nameWithType: DebugExtension.DrawCircle(Vector3, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCircle(UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCircle
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1114
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a circle.\n"
+  example: []
+  syntax:
+    content: public static void DrawCircle(Vector3 position, float radius = 1F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- Where the center of the circle will be positioned.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the circle.\n"
+    content.vb: Public Shared Sub DrawCircle(position As Vector3, radius As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawCircle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCylinder(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCylinder(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  id: DrawCylinder(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCylinder(Vector3, Vector3, Color, Single)
+  nameWithType: DebugExtension.DrawCylinder(Vector3, Vector3, Color, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCylinder(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCylinder
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1136
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a cylinder.\n"
+  example: []
+  syntax:
+    content: public static void DrawCylinder(Vector3 start, Vector3 end, Color color, float radius = 1F)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector3
+      description: "\n- The position of one end of the cylinder.\n"
+    - id: end
+      type: UnityEngine.Vector3
+      description: "\n- The position of the other end of the cylinder.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the cylinder.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the cylinder.\n"
+    content.vb: Public Shared Sub DrawCylinder(start As Vector3, end As Vector3, color As Color, radius As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawCylinder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCylinder(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCylinder(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  id: DrawCylinder(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCylinder(Vector3, Vector3, Single)
+  nameWithType: DebugExtension.DrawCylinder(Vector3, Vector3, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCylinder(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCylinder
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1180
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a cylinder.\n"
+  example: []
+  syntax:
+    content: public static void DrawCylinder(Vector3 start, Vector3 end, float radius = 1F)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector3
+      description: "\n- The position of one end of the cylinder.\n"
+    - id: end
+      type: UnityEngine.Vector3
+      description: "\n- The position of the other end of the cylinder.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the cylinder.\n"
+    content.vb: Public Shared Sub DrawCylinder(start As Vector3, end As Vector3, radius As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawCylinder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  id: DrawCone(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCone(Vector3, Vector3, Color, Single)
+  nameWithType: DebugExtension.DrawCone(Vector3, Vector3, Color, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCone
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1200
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a cone.\n"
+  example: []
+  syntax:
+    content: public static void DrawCone(Vector3 position, Vector3 direction, Color color, float angle = 45F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position for the tip of the cone.\n"
+    - id: direction
+      type: UnityEngine.Vector3
+      description: "\n- The direction for the cone to get wider in.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the cone.\n"
+    - id: angle
+      type: System.Single
+      description: "\n- The angle of the cone.\n"
+    content.vb: Public Shared Sub DrawCone(position As Vector3, direction As Vector3, color As Color, angle As Single = 45F)
+  overload: GG.Extensions.DebugExtension.DrawCone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  id: DrawCone(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCone(Vector3, Vector3, Single)
+  nameWithType: DebugExtension.DrawCone(Vector3, Vector3, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCone
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1244
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a cone.\n"
+  example: []
+  syntax:
+    content: public static void DrawCone(Vector3 position, Vector3 direction, float angle = 45F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position for the tip of the cone.\n"
+    - id: direction
+      type: UnityEngine.Vector3
+      description: "\n- The direction for the cone to get wider in.\n"
+    - id: angle
+      type: System.Single
+      description: "\n- The angle of the cone.\n"
+    content.vb: Public Shared Sub DrawCone(position As Vector3, direction As Vector3, angle As Single = 45F)
+  overload: GG.Extensions.DebugExtension.DrawCone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  id: DrawCone(UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCone(Vector3, Color, Single)
+  nameWithType: DebugExtension.DrawCone(Vector3, Color, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3, UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCone
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1261
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a cone.\n"
+  example: []
+  syntax:
+    content: public static void DrawCone(Vector3 position, Color color, float angle = 45F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position for the tip of the cone.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the cone.\n"
+    - id: angle
+      type: System.Single
+      description: "\n- The angle of the cone.\n"
+    content.vb: Public Shared Sub DrawCone(position As Vector3, color As Color, angle As Single = 45F)
+  overload: GG.Extensions.DebugExtension.DrawCone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3,System.Single)
+  id: DrawCone(UnityEngine.Vector3,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCone(Vector3, Single)
+  nameWithType: DebugExtension.DrawCone(Vector3, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCone(UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCone
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1275
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a cone.\n"
+  example: []
+  syntax:
+    content: public static void DrawCone(Vector3 position, float angle = 45F)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The position for the tip of the cone.\n"
+    - id: angle
+      type: System.Single
+      description: "\n- The angle of the cone.\n"
+    content.vb: Public Shared Sub DrawCone(position As Vector3, angle As Single = 45F)
+  overload: GG.Extensions.DebugExtension.DrawCone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawArrow(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color)
+  commentId: M:GG.Extensions.DebugExtension.DrawArrow(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color)
+  id: DrawArrow(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawArrow(Vector3, Vector3, Color)
+  nameWithType: DebugExtension.DrawArrow(Vector3, Vector3, Color)
+  fullName: GG.Extensions.DebugExtension.DrawArrow(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawArrow
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1292
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws an arrow.\n"
+  example: []
+  syntax:
+    content: public static void DrawArrow(Vector3 position, Vector3 direction, Color color)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The start position of the arrow.\n"
+    - id: direction
+      type: UnityEngine.Vector3
+      description: "\n- The direction the arrow will point in.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the arrow.\n"
+    content.vb: Public Shared Sub DrawArrow(position As Vector3, direction As Vector3, color As Color)
+  overload: GG.Extensions.DebugExtension.DrawArrow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawArrow(UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:GG.Extensions.DebugExtension.DrawArrow(UnityEngine.Vector3,UnityEngine.Vector3)
+  id: DrawArrow(UnityEngine.Vector3,UnityEngine.Vector3)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawArrow(Vector3, Vector3)
+  nameWithType: DebugExtension.DrawArrow(Vector3, Vector3)
+  fullName: GG.Extensions.DebugExtension.DrawArrow(UnityEngine.Vector3, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawArrow
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1312
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws an arrow.\n"
+  example: []
+  syntax:
+    content: public static void DrawArrow(Vector3 position, Vector3 direction)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: "\n- The start position of the arrow.\n"
+    - id: direction
+      type: UnityEngine.Vector3
+      description: "\n- The direction the arrow will point in.\n"
+    content.vb: Public Shared Sub DrawArrow(position As Vector3, direction As Vector3)
+  overload: GG.Extensions.DebugExtension.DrawArrow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCapsule(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCapsule(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  id: DrawCapsule(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCapsule(Vector3, Vector3, Color, Single)
+  nameWithType: DebugExtension.DrawCapsule(Vector3, Vector3, Color, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCapsule(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCapsule
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1332
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a capsule.\n"
+  example: []
+  syntax:
+    content: public static void DrawCapsule(Vector3 start, Vector3 end, Color color, float radius = 1F)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector3
+      description: "\n- The position of one end of the capsule.\n"
+    - id: end
+      type: UnityEngine.Vector3
+      description: "\n- The position of the other end of the capsule.\n"
+    - id: color
+      type: UnityEngine.Color
+      description: "\n- The color of the capsule.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the capsule.\n"
+    content.vb: Public Shared Sub DrawCapsule(start As Vector3, end As Vector3, color As Color, radius As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawCapsule*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.DrawCapsule(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  commentId: M:GG.Extensions.DebugExtension.DrawCapsule(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  id: DrawCapsule(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCapsule(Vector3, Vector3, Single)
+  nameWithType: DebugExtension.DrawCapsule(Vector3, Vector3, Single)
+  fullName: GG.Extensions.DebugExtension.DrawCapsule(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DrawCapsule
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1390
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Draws a capsule.\n"
+  example: []
+  syntax:
+    content: public static void DrawCapsule(Vector3 start, Vector3 end, float radius = 1F)
+    parameters:
+    - id: start
+      type: UnityEngine.Vector3
+      description: "\n- The position of one end of the capsule.\n"
+    - id: end
+      type: UnityEngine.Vector3
+      description: "\n- The position of the other end of the capsule.\n"
+    - id: radius
+      type: System.Single
+      description: "\n- The radius of the capsule.\n"
+    content.vb: Public Shared Sub DrawCapsule(start As Vector3, end As Vector3, radius As Single = 1F)
+  overload: GG.Extensions.DebugExtension.DrawCapsule*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.MethodsOfObject(System.Object,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.MethodsOfObject(System.Object,System.Boolean)
+  id: MethodsOfObject(System.Object,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: MethodsOfObject(Object, Boolean)
+  nameWithType: DebugExtension.MethodsOfObject(Object, Boolean)
+  fullName: GG.Extensions.DebugExtension.MethodsOfObject(System.Object, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MethodsOfObject
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1411
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Gets the methods of an object.\n"
+  example: []
+  syntax:
+    content: public static string MethodsOfObject(object obj, bool includeInfo = false)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: "\n- The object to get the methods of.\n"
+    - id: includeInfo
+      type: System.Boolean
+      description: "\n- Whether or not to include each method&apos;s method info in the list.\n"
+    return:
+      type: System.String
+      description: "\n- A list of methods accessible from this object.\n"
+    content.vb: Public Shared Function MethodsOfObject(obj As Object, includeInfo As Boolean = False) As String
+  overload: GG.Extensions.DebugExtension.MethodsOfObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.DebugExtension.MethodsOfType(System.Type,System.Boolean)
+  commentId: M:GG.Extensions.DebugExtension.MethodsOfType(System.Type,System.Boolean)
+  id: MethodsOfType(System.Type,System.Boolean)
+  parent: GG.Extensions.DebugExtension
+  langs:
+  - csharp
+  - vb
+  name: MethodsOfType(Type, Boolean)
+  nameWithType: DebugExtension.MethodsOfType(Type, Boolean)
+  fullName: GG.Extensions.DebugExtension.MethodsOfType(System.Type, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/DebugExtension.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MethodsOfType
+    path: ../Assets/Unity_Extensions/DebugExtension.cs
+    startLine: 1443
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\n- Gets the methods of a type.\n"
+  example: []
+  syntax:
+    content: public static string MethodsOfType(Type type, bool includeInfo = false)
+    parameters:
+    - id: type
+      type: System.Type
+      description: "\n- The type to get the methods of.\n"
+    - id: includeInfo
+      type: System.Boolean
+      description: "\n- Whether or not to include each method&apos;s method info in the list.\n"
+    return:
+      type: System.String
+      description: "\n- A list of methods accessible from this type.\n"
+    content.vb: Public Shared Function MethodsOfType(type As Type, includeInfo As Boolean = False) As String
+  overload: GG.Extensions.DebugExtension.MethodsOfType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.DebugExtension.DebugPoint*
+  commentId: Overload:GG.Extensions.DebugExtension.DebugPoint
+  name: DebugPoint
+  nameWithType: DebugExtension.DebugPoint
+  fullName: GG.Extensions.DebugExtension.DebugPoint
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: GG.Extensions.DebugExtension.DebugBounds*
+  commentId: Overload:GG.Extensions.DebugExtension.DebugBounds
+  name: DebugBounds
+  nameWithType: DebugExtension.DebugBounds
+  fullName: GG.Extensions.DebugExtension.DebugBounds
+- uid: UnityEngine.Bounds
+  commentId: T:UnityEngine.Bounds
+  parent: UnityEngine
+  isExternal: true
+  name: Bounds
+  nameWithType: Bounds
+  fullName: UnityEngine.Bounds
+- uid: GG.Extensions.DebugExtension.DebugLocalCube*
+  commentId: Overload:GG.Extensions.DebugExtension.DebugLocalCube
+  name: DebugLocalCube
+  nameWithType: DebugExtension.DebugLocalCube
+  fullName: GG.Extensions.DebugExtension.DebugLocalCube
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine.Matrix4x4
+  commentId: T:UnityEngine.Matrix4x4
+  parent: UnityEngine
+  isExternal: true
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: UnityEngine.Matrix4x4
+- uid: GG.Extensions.DebugExtension.DebugCircle*
+  commentId: Overload:GG.Extensions.DebugExtension.DebugCircle
+  name: DebugCircle
+  nameWithType: DebugExtension.DebugCircle
+  fullName: GG.Extensions.DebugExtension.DebugCircle
+- uid: GG.Extensions.DebugExtension.DebugWireSphere*
+  commentId: Overload:GG.Extensions.DebugExtension.DebugWireSphere
+  name: DebugWireSphere
+  nameWithType: DebugExtension.DebugWireSphere
+  fullName: GG.Extensions.DebugExtension.DebugWireSphere
+- uid: GG.Extensions.DebugExtension.DebugCylinder*
+  commentId: Overload:GG.Extensions.DebugExtension.DebugCylinder
+  name: DebugCylinder
+  nameWithType: DebugExtension.DebugCylinder
+  fullName: GG.Extensions.DebugExtension.DebugCylinder
+- uid: GG.Extensions.DebugExtension.DebugCone*
+  commentId: Overload:GG.Extensions.DebugExtension.DebugCone
+  name: DebugCone
+  nameWithType: DebugExtension.DebugCone
+  fullName: GG.Extensions.DebugExtension.DebugCone
+- uid: GG.Extensions.DebugExtension.DebugArrow*
+  commentId: Overload:GG.Extensions.DebugExtension.DebugArrow
+  name: DebugArrow
+  nameWithType: DebugExtension.DebugArrow
+  fullName: GG.Extensions.DebugExtension.DebugArrow
+- uid: GG.Extensions.DebugExtension.DebugCapsule*
+  commentId: Overload:GG.Extensions.DebugExtension.DebugCapsule
+  name: DebugCapsule
+  nameWithType: DebugExtension.DebugCapsule
+  fullName: GG.Extensions.DebugExtension.DebugCapsule
+- uid: GG.Extensions.DebugExtension.DrawPoint*
+  commentId: Overload:GG.Extensions.DebugExtension.DrawPoint
+  name: DrawPoint
+  nameWithType: DebugExtension.DrawPoint
+  fullName: GG.Extensions.DebugExtension.DrawPoint
+- uid: GG.Extensions.DebugExtension.DrawBounds*
+  commentId: Overload:GG.Extensions.DebugExtension.DrawBounds
+  name: DrawBounds
+  nameWithType: DebugExtension.DrawBounds
+  fullName: GG.Extensions.DebugExtension.DrawBounds
+- uid: GG.Extensions.DebugExtension.DrawLocalCube*
+  commentId: Overload:GG.Extensions.DebugExtension.DrawLocalCube
+  name: DrawLocalCube
+  nameWithType: DebugExtension.DrawLocalCube
+  fullName: GG.Extensions.DebugExtension.DrawLocalCube
+- uid: GG.Extensions.DebugExtension.DrawCircle*
+  commentId: Overload:GG.Extensions.DebugExtension.DrawCircle
+  name: DrawCircle
+  nameWithType: DebugExtension.DrawCircle
+  fullName: GG.Extensions.DebugExtension.DrawCircle
+- uid: GG.Extensions.DebugExtension.DrawCylinder*
+  commentId: Overload:GG.Extensions.DebugExtension.DrawCylinder
+  name: DrawCylinder
+  nameWithType: DebugExtension.DrawCylinder
+  fullName: GG.Extensions.DebugExtension.DrawCylinder
+- uid: GG.Extensions.DebugExtension.DrawCone*
+  commentId: Overload:GG.Extensions.DebugExtension.DrawCone
+  name: DrawCone
+  nameWithType: DebugExtension.DrawCone
+  fullName: GG.Extensions.DebugExtension.DrawCone
+- uid: GG.Extensions.DebugExtension.DrawArrow*
+  commentId: Overload:GG.Extensions.DebugExtension.DrawArrow
+  name: DrawArrow
+  nameWithType: DebugExtension.DrawArrow
+  fullName: GG.Extensions.DebugExtension.DrawArrow
+- uid: GG.Extensions.DebugExtension.DrawCapsule*
+  commentId: Overload:GG.Extensions.DebugExtension.DrawCapsule
+  name: DrawCapsule
+  nameWithType: DebugExtension.DrawCapsule
+  fullName: GG.Extensions.DebugExtension.DrawCapsule
+- uid: GG.Extensions.DebugExtension.MethodsOfObject*
+  commentId: Overload:GG.Extensions.DebugExtension.MethodsOfObject
+  name: MethodsOfObject
+  nameWithType: DebugExtension.MethodsOfObject
+  fullName: GG.Extensions.DebugExtension.MethodsOfObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GG.Extensions.DebugExtension.MethodsOfType*
+  commentId: Overload:GG.Extensions.DebugExtension.MethodsOfType
+  name: MethodsOfType
+  nameWithType: DebugExtension.MethodsOfType
+  fullName: GG.Extensions.DebugExtension.MethodsOfType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

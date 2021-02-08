@@ -1,0 +1,898 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.MiscExtensions
+  commentId: T:GG.Extensions.MiscExtensions
+  id: MiscExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.MiscExtensions.Clone``1(``0)
+  - GG.Extensions.MiscExtensions.CopyAll``2(``0,``1)
+  - GG.Extensions.MiscExtensions.CreateSprite(UnityEngine.Texture2D)
+  - GG.Extensions.MiscExtensions.EnsureResourcesExists
+  - GG.Extensions.MiscExtensions.FindObjectsOfTypeAll``1
+  - GG.Extensions.MiscExtensions.Frames(System.Int32)
+  - GG.Extensions.MiscExtensions.GetColumnAndRowForVerticalGrid(GridLayoutGroup,System.Int32@,System.Int32@)
+  - GG.Extensions.MiscExtensions.IndexOf``1(``0[],``0)
+  - GG.Extensions.MiscExtensions.Quit
+  - GG.Extensions.MiscExtensions.TrimMilliseconds(System.DateTime)
+  - GG.Extensions.MiscExtensions.WaitForSceneToLoad(System.String,UnityEngine.SceneManagement.LoadSceneMode,UnityEngine.Events.UnityAction{System.Single},UnityEngine.Events.UnityAction)
+  langs:
+  - csharp
+  - vb
+  name: MiscExtensions
+  nameWithType: MiscExtensions
+  fullName: GG.Extensions.MiscExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MiscExtensions
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 13
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class MiscExtensions
+    content.vb: Public Module MiscExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.MiscExtensions.Quit
+  commentId: M:GG.Extensions.MiscExtensions.Quit
+  id: Quit
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: Quit()
+  nameWithType: MiscExtensions.Quit()
+  fullName: GG.Extensions.MiscExtensions.Quit()
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Quit
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 20
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nAn actual quit that will stop play mode in editor as well\n"
+  example: []
+  syntax:
+    content: public static void Quit()
+    content.vb: Public Shared Sub Quit
+  overload: GG.Extensions.MiscExtensions.Quit*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MiscExtensions.EnsureResourcesExists
+  commentId: M:GG.Extensions.MiscExtensions.EnsureResourcesExists
+  id: EnsureResourcesExists
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: EnsureResourcesExists()
+  nameWithType: MiscExtensions.EnsureResourcesExists()
+  fullName: GG.Extensions.MiscExtensions.EnsureResourcesExists()
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: EnsureResourcesExists
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 32
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nEnsure the resources directory lives at &apos;Assets&apos; level\n"
+  example: []
+  syntax:
+    content: public static void EnsureResourcesExists()
+    content.vb: Public Shared Sub EnsureResourcesExists
+  overload: GG.Extensions.MiscExtensions.EnsureResourcesExists*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MiscExtensions.FindObjectsOfTypeAll``1
+  commentId: M:GG.Extensions.MiscExtensions.FindObjectsOfTypeAll``1
+  id: FindObjectsOfTypeAll``1
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: FindObjectsOfTypeAll<T>()
+  nameWithType: MiscExtensions.FindObjectsOfTypeAll<T>()
+  fullName: GG.Extensions.MiscExtensions.FindObjectsOfTypeAll<T>()
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FindObjectsOfTypeAll
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 44
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  example: []
+  syntax:
+    content: public static List<T> FindObjectsOfTypeAll<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Shared Function FindObjectsOfTypeAll(Of T) As List(Of T)
+  overload: GG.Extensions.MiscExtensions.FindObjectsOfTypeAll*
+  nameWithType.vb: MiscExtensions.FindObjectsOfTypeAll(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.MiscExtensions.FindObjectsOfTypeAll(Of T)()
+  name.vb: FindObjectsOfTypeAll(Of T)()
+- uid: GG.Extensions.MiscExtensions.WaitForSceneToLoad(System.String,UnityEngine.SceneManagement.LoadSceneMode,UnityEngine.Events.UnityAction{System.Single},UnityEngine.Events.UnityAction)
+  commentId: M:GG.Extensions.MiscExtensions.WaitForSceneToLoad(System.String,UnityEngine.SceneManagement.LoadSceneMode,UnityEngine.Events.UnityAction{System.Single},UnityEngine.Events.UnityAction)
+  id: WaitForSceneToLoad(System.String,UnityEngine.SceneManagement.LoadSceneMode,UnityEngine.Events.UnityAction{System.Single},UnityEngine.Events.UnityAction)
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: WaitForSceneToLoad(String, LoadSceneMode, UnityAction<Single>, UnityAction)
+  nameWithType: MiscExtensions.WaitForSceneToLoad(String, LoadSceneMode, UnityAction<Single>, UnityAction)
+  fullName: GG.Extensions.MiscExtensions.WaitForSceneToLoad(System.String, UnityEngine.SceneManagement.LoadSceneMode, UnityEngine.Events.UnityAction<System.Single>, UnityEngine.Events.UnityAction)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: WaitForSceneToLoad
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 69
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static IEnumerator WaitForSceneToLoad(string sceneName, LoadSceneMode loadSceneMode, UnityAction<float> updateAction, UnityAction OnComplete)
+    parameters:
+    - id: sceneName
+      type: System.String
+    - id: loadSceneMode
+      type: UnityEngine.SceneManagement.LoadSceneMode
+    - id: updateAction
+      type: UnityEngine.Events.UnityAction{System.Single}
+    - id: OnComplete
+      type: UnityEngine.Events.UnityAction
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Public Shared Function WaitForSceneToLoad(sceneName As String, loadSceneMode As LoadSceneMode, updateAction As UnityAction(Of Single), OnComplete As UnityAction) As IEnumerator
+  overload: GG.Extensions.MiscExtensions.WaitForSceneToLoad*
+  nameWithType.vb: MiscExtensions.WaitForSceneToLoad(String, LoadSceneMode, UnityAction(Of Single), UnityAction)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.MiscExtensions.WaitForSceneToLoad(System.String, UnityEngine.SceneManagement.LoadSceneMode, UnityEngine.Events.UnityAction(Of System.Single), UnityEngine.Events.UnityAction)
+  name.vb: WaitForSceneToLoad(String, LoadSceneMode, UnityAction(Of Single), UnityAction)
+- uid: GG.Extensions.MiscExtensions.Clone``1(``0)
+  commentId: M:GG.Extensions.MiscExtensions.Clone``1(``0)
+  id: Clone``1(``0)
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: Clone<T>(T)
+  nameWithType: MiscExtensions.Clone<T>(T)
+  fullName: GG.Extensions.MiscExtensions.Clone<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Clone
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 102
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nClone data from an object into a new version of it\n"
+  example: []
+  syntax:
+    content: public static T Clone<T>(T obj)
+    parameters:
+    - id: obj
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function Clone(Of T)(obj As T) As T
+  overload: GG.Extensions.MiscExtensions.Clone*
+  nameWithType.vb: MiscExtensions.Clone(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.MiscExtensions.Clone(Of T)(T)
+  name.vb: Clone(Of T)(T)
+- uid: GG.Extensions.MiscExtensions.CopyAll``2(``0,``1)
+  commentId: M:GG.Extensions.MiscExtensions.CopyAll``2(``0,``1)
+  id: CopyAll``2(``0,``1)
+  isExtensionMethod: true
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: CopyAll<T, T2>(T, T2)
+  nameWithType: MiscExtensions.CopyAll<T, T2>(T, T2)
+  fullName: GG.Extensions.MiscExtensions.CopyAll<T, T2>(T, T2)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: CopyAll
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 123
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nUse Reflection from a source class to an inhearated class\n"
+  example: []
+  syntax:
+    content: public static void CopyAll<T, T2>(this T source, T2 target)
+    parameters:
+    - id: source
+      type: '{T}'
+      description: ''
+    - id: target
+      type: '{T2}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    - id: T2
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub CopyAll(Of T, T2)(source As T, target As T2)
+  overload: GG.Extensions.MiscExtensions.CopyAll*
+  nameWithType.vb: MiscExtensions.CopyAll(Of T, T2)(T, T2)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.MiscExtensions.CopyAll(Of T, T2)(T, T2)
+  name.vb: CopyAll(Of T, T2)(T, T2)
+- uid: GG.Extensions.MiscExtensions.GetColumnAndRowForVerticalGrid(GridLayoutGroup,System.Int32@,System.Int32@)
+  commentId: M:GG.Extensions.MiscExtensions.GetColumnAndRowForVerticalGrid(GridLayoutGroup,System.Int32@,System.Int32@)
+  id: GetColumnAndRowForVerticalGrid(GridLayoutGroup,System.Int32@,System.Int32@)
+  isExtensionMethod: true
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetColumnAndRowForVerticalGrid(GridLayoutGroup, out Int32, out Int32)
+  nameWithType: MiscExtensions.GetColumnAndRowForVerticalGrid(GridLayoutGroup, out Int32, out Int32)
+  fullName: GG.Extensions.MiscExtensions.GetColumnAndRowForVerticalGrid(GridLayoutGroup, out System.Int32, out System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetColumnAndRowForVerticalGrid
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 133
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static void GetColumnAndRowForVerticalGrid(this GridLayoutGroup glg, out int column, out int row)
+    parameters:
+    - id: glg
+      type: Global.GridLayoutGroup
+    - id: column
+      type: System.Int32
+    - id: row
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub GetColumnAndRowForVerticalGrid(glg As GridLayoutGroup, ByRef column As Integer, ByRef row As Integer)
+  overload: GG.Extensions.MiscExtensions.GetColumnAndRowForVerticalGrid*
+  nameWithType.vb: MiscExtensions.GetColumnAndRowForVerticalGrid(GridLayoutGroup, ByRef Int32, ByRef Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.MiscExtensions.GetColumnAndRowForVerticalGrid(GridLayoutGroup, ByRef System.Int32, ByRef System.Int32)
+  name.vb: GetColumnAndRowForVerticalGrid(GridLayoutGroup, ByRef Int32, ByRef Int32)
+- uid: GG.Extensions.MiscExtensions.IndexOf``1(``0[],``0)
+  commentId: M:GG.Extensions.MiscExtensions.IndexOf``1(``0[],``0)
+  id: IndexOf``1(``0[],``0)
+  isExtensionMethod: true
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: IndexOf<T>(T[], T)
+  nameWithType: MiscExtensions.IndexOf<T>(T[], T)
+  fullName: GG.Extensions.MiscExtensions.IndexOf<T>(T[], T)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: IndexOf
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 183
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nwarpper for index of comming from an array\n"
+  example: []
+  syntax:
+    content: public static int IndexOf<T>(this T[] array, T obj)
+    parameters:
+    - id: array
+      type: '{T}[]'
+      description: ''
+    - id: obj
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IndexOf(Of T)(array As T(), obj As T) As Integer
+  overload: GG.Extensions.MiscExtensions.IndexOf*
+  nameWithType.vb: MiscExtensions.IndexOf(Of T)(T(), T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.MiscExtensions.IndexOf(Of T)(T(), T)
+  name.vb: IndexOf(Of T)(T(), T)
+- uid: GG.Extensions.MiscExtensions.TrimMilliseconds(System.DateTime)
+  commentId: M:GG.Extensions.MiscExtensions.TrimMilliseconds(System.DateTime)
+  id: TrimMilliseconds(System.DateTime)
+  isExtensionMethod: true
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: TrimMilliseconds(DateTime)
+  nameWithType: MiscExtensions.TrimMilliseconds(DateTime)
+  fullName: GG.Extensions.MiscExtensions.TrimMilliseconds(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: TrimMilliseconds
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 188
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static DateTime TrimMilliseconds(this DateTime dt)
+    parameters:
+    - id: dt
+      type: System.DateTime
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TrimMilliseconds(dt As Date) As Date
+  overload: GG.Extensions.MiscExtensions.TrimMilliseconds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MiscExtensions.Frames(System.Int32)
+  commentId: M:GG.Extensions.MiscExtensions.Frames(System.Int32)
+  id: Frames(System.Int32)
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: Frames(Int32)
+  nameWithType: MiscExtensions.Frames(Int32)
+  fullName: GG.Extensions.MiscExtensions.Frames(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Frames
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 198
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nWait a set number of frames in a coroutine\n"
+  example: []
+  syntax:
+    content: public static IEnumerator Frames(int frameCount)
+    parameters:
+    - id: frameCount
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.IEnumerator
+      description: ''
+    content.vb: Public Shared Function Frames(frameCount As Integer) As IEnumerator
+  overload: GG.Extensions.MiscExtensions.Frames*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.MiscExtensions.CreateSprite(UnityEngine.Texture2D)
+  commentId: M:GG.Extensions.MiscExtensions.CreateSprite(UnityEngine.Texture2D)
+  id: CreateSprite(UnityEngine.Texture2D)
+  isExtensionMethod: true
+  parent: GG.Extensions.MiscExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateSprite(Texture2D)
+  nameWithType: MiscExtensions.CreateSprite(Texture2D)
+  fullName: GG.Extensions.MiscExtensions.CreateSprite(UnityEngine.Texture2D)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/MiscExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: CreateSprite
+    path: ../Assets/Unity_Extensions/MiscExtensions.cs
+    startLine: 213
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nCreates a runtime sprite from a texture2D\n"
+  example: []
+  syntax:
+    content: public static Sprite CreateSprite(this Texture2D t)
+    parameters:
+    - id: t
+      type: UnityEngine.Texture2D
+      description: ''
+    return:
+      type: UnityEngine.Sprite
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateSprite(t As Texture2D) As Sprite
+  overload: GG.Extensions.MiscExtensions.CreateSprite*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.MiscExtensions.Quit*
+  commentId: Overload:GG.Extensions.MiscExtensions.Quit
+  name: Quit
+  nameWithType: MiscExtensions.Quit
+  fullName: GG.Extensions.MiscExtensions.Quit
+- uid: GG.Extensions.MiscExtensions.EnsureResourcesExists*
+  commentId: Overload:GG.Extensions.MiscExtensions.EnsureResourcesExists
+  name: EnsureResourcesExists
+  nameWithType: MiscExtensions.EnsureResourcesExists
+  fullName: GG.Extensions.MiscExtensions.EnsureResourcesExists
+- uid: GG.Extensions.MiscExtensions.FindObjectsOfTypeAll*
+  commentId: Overload:GG.Extensions.MiscExtensions.FindObjectsOfTypeAll
+  name: FindObjectsOfTypeAll
+  nameWithType: MiscExtensions.FindObjectsOfTypeAll
+  fullName: GG.Extensions.MiscExtensions.FindObjectsOfTypeAll
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: GG.Extensions.MiscExtensions.WaitForSceneToLoad*
+  commentId: Overload:GG.Extensions.MiscExtensions.WaitForSceneToLoad
+  name: WaitForSceneToLoad
+  nameWithType: MiscExtensions.WaitForSceneToLoad
+  fullName: GG.Extensions.MiscExtensions.WaitForSceneToLoad
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.SceneManagement.LoadSceneMode
+  commentId: T:UnityEngine.SceneManagement.LoadSceneMode
+  parent: UnityEngine.SceneManagement
+  isExternal: true
+  name: LoadSceneMode
+  nameWithType: LoadSceneMode
+  fullName: UnityEngine.SceneManagement.LoadSceneMode
+- uid: UnityEngine.Events.UnityAction{System.Single}
+  commentId: T:UnityEngine.Events.UnityAction{System.Single}
+  parent: UnityEngine.Events
+  definition: UnityEngine.Events.UnityAction`1
+  name: UnityAction<Single>
+  nameWithType: UnityAction<Single>
+  fullName: UnityEngine.Events.UnityAction<System.Single>
+  nameWithType.vb: UnityAction(Of Single)
+  fullName.vb: UnityEngine.Events.UnityAction(Of System.Single)
+  name.vb: UnityAction(Of Single)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Events.UnityAction
+  commentId: T:UnityEngine.Events.UnityAction
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityAction
+  nameWithType: UnityAction
+  fullName: UnityEngine.Events.UnityAction
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: UnityEngine.SceneManagement
+  commentId: N:UnityEngine.SceneManagement
+  isExternal: true
+  name: UnityEngine.SceneManagement
+  nameWithType: UnityEngine.SceneManagement
+  fullName: UnityEngine.SceneManagement
+- uid: UnityEngine.Events.UnityAction`1
+  commentId: T:UnityEngine.Events.UnityAction`1
+  isExternal: true
+  name: UnityAction<T0>
+  nameWithType: UnityAction<T0>
+  fullName: UnityEngine.Events.UnityAction<T0>
+  nameWithType.vb: UnityAction(Of T0)
+  fullName.vb: UnityEngine.Events.UnityAction(Of T0)
+  name.vb: UnityAction(Of T0)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityEngine.Events.UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: GG.Extensions.MiscExtensions.Clone*
+  commentId: Overload:GG.Extensions.MiscExtensions.Clone
+  name: Clone
+  nameWithType: MiscExtensions.Clone
+  fullName: GG.Extensions.MiscExtensions.Clone
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: GG.Extensions.MiscExtensions.CopyAll*
+  commentId: Overload:GG.Extensions.MiscExtensions.CopyAll
+  name: CopyAll
+  nameWithType: MiscExtensions.CopyAll
+  fullName: GG.Extensions.MiscExtensions.CopyAll
+- uid: '{T2}'
+  commentId: '!:T2'
+  definition: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: GG.Extensions.MiscExtensions.GetColumnAndRowForVerticalGrid*
+  commentId: Overload:GG.Extensions.MiscExtensions.GetColumnAndRowForVerticalGrid
+  name: GetColumnAndRowForVerticalGrid
+  nameWithType: MiscExtensions.GetColumnAndRowForVerticalGrid
+  fullName: GG.Extensions.MiscExtensions.GetColumnAndRowForVerticalGrid
+- uid: Global.GridLayoutGroup
+  isExternal: true
+  name: GridLayoutGroup
+  nameWithType: GridLayoutGroup
+  fullName: GridLayoutGroup
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GG.Extensions.MiscExtensions.IndexOf*
+  commentId: Overload:GG.Extensions.MiscExtensions.IndexOf
+  name: IndexOf
+  nameWithType: MiscExtensions.IndexOf
+  fullName: GG.Extensions.MiscExtensions.IndexOf
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: GG.Extensions.MiscExtensions.TrimMilliseconds*
+  commentId: Overload:GG.Extensions.MiscExtensions.TrimMilliseconds
+  name: TrimMilliseconds
+  nameWithType: MiscExtensions.TrimMilliseconds
+  fullName: GG.Extensions.MiscExtensions.TrimMilliseconds
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: GG.Extensions.MiscExtensions.Frames*
+  commentId: Overload:GG.Extensions.MiscExtensions.Frames
+  name: Frames
+  nameWithType: MiscExtensions.Frames
+  fullName: GG.Extensions.MiscExtensions.Frames
+- uid: GG.Extensions.MiscExtensions.CreateSprite*
+  commentId: Overload:GG.Extensions.MiscExtensions.CreateSprite
+  name: CreateSprite
+  nameWithType: MiscExtensions.CreateSprite
+  fullName: GG.Extensions.MiscExtensions.CreateSprite
+- uid: UnityEngine.Texture2D
+  commentId: T:UnityEngine.Texture2D
+  parent: UnityEngine
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: UnityEngine.Texture2D
+- uid: UnityEngine.Sprite
+  commentId: T:UnityEngine.Sprite
+  parent: UnityEngine
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: UnityEngine.Sprite
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

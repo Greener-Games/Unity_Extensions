@@ -1,0 +1,5322 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.Colors
+  commentId: T:GG.Extensions.Colors
+  id: Colors
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.Colors.AliceBlue
+  - GG.Extensions.Colors.AntiqueWhite
+  - GG.Extensions.Colors.Aqua
+  - GG.Extensions.Colors.Aquamarine
+  - GG.Extensions.Colors.Azure
+  - GG.Extensions.Colors.Beige
+  - GG.Extensions.Colors.Bisque
+  - GG.Extensions.Colors.Black
+  - GG.Extensions.Colors.BlanchedAlmond
+  - GG.Extensions.Colors.Blue
+  - GG.Extensions.Colors.BlueViolet
+  - GG.Extensions.Colors.Brown
+  - GG.Extensions.Colors.Burlywood
+  - GG.Extensions.Colors.CadetBlue
+  - GG.Extensions.Colors.Chartreuse
+  - GG.Extensions.Colors.Chocolate
+  - GG.Extensions.Colors.Coral
+  - GG.Extensions.Colors.CornflowerBlue
+  - GG.Extensions.Colors.Cornsilk
+  - GG.Extensions.Colors.Crimson
+  - GG.Extensions.Colors.Cyan
+  - GG.Extensions.Colors.DarkBlue
+  - GG.Extensions.Colors.DarkCyan
+  - GG.Extensions.Colors.DarkGoldenrod
+  - GG.Extensions.Colors.DarkGray
+  - GG.Extensions.Colors.DarkGreen
+  - GG.Extensions.Colors.DarkKhaki
+  - GG.Extensions.Colors.DarkMagenta
+  - GG.Extensions.Colors.DarkOliveGreen
+  - GG.Extensions.Colors.DarkOrange
+  - GG.Extensions.Colors.DarkOrchid
+  - GG.Extensions.Colors.DarkRed
+  - GG.Extensions.Colors.DarkSalmon
+  - GG.Extensions.Colors.DarkSeaGreen
+  - GG.Extensions.Colors.DarkSlateBlue
+  - GG.Extensions.Colors.DarkSlateGray
+  - GG.Extensions.Colors.DarkTurquoise
+  - GG.Extensions.Colors.DarkViolet
+  - GG.Extensions.Colors.DeepPink
+  - GG.Extensions.Colors.DeepSkyBlue
+  - GG.Extensions.Colors.DimGray
+  - GG.Extensions.Colors.DodgerBlue
+  - GG.Extensions.Colors.FireBrick
+  - GG.Extensions.Colors.FloralWhite
+  - GG.Extensions.Colors.ForestGreen
+  - GG.Extensions.Colors.Fuchsia
+  - GG.Extensions.Colors.Gainsboro
+  - GG.Extensions.Colors.GhostWhite
+  - GG.Extensions.Colors.Gold
+  - GG.Extensions.Colors.Goldenrod
+  - GG.Extensions.Colors.Gray
+  - GG.Extensions.Colors.Green
+  - GG.Extensions.Colors.GreenYellow
+  - GG.Extensions.Colors.Honeydew
+  - GG.Extensions.Colors.HotPink
+  - GG.Extensions.Colors.IndianRed
+  - GG.Extensions.Colors.Indigo
+  - GG.Extensions.Colors.Ivory
+  - GG.Extensions.Colors.Khaki
+  - GG.Extensions.Colors.Lavender
+  - GG.Extensions.Colors.Lavenderblush
+  - GG.Extensions.Colors.LawnGreen
+  - GG.Extensions.Colors.LemonChiffon
+  - GG.Extensions.Colors.LightBlue
+  - GG.Extensions.Colors.LightCoral
+  - GG.Extensions.Colors.LightCyan
+  - GG.Extensions.Colors.LightGoldenodYellow
+  - GG.Extensions.Colors.LightGray
+  - GG.Extensions.Colors.LightGreen
+  - GG.Extensions.Colors.LightPink
+  - GG.Extensions.Colors.LightSalmon
+  - GG.Extensions.Colors.LightSeaGreen
+  - GG.Extensions.Colors.LightSkyBlue
+  - GG.Extensions.Colors.LightSlateGray
+  - GG.Extensions.Colors.LightSteelBlue
+  - GG.Extensions.Colors.LightYellow
+  - GG.Extensions.Colors.Lime
+  - GG.Extensions.Colors.LimeGreen
+  - GG.Extensions.Colors.Linen
+  - GG.Extensions.Colors.Magenta
+  - GG.Extensions.Colors.Maroon
+  - GG.Extensions.Colors.MediumAquamarine
+  - GG.Extensions.Colors.MediumBlue
+  - GG.Extensions.Colors.MediumOrchid
+  - GG.Extensions.Colors.MediumPurple
+  - GG.Extensions.Colors.MediumSeaGreen
+  - GG.Extensions.Colors.MediumSlateBlue
+  - GG.Extensions.Colors.MediumSpringGreen
+  - GG.Extensions.Colors.MediumTurquoise
+  - GG.Extensions.Colors.MediumVioletRed
+  - GG.Extensions.Colors.MidnightBlue
+  - GG.Extensions.Colors.Mintcream
+  - GG.Extensions.Colors.MistyRose
+  - GG.Extensions.Colors.Moccasin
+  - GG.Extensions.Colors.NavajoWhite
+  - GG.Extensions.Colors.Navy
+  - GG.Extensions.Colors.OldLace
+  - GG.Extensions.Colors.Olive
+  - GG.Extensions.Colors.Olivedrab
+  - GG.Extensions.Colors.Orange
+  - GG.Extensions.Colors.Orangered
+  - GG.Extensions.Colors.Orchid
+  - GG.Extensions.Colors.PaleGoldenrod
+  - GG.Extensions.Colors.PaleGreen
+  - GG.Extensions.Colors.PaleTurquoise
+  - GG.Extensions.Colors.PaleVioletred
+  - GG.Extensions.Colors.PapayaWhip
+  - GG.Extensions.Colors.PeachPuff
+  - GG.Extensions.Colors.Peru
+  - GG.Extensions.Colors.Pink
+  - GG.Extensions.Colors.Plum
+  - GG.Extensions.Colors.PowderBlue
+  - GG.Extensions.Colors.Purple
+  - GG.Extensions.Colors.Random
+  - GG.Extensions.Colors.Red
+  - GG.Extensions.Colors.RosyBrown
+  - GG.Extensions.Colors.RoyalBlue
+  - GG.Extensions.Colors.SaddleBrown
+  - GG.Extensions.Colors.Salmon
+  - GG.Extensions.Colors.SandyBrown
+  - GG.Extensions.Colors.SeaGreen
+  - GG.Extensions.Colors.Seashell
+  - GG.Extensions.Colors.Sienna
+  - GG.Extensions.Colors.Silver
+  - GG.Extensions.Colors.SkyBlue
+  - GG.Extensions.Colors.SlateBlue
+  - GG.Extensions.Colors.SlateGray
+  - GG.Extensions.Colors.Snow
+  - GG.Extensions.Colors.SpringGreen
+  - GG.Extensions.Colors.SteelBlue
+  - GG.Extensions.Colors.Tan
+  - GG.Extensions.Colors.Teal
+  - GG.Extensions.Colors.Thistle
+  - GG.Extensions.Colors.Tomato
+  - GG.Extensions.Colors.Turquoise
+  - GG.Extensions.Colors.Violet
+  - GG.Extensions.Colors.Wheat
+  - GG.Extensions.Colors.White
+  - GG.Extensions.Colors.WhiteSmoke
+  - GG.Extensions.Colors.Yellow
+  - GG.Extensions.Colors.YellowGreen
+  langs:
+  - csharp
+  - vb
+  name: Colors
+  nameWithType: Colors
+  fullName: GG.Extensions.Colors
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Colors
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 4
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public class Colors
+    content.vb: Public Class Colors
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - GG.Extensions.Colors.GG.Extensions.EnumExtensions.GetDescription``1
+  - GG.Extensions.Colors.GG.Extensions.MiscExtensions.CopyAll``2({T2})
+  - GG.Extensions.Colors.GG.Extensions.EnumExtensions.GetDescription``1
+  - GG.Extensions.Colors.GG.Extensions.MiscExtensions.CopyAll``2({T2})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GG.Extensions.Colors.Random
+  commentId: P:GG.Extensions.Colors.Random
+  id: Random
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Random
+  nameWithType: Colors.Random
+  fullName: GG.Extensions.Colors.Random
+  type: Property
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Random
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 8
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static Color Random { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Property Random As Color
+  overload: GG.Extensions.Colors.Random*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.AliceBlue
+  commentId: F:GG.Extensions.Colors.AliceBlue
+  id: AliceBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: AliceBlue
+  nameWithType: Colors.AliceBlue
+  fullName: GG.Extensions.Colors.AliceBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: AliceBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 20
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color AliceBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly AliceBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.AntiqueWhite
+  commentId: F:GG.Extensions.Colors.AntiqueWhite
+  id: AntiqueWhite
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: AntiqueWhite
+  nameWithType: Colors.AntiqueWhite
+  fullName: GG.Extensions.Colors.AntiqueWhite
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: AntiqueWhite
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 21
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color AntiqueWhite
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly AntiqueWhite As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Aqua
+  commentId: F:GG.Extensions.Colors.Aqua
+  id: Aqua
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Aqua
+  nameWithType: Colors.Aqua
+  fullName: GG.Extensions.Colors.Aqua
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Aqua
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 22
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Aqua
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Aqua As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Aquamarine
+  commentId: F:GG.Extensions.Colors.Aquamarine
+  id: Aquamarine
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Aquamarine
+  nameWithType: Colors.Aquamarine
+  fullName: GG.Extensions.Colors.Aquamarine
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Aquamarine
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 23
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Aquamarine
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Aquamarine As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Azure
+  commentId: F:GG.Extensions.Colors.Azure
+  id: Azure
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Azure
+  nameWithType: Colors.Azure
+  fullName: GG.Extensions.Colors.Azure
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Azure
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 24
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Azure
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Azure As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Beige
+  commentId: F:GG.Extensions.Colors.Beige
+  id: Beige
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Beige
+  nameWithType: Colors.Beige
+  fullName: GG.Extensions.Colors.Beige
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Beige
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 25
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Beige
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Beige As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Bisque
+  commentId: F:GG.Extensions.Colors.Bisque
+  id: Bisque
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Bisque
+  nameWithType: Colors.Bisque
+  fullName: GG.Extensions.Colors.Bisque
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Bisque
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 26
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Bisque
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Bisque As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Black
+  commentId: F:GG.Extensions.Colors.Black
+  id: Black
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Black
+  nameWithType: Colors.Black
+  fullName: GG.Extensions.Colors.Black
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Black
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 27
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Black
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Black As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.BlanchedAlmond
+  commentId: F:GG.Extensions.Colors.BlanchedAlmond
+  id: BlanchedAlmond
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: BlanchedAlmond
+  nameWithType: Colors.BlanchedAlmond
+  fullName: GG.Extensions.Colors.BlanchedAlmond
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: BlanchedAlmond
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 28
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color BlanchedAlmond
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly BlanchedAlmond As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Blue
+  commentId: F:GG.Extensions.Colors.Blue
+  id: Blue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: Colors.Blue
+  fullName: GG.Extensions.Colors.Blue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Blue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 29
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Blue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Blue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.BlueViolet
+  commentId: F:GG.Extensions.Colors.BlueViolet
+  id: BlueViolet
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: BlueViolet
+  nameWithType: Colors.BlueViolet
+  fullName: GG.Extensions.Colors.BlueViolet
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: BlueViolet
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 30
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color BlueViolet
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly BlueViolet As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Brown
+  commentId: F:GG.Extensions.Colors.Brown
+  id: Brown
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Brown
+  nameWithType: Colors.Brown
+  fullName: GG.Extensions.Colors.Brown
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Brown
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 31
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Brown
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Brown As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Burlywood
+  commentId: F:GG.Extensions.Colors.Burlywood
+  id: Burlywood
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Burlywood
+  nameWithType: Colors.Burlywood
+  fullName: GG.Extensions.Colors.Burlywood
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Burlywood
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 32
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Burlywood
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Burlywood As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.CadetBlue
+  commentId: F:GG.Extensions.Colors.CadetBlue
+  id: CadetBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: CadetBlue
+  nameWithType: Colors.CadetBlue
+  fullName: GG.Extensions.Colors.CadetBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: CadetBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 33
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color CadetBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly CadetBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Chartreuse
+  commentId: F:GG.Extensions.Colors.Chartreuse
+  id: Chartreuse
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Chartreuse
+  nameWithType: Colors.Chartreuse
+  fullName: GG.Extensions.Colors.Chartreuse
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Chartreuse
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 34
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Chartreuse
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Chartreuse As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Chocolate
+  commentId: F:GG.Extensions.Colors.Chocolate
+  id: Chocolate
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Chocolate
+  nameWithType: Colors.Chocolate
+  fullName: GG.Extensions.Colors.Chocolate
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Chocolate
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 35
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Chocolate
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Chocolate As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Coral
+  commentId: F:GG.Extensions.Colors.Coral
+  id: Coral
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Coral
+  nameWithType: Colors.Coral
+  fullName: GG.Extensions.Colors.Coral
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Coral
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 36
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Coral
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Coral As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.CornflowerBlue
+  commentId: F:GG.Extensions.Colors.CornflowerBlue
+  id: CornflowerBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: CornflowerBlue
+  nameWithType: Colors.CornflowerBlue
+  fullName: GG.Extensions.Colors.CornflowerBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: CornflowerBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 37
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color CornflowerBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly CornflowerBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Cornsilk
+  commentId: F:GG.Extensions.Colors.Cornsilk
+  id: Cornsilk
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Cornsilk
+  nameWithType: Colors.Cornsilk
+  fullName: GG.Extensions.Colors.Cornsilk
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Cornsilk
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 38
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Cornsilk
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Cornsilk As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Crimson
+  commentId: F:GG.Extensions.Colors.Crimson
+  id: Crimson
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Crimson
+  nameWithType: Colors.Crimson
+  fullName: GG.Extensions.Colors.Crimson
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Crimson
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 39
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Crimson
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Crimson As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Cyan
+  commentId: F:GG.Extensions.Colors.Cyan
+  id: Cyan
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Cyan
+  nameWithType: Colors.Cyan
+  fullName: GG.Extensions.Colors.Cyan
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Cyan
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 40
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Cyan
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Cyan As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkBlue
+  commentId: F:GG.Extensions.Colors.DarkBlue
+  id: DarkBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkBlue
+  nameWithType: Colors.DarkBlue
+  fullName: GG.Extensions.Colors.DarkBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 41
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkCyan
+  commentId: F:GG.Extensions.Colors.DarkCyan
+  id: DarkCyan
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkCyan
+  nameWithType: Colors.DarkCyan
+  fullName: GG.Extensions.Colors.DarkCyan
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkCyan
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 42
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkCyan
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkCyan As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkGoldenrod
+  commentId: F:GG.Extensions.Colors.DarkGoldenrod
+  id: DarkGoldenrod
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkGoldenrod
+  nameWithType: Colors.DarkGoldenrod
+  fullName: GG.Extensions.Colors.DarkGoldenrod
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkGoldenrod
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 43
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkGoldenrod
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkGoldenrod As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkGray
+  commentId: F:GG.Extensions.Colors.DarkGray
+  id: DarkGray
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkGray
+  nameWithType: Colors.DarkGray
+  fullName: GG.Extensions.Colors.DarkGray
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkGray
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 44
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkGray
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkGray As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkGreen
+  commentId: F:GG.Extensions.Colors.DarkGreen
+  id: DarkGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkGreen
+  nameWithType: Colors.DarkGreen
+  fullName: GG.Extensions.Colors.DarkGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 45
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkKhaki
+  commentId: F:GG.Extensions.Colors.DarkKhaki
+  id: DarkKhaki
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkKhaki
+  nameWithType: Colors.DarkKhaki
+  fullName: GG.Extensions.Colors.DarkKhaki
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkKhaki
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 46
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkKhaki
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkKhaki As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkMagenta
+  commentId: F:GG.Extensions.Colors.DarkMagenta
+  id: DarkMagenta
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkMagenta
+  nameWithType: Colors.DarkMagenta
+  fullName: GG.Extensions.Colors.DarkMagenta
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkMagenta
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 47
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkMagenta
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkMagenta As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkOliveGreen
+  commentId: F:GG.Extensions.Colors.DarkOliveGreen
+  id: DarkOliveGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkOliveGreen
+  nameWithType: Colors.DarkOliveGreen
+  fullName: GG.Extensions.Colors.DarkOliveGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkOliveGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 48
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkOliveGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkOliveGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkOrange
+  commentId: F:GG.Extensions.Colors.DarkOrange
+  id: DarkOrange
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkOrange
+  nameWithType: Colors.DarkOrange
+  fullName: GG.Extensions.Colors.DarkOrange
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkOrange
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 49
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkOrange
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkOrange As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkOrchid
+  commentId: F:GG.Extensions.Colors.DarkOrchid
+  id: DarkOrchid
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkOrchid
+  nameWithType: Colors.DarkOrchid
+  fullName: GG.Extensions.Colors.DarkOrchid
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkOrchid
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 50
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkOrchid
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkOrchid As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkRed
+  commentId: F:GG.Extensions.Colors.DarkRed
+  id: DarkRed
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkRed
+  nameWithType: Colors.DarkRed
+  fullName: GG.Extensions.Colors.DarkRed
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkRed
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 51
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkRed
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkRed As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkSalmon
+  commentId: F:GG.Extensions.Colors.DarkSalmon
+  id: DarkSalmon
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkSalmon
+  nameWithType: Colors.DarkSalmon
+  fullName: GG.Extensions.Colors.DarkSalmon
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkSalmon
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 52
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkSalmon
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkSalmon As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkSeaGreen
+  commentId: F:GG.Extensions.Colors.DarkSeaGreen
+  id: DarkSeaGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkSeaGreen
+  nameWithType: Colors.DarkSeaGreen
+  fullName: GG.Extensions.Colors.DarkSeaGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkSeaGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 53
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkSeaGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkSeaGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkSlateBlue
+  commentId: F:GG.Extensions.Colors.DarkSlateBlue
+  id: DarkSlateBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkSlateBlue
+  nameWithType: Colors.DarkSlateBlue
+  fullName: GG.Extensions.Colors.DarkSlateBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkSlateBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 54
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkSlateBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkSlateBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkSlateGray
+  commentId: F:GG.Extensions.Colors.DarkSlateGray
+  id: DarkSlateGray
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkSlateGray
+  nameWithType: Colors.DarkSlateGray
+  fullName: GG.Extensions.Colors.DarkSlateGray
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkSlateGray
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 55
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkSlateGray
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkSlateGray As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkTurquoise
+  commentId: F:GG.Extensions.Colors.DarkTurquoise
+  id: DarkTurquoise
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkTurquoise
+  nameWithType: Colors.DarkTurquoise
+  fullName: GG.Extensions.Colors.DarkTurquoise
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkTurquoise
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 56
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkTurquoise
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkTurquoise As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DarkViolet
+  commentId: F:GG.Extensions.Colors.DarkViolet
+  id: DarkViolet
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DarkViolet
+  nameWithType: Colors.DarkViolet
+  fullName: GG.Extensions.Colors.DarkViolet
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DarkViolet
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 57
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DarkViolet
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DarkViolet As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DeepPink
+  commentId: F:GG.Extensions.Colors.DeepPink
+  id: DeepPink
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DeepPink
+  nameWithType: Colors.DeepPink
+  fullName: GG.Extensions.Colors.DeepPink
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DeepPink
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 58
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DeepPink
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DeepPink As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DeepSkyBlue
+  commentId: F:GG.Extensions.Colors.DeepSkyBlue
+  id: DeepSkyBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DeepSkyBlue
+  nameWithType: Colors.DeepSkyBlue
+  fullName: GG.Extensions.Colors.DeepSkyBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DeepSkyBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 59
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DeepSkyBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DeepSkyBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DimGray
+  commentId: F:GG.Extensions.Colors.DimGray
+  id: DimGray
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DimGray
+  nameWithType: Colors.DimGray
+  fullName: GG.Extensions.Colors.DimGray
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DimGray
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 60
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DimGray
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DimGray As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.DodgerBlue
+  commentId: F:GG.Extensions.Colors.DodgerBlue
+  id: DodgerBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: DodgerBlue
+  nameWithType: Colors.DodgerBlue
+  fullName: GG.Extensions.Colors.DodgerBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DodgerBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 61
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color DodgerBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly DodgerBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.FireBrick
+  commentId: F:GG.Extensions.Colors.FireBrick
+  id: FireBrick
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: FireBrick
+  nameWithType: Colors.FireBrick
+  fullName: GG.Extensions.Colors.FireBrick
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FireBrick
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 62
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color FireBrick
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly FireBrick As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.FloralWhite
+  commentId: F:GG.Extensions.Colors.FloralWhite
+  id: FloralWhite
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: FloralWhite
+  nameWithType: Colors.FloralWhite
+  fullName: GG.Extensions.Colors.FloralWhite
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FloralWhite
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 63
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color FloralWhite
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly FloralWhite As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.ForestGreen
+  commentId: F:GG.Extensions.Colors.ForestGreen
+  id: ForestGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: ForestGreen
+  nameWithType: Colors.ForestGreen
+  fullName: GG.Extensions.Colors.ForestGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: ForestGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 64
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color ForestGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly ForestGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Fuchsia
+  commentId: F:GG.Extensions.Colors.Fuchsia
+  id: Fuchsia
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Fuchsia
+  nameWithType: Colors.Fuchsia
+  fullName: GG.Extensions.Colors.Fuchsia
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Fuchsia
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 65
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Fuchsia
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Fuchsia As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Gainsboro
+  commentId: F:GG.Extensions.Colors.Gainsboro
+  id: Gainsboro
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Gainsboro
+  nameWithType: Colors.Gainsboro
+  fullName: GG.Extensions.Colors.Gainsboro
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Gainsboro
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 66
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Gainsboro
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Gainsboro As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.GhostWhite
+  commentId: F:GG.Extensions.Colors.GhostWhite
+  id: GhostWhite
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: GhostWhite
+  nameWithType: Colors.GhostWhite
+  fullName: GG.Extensions.Colors.GhostWhite
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GhostWhite
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 67
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color GhostWhite
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly GhostWhite As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Gold
+  commentId: F:GG.Extensions.Colors.Gold
+  id: Gold
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Gold
+  nameWithType: Colors.Gold
+  fullName: GG.Extensions.Colors.Gold
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Gold
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 68
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Gold
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Gold As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Goldenrod
+  commentId: F:GG.Extensions.Colors.Goldenrod
+  id: Goldenrod
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Goldenrod
+  nameWithType: Colors.Goldenrod
+  fullName: GG.Extensions.Colors.Goldenrod
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Goldenrod
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 69
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Goldenrod
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Goldenrod As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Gray
+  commentId: F:GG.Extensions.Colors.Gray
+  id: Gray
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Gray
+  nameWithType: Colors.Gray
+  fullName: GG.Extensions.Colors.Gray
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Gray
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 70
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Gray
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Gray As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Green
+  commentId: F:GG.Extensions.Colors.Green
+  id: Green
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: Colors.Green
+  fullName: GG.Extensions.Colors.Green
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Green
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 71
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Green
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Green As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.GreenYellow
+  commentId: F:GG.Extensions.Colors.GreenYellow
+  id: GreenYellow
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: GreenYellow
+  nameWithType: Colors.GreenYellow
+  fullName: GG.Extensions.Colors.GreenYellow
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GreenYellow
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 72
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color GreenYellow
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly GreenYellow As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Honeydew
+  commentId: F:GG.Extensions.Colors.Honeydew
+  id: Honeydew
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Honeydew
+  nameWithType: Colors.Honeydew
+  fullName: GG.Extensions.Colors.Honeydew
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Honeydew
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 73
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Honeydew
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Honeydew As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.HotPink
+  commentId: F:GG.Extensions.Colors.HotPink
+  id: HotPink
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: HotPink
+  nameWithType: Colors.HotPink
+  fullName: GG.Extensions.Colors.HotPink
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: HotPink
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 74
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color HotPink
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly HotPink As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.IndianRed
+  commentId: F:GG.Extensions.Colors.IndianRed
+  id: IndianRed
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: IndianRed
+  nameWithType: Colors.IndianRed
+  fullName: GG.Extensions.Colors.IndianRed
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: IndianRed
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 75
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color IndianRed
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly IndianRed As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Indigo
+  commentId: F:GG.Extensions.Colors.Indigo
+  id: Indigo
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Indigo
+  nameWithType: Colors.Indigo
+  fullName: GG.Extensions.Colors.Indigo
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Indigo
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 76
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Indigo
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Indigo As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Ivory
+  commentId: F:GG.Extensions.Colors.Ivory
+  id: Ivory
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Ivory
+  nameWithType: Colors.Ivory
+  fullName: GG.Extensions.Colors.Ivory
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Ivory
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 77
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Ivory
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Ivory As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Khaki
+  commentId: F:GG.Extensions.Colors.Khaki
+  id: Khaki
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Khaki
+  nameWithType: Colors.Khaki
+  fullName: GG.Extensions.Colors.Khaki
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Khaki
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 78
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Khaki
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Khaki As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Lavender
+  commentId: F:GG.Extensions.Colors.Lavender
+  id: Lavender
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Lavender
+  nameWithType: Colors.Lavender
+  fullName: GG.Extensions.Colors.Lavender
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Lavender
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 79
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Lavender
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Lavender As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Lavenderblush
+  commentId: F:GG.Extensions.Colors.Lavenderblush
+  id: Lavenderblush
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Lavenderblush
+  nameWithType: Colors.Lavenderblush
+  fullName: GG.Extensions.Colors.Lavenderblush
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Lavenderblush
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 80
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Lavenderblush
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Lavenderblush As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LawnGreen
+  commentId: F:GG.Extensions.Colors.LawnGreen
+  id: LawnGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LawnGreen
+  nameWithType: Colors.LawnGreen
+  fullName: GG.Extensions.Colors.LawnGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LawnGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 81
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LawnGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LawnGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LemonChiffon
+  commentId: F:GG.Extensions.Colors.LemonChiffon
+  id: LemonChiffon
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LemonChiffon
+  nameWithType: Colors.LemonChiffon
+  fullName: GG.Extensions.Colors.LemonChiffon
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LemonChiffon
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 82
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LemonChiffon
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LemonChiffon As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightBlue
+  commentId: F:GG.Extensions.Colors.LightBlue
+  id: LightBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightBlue
+  nameWithType: Colors.LightBlue
+  fullName: GG.Extensions.Colors.LightBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 83
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightCoral
+  commentId: F:GG.Extensions.Colors.LightCoral
+  id: LightCoral
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightCoral
+  nameWithType: Colors.LightCoral
+  fullName: GG.Extensions.Colors.LightCoral
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightCoral
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 84
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightCoral
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightCoral As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightCyan
+  commentId: F:GG.Extensions.Colors.LightCyan
+  id: LightCyan
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightCyan
+  nameWithType: Colors.LightCyan
+  fullName: GG.Extensions.Colors.LightCyan
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightCyan
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 85
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightCyan
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightCyan As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightGoldenodYellow
+  commentId: F:GG.Extensions.Colors.LightGoldenodYellow
+  id: LightGoldenodYellow
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightGoldenodYellow
+  nameWithType: Colors.LightGoldenodYellow
+  fullName: GG.Extensions.Colors.LightGoldenodYellow
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightGoldenodYellow
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 86
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightGoldenodYellow
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightGoldenodYellow As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightGray
+  commentId: F:GG.Extensions.Colors.LightGray
+  id: LightGray
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightGray
+  nameWithType: Colors.LightGray
+  fullName: GG.Extensions.Colors.LightGray
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightGray
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 87
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightGray
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightGray As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightGreen
+  commentId: F:GG.Extensions.Colors.LightGreen
+  id: LightGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightGreen
+  nameWithType: Colors.LightGreen
+  fullName: GG.Extensions.Colors.LightGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 88
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightPink
+  commentId: F:GG.Extensions.Colors.LightPink
+  id: LightPink
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightPink
+  nameWithType: Colors.LightPink
+  fullName: GG.Extensions.Colors.LightPink
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightPink
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 89
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightPink
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightPink As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightSalmon
+  commentId: F:GG.Extensions.Colors.LightSalmon
+  id: LightSalmon
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightSalmon
+  nameWithType: Colors.LightSalmon
+  fullName: GG.Extensions.Colors.LightSalmon
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightSalmon
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 90
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightSalmon
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightSalmon As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightSeaGreen
+  commentId: F:GG.Extensions.Colors.LightSeaGreen
+  id: LightSeaGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightSeaGreen
+  nameWithType: Colors.LightSeaGreen
+  fullName: GG.Extensions.Colors.LightSeaGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightSeaGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 91
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightSeaGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightSeaGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightSkyBlue
+  commentId: F:GG.Extensions.Colors.LightSkyBlue
+  id: LightSkyBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightSkyBlue
+  nameWithType: Colors.LightSkyBlue
+  fullName: GG.Extensions.Colors.LightSkyBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightSkyBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 92
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightSkyBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightSkyBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightSlateGray
+  commentId: F:GG.Extensions.Colors.LightSlateGray
+  id: LightSlateGray
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightSlateGray
+  nameWithType: Colors.LightSlateGray
+  fullName: GG.Extensions.Colors.LightSlateGray
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightSlateGray
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 93
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightSlateGray
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightSlateGray As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightSteelBlue
+  commentId: F:GG.Extensions.Colors.LightSteelBlue
+  id: LightSteelBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightSteelBlue
+  nameWithType: Colors.LightSteelBlue
+  fullName: GG.Extensions.Colors.LightSteelBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightSteelBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 94
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightSteelBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightSteelBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LightYellow
+  commentId: F:GG.Extensions.Colors.LightYellow
+  id: LightYellow
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LightYellow
+  nameWithType: Colors.LightYellow
+  fullName: GG.Extensions.Colors.LightYellow
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LightYellow
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 95
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LightYellow
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LightYellow As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Lime
+  commentId: F:GG.Extensions.Colors.Lime
+  id: Lime
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Lime
+  nameWithType: Colors.Lime
+  fullName: GG.Extensions.Colors.Lime
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Lime
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 96
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Lime
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Lime As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.LimeGreen
+  commentId: F:GG.Extensions.Colors.LimeGreen
+  id: LimeGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: LimeGreen
+  nameWithType: Colors.LimeGreen
+  fullName: GG.Extensions.Colors.LimeGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: LimeGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 97
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color LimeGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly LimeGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Linen
+  commentId: F:GG.Extensions.Colors.Linen
+  id: Linen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Linen
+  nameWithType: Colors.Linen
+  fullName: GG.Extensions.Colors.Linen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Linen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 98
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Linen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Linen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Magenta
+  commentId: F:GG.Extensions.Colors.Magenta
+  id: Magenta
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Magenta
+  nameWithType: Colors.Magenta
+  fullName: GG.Extensions.Colors.Magenta
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Magenta
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 99
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Magenta
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Magenta As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Maroon
+  commentId: F:GG.Extensions.Colors.Maroon
+  id: Maroon
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Maroon
+  nameWithType: Colors.Maroon
+  fullName: GG.Extensions.Colors.Maroon
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Maroon
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 100
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Maroon
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Maroon As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MediumAquamarine
+  commentId: F:GG.Extensions.Colors.MediumAquamarine
+  id: MediumAquamarine
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MediumAquamarine
+  nameWithType: Colors.MediumAquamarine
+  fullName: GG.Extensions.Colors.MediumAquamarine
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MediumAquamarine
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 101
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MediumAquamarine
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MediumAquamarine As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MediumBlue
+  commentId: F:GG.Extensions.Colors.MediumBlue
+  id: MediumBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MediumBlue
+  nameWithType: Colors.MediumBlue
+  fullName: GG.Extensions.Colors.MediumBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MediumBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 102
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MediumBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MediumBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MediumOrchid
+  commentId: F:GG.Extensions.Colors.MediumOrchid
+  id: MediumOrchid
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MediumOrchid
+  nameWithType: Colors.MediumOrchid
+  fullName: GG.Extensions.Colors.MediumOrchid
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MediumOrchid
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 103
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MediumOrchid
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MediumOrchid As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MediumPurple
+  commentId: F:GG.Extensions.Colors.MediumPurple
+  id: MediumPurple
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MediumPurple
+  nameWithType: Colors.MediumPurple
+  fullName: GG.Extensions.Colors.MediumPurple
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MediumPurple
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 104
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MediumPurple
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MediumPurple As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MediumSeaGreen
+  commentId: F:GG.Extensions.Colors.MediumSeaGreen
+  id: MediumSeaGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MediumSeaGreen
+  nameWithType: Colors.MediumSeaGreen
+  fullName: GG.Extensions.Colors.MediumSeaGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MediumSeaGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 105
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MediumSeaGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MediumSeaGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MediumSlateBlue
+  commentId: F:GG.Extensions.Colors.MediumSlateBlue
+  id: MediumSlateBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MediumSlateBlue
+  nameWithType: Colors.MediumSlateBlue
+  fullName: GG.Extensions.Colors.MediumSlateBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MediumSlateBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 106
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MediumSlateBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MediumSlateBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MediumSpringGreen
+  commentId: F:GG.Extensions.Colors.MediumSpringGreen
+  id: MediumSpringGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MediumSpringGreen
+  nameWithType: Colors.MediumSpringGreen
+  fullName: GG.Extensions.Colors.MediumSpringGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MediumSpringGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 107
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MediumSpringGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MediumSpringGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MediumTurquoise
+  commentId: F:GG.Extensions.Colors.MediumTurquoise
+  id: MediumTurquoise
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MediumTurquoise
+  nameWithType: Colors.MediumTurquoise
+  fullName: GG.Extensions.Colors.MediumTurquoise
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MediumTurquoise
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 108
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MediumTurquoise
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MediumTurquoise As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MediumVioletRed
+  commentId: F:GG.Extensions.Colors.MediumVioletRed
+  id: MediumVioletRed
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MediumVioletRed
+  nameWithType: Colors.MediumVioletRed
+  fullName: GG.Extensions.Colors.MediumVioletRed
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MediumVioletRed
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 109
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MediumVioletRed
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MediumVioletRed As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MidnightBlue
+  commentId: F:GG.Extensions.Colors.MidnightBlue
+  id: MidnightBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MidnightBlue
+  nameWithType: Colors.MidnightBlue
+  fullName: GG.Extensions.Colors.MidnightBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MidnightBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 110
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MidnightBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MidnightBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Mintcream
+  commentId: F:GG.Extensions.Colors.Mintcream
+  id: Mintcream
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Mintcream
+  nameWithType: Colors.Mintcream
+  fullName: GG.Extensions.Colors.Mintcream
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Mintcream
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 111
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Mintcream
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Mintcream As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.MistyRose
+  commentId: F:GG.Extensions.Colors.MistyRose
+  id: MistyRose
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: MistyRose
+  nameWithType: Colors.MistyRose
+  fullName: GG.Extensions.Colors.MistyRose
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: MistyRose
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 112
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color MistyRose
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly MistyRose As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Moccasin
+  commentId: F:GG.Extensions.Colors.Moccasin
+  id: Moccasin
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Moccasin
+  nameWithType: Colors.Moccasin
+  fullName: GG.Extensions.Colors.Moccasin
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Moccasin
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 113
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Moccasin
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Moccasin As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.NavajoWhite
+  commentId: F:GG.Extensions.Colors.NavajoWhite
+  id: NavajoWhite
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: NavajoWhite
+  nameWithType: Colors.NavajoWhite
+  fullName: GG.Extensions.Colors.NavajoWhite
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: NavajoWhite
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 114
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color NavajoWhite
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly NavajoWhite As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Navy
+  commentId: F:GG.Extensions.Colors.Navy
+  id: Navy
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Navy
+  nameWithType: Colors.Navy
+  fullName: GG.Extensions.Colors.Navy
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Navy
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 115
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Navy
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Navy As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.OldLace
+  commentId: F:GG.Extensions.Colors.OldLace
+  id: OldLace
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: OldLace
+  nameWithType: Colors.OldLace
+  fullName: GG.Extensions.Colors.OldLace
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: OldLace
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 116
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color OldLace
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly OldLace As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Olive
+  commentId: F:GG.Extensions.Colors.Olive
+  id: Olive
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Olive
+  nameWithType: Colors.Olive
+  fullName: GG.Extensions.Colors.Olive
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Olive
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 117
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Olive
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Olive As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Olivedrab
+  commentId: F:GG.Extensions.Colors.Olivedrab
+  id: Olivedrab
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Olivedrab
+  nameWithType: Colors.Olivedrab
+  fullName: GG.Extensions.Colors.Olivedrab
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Olivedrab
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 118
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Olivedrab
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Olivedrab As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Orange
+  commentId: F:GG.Extensions.Colors.Orange
+  id: Orange
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Orange
+  nameWithType: Colors.Orange
+  fullName: GG.Extensions.Colors.Orange
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Orange
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 119
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Orange
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Orange As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Orangered
+  commentId: F:GG.Extensions.Colors.Orangered
+  id: Orangered
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Orangered
+  nameWithType: Colors.Orangered
+  fullName: GG.Extensions.Colors.Orangered
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Orangered
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 120
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Orangered
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Orangered As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Orchid
+  commentId: F:GG.Extensions.Colors.Orchid
+  id: Orchid
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Orchid
+  nameWithType: Colors.Orchid
+  fullName: GG.Extensions.Colors.Orchid
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Orchid
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 121
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Orchid
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Orchid As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.PaleGoldenrod
+  commentId: F:GG.Extensions.Colors.PaleGoldenrod
+  id: PaleGoldenrod
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: PaleGoldenrod
+  nameWithType: Colors.PaleGoldenrod
+  fullName: GG.Extensions.Colors.PaleGoldenrod
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: PaleGoldenrod
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 122
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color PaleGoldenrod
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly PaleGoldenrod As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.PaleGreen
+  commentId: F:GG.Extensions.Colors.PaleGreen
+  id: PaleGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: PaleGreen
+  nameWithType: Colors.PaleGreen
+  fullName: GG.Extensions.Colors.PaleGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: PaleGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 123
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color PaleGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly PaleGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.PaleTurquoise
+  commentId: F:GG.Extensions.Colors.PaleTurquoise
+  id: PaleTurquoise
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: PaleTurquoise
+  nameWithType: Colors.PaleTurquoise
+  fullName: GG.Extensions.Colors.PaleTurquoise
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: PaleTurquoise
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 124
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color PaleTurquoise
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly PaleTurquoise As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.PaleVioletred
+  commentId: F:GG.Extensions.Colors.PaleVioletred
+  id: PaleVioletred
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: PaleVioletred
+  nameWithType: Colors.PaleVioletred
+  fullName: GG.Extensions.Colors.PaleVioletred
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: PaleVioletred
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 125
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color PaleVioletred
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly PaleVioletred As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.PapayaWhip
+  commentId: F:GG.Extensions.Colors.PapayaWhip
+  id: PapayaWhip
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: PapayaWhip
+  nameWithType: Colors.PapayaWhip
+  fullName: GG.Extensions.Colors.PapayaWhip
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: PapayaWhip
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 126
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color PapayaWhip
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly PapayaWhip As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.PeachPuff
+  commentId: F:GG.Extensions.Colors.PeachPuff
+  id: PeachPuff
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: PeachPuff
+  nameWithType: Colors.PeachPuff
+  fullName: GG.Extensions.Colors.PeachPuff
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: PeachPuff
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 127
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color PeachPuff
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly PeachPuff As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Peru
+  commentId: F:GG.Extensions.Colors.Peru
+  id: Peru
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Peru
+  nameWithType: Colors.Peru
+  fullName: GG.Extensions.Colors.Peru
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Peru
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 128
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Peru
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Peru As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Pink
+  commentId: F:GG.Extensions.Colors.Pink
+  id: Pink
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Pink
+  nameWithType: Colors.Pink
+  fullName: GG.Extensions.Colors.Pink
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Pink
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 129
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Pink
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Pink As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Plum
+  commentId: F:GG.Extensions.Colors.Plum
+  id: Plum
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Plum
+  nameWithType: Colors.Plum
+  fullName: GG.Extensions.Colors.Plum
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Plum
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 130
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Plum
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Plum As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.PowderBlue
+  commentId: F:GG.Extensions.Colors.PowderBlue
+  id: PowderBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: PowderBlue
+  nameWithType: Colors.PowderBlue
+  fullName: GG.Extensions.Colors.PowderBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: PowderBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 131
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color PowderBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly PowderBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Purple
+  commentId: F:GG.Extensions.Colors.Purple
+  id: Purple
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Purple
+  nameWithType: Colors.Purple
+  fullName: GG.Extensions.Colors.Purple
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Purple
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 132
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Purple
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Purple As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Red
+  commentId: F:GG.Extensions.Colors.Red
+  id: Red
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: Colors.Red
+  fullName: GG.Extensions.Colors.Red
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Red
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 133
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Red
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Red As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.RosyBrown
+  commentId: F:GG.Extensions.Colors.RosyBrown
+  id: RosyBrown
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: RosyBrown
+  nameWithType: Colors.RosyBrown
+  fullName: GG.Extensions.Colors.RosyBrown
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: RosyBrown
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 134
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color RosyBrown
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly RosyBrown As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.RoyalBlue
+  commentId: F:GG.Extensions.Colors.RoyalBlue
+  id: RoyalBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: RoyalBlue
+  nameWithType: Colors.RoyalBlue
+  fullName: GG.Extensions.Colors.RoyalBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: RoyalBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 135
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color RoyalBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly RoyalBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.SaddleBrown
+  commentId: F:GG.Extensions.Colors.SaddleBrown
+  id: SaddleBrown
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: SaddleBrown
+  nameWithType: Colors.SaddleBrown
+  fullName: GG.Extensions.Colors.SaddleBrown
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SaddleBrown
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 136
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color SaddleBrown
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly SaddleBrown As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Salmon
+  commentId: F:GG.Extensions.Colors.Salmon
+  id: Salmon
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Salmon
+  nameWithType: Colors.Salmon
+  fullName: GG.Extensions.Colors.Salmon
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Salmon
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 137
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Salmon
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Salmon As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.SandyBrown
+  commentId: F:GG.Extensions.Colors.SandyBrown
+  id: SandyBrown
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: SandyBrown
+  nameWithType: Colors.SandyBrown
+  fullName: GG.Extensions.Colors.SandyBrown
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SandyBrown
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 138
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color SandyBrown
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly SandyBrown As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.SeaGreen
+  commentId: F:GG.Extensions.Colors.SeaGreen
+  id: SeaGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: SeaGreen
+  nameWithType: Colors.SeaGreen
+  fullName: GG.Extensions.Colors.SeaGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SeaGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 139
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color SeaGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly SeaGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Seashell
+  commentId: F:GG.Extensions.Colors.Seashell
+  id: Seashell
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Seashell
+  nameWithType: Colors.Seashell
+  fullName: GG.Extensions.Colors.Seashell
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Seashell
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 140
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Seashell
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Seashell As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Sienna
+  commentId: F:GG.Extensions.Colors.Sienna
+  id: Sienna
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Sienna
+  nameWithType: Colors.Sienna
+  fullName: GG.Extensions.Colors.Sienna
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Sienna
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 141
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Sienna
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Sienna As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Silver
+  commentId: F:GG.Extensions.Colors.Silver
+  id: Silver
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Silver
+  nameWithType: Colors.Silver
+  fullName: GG.Extensions.Colors.Silver
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Silver
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 142
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Silver
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Silver As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.SkyBlue
+  commentId: F:GG.Extensions.Colors.SkyBlue
+  id: SkyBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: SkyBlue
+  nameWithType: Colors.SkyBlue
+  fullName: GG.Extensions.Colors.SkyBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SkyBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 143
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color SkyBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly SkyBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.SlateBlue
+  commentId: F:GG.Extensions.Colors.SlateBlue
+  id: SlateBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: SlateBlue
+  nameWithType: Colors.SlateBlue
+  fullName: GG.Extensions.Colors.SlateBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SlateBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 144
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color SlateBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly SlateBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.SlateGray
+  commentId: F:GG.Extensions.Colors.SlateGray
+  id: SlateGray
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: SlateGray
+  nameWithType: Colors.SlateGray
+  fullName: GG.Extensions.Colors.SlateGray
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SlateGray
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 145
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color SlateGray
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly SlateGray As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Snow
+  commentId: F:GG.Extensions.Colors.Snow
+  id: Snow
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Snow
+  nameWithType: Colors.Snow
+  fullName: GG.Extensions.Colors.Snow
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Snow
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 146
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Snow
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Snow As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.SpringGreen
+  commentId: F:GG.Extensions.Colors.SpringGreen
+  id: SpringGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: SpringGreen
+  nameWithType: Colors.SpringGreen
+  fullName: GG.Extensions.Colors.SpringGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SpringGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 147
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color SpringGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly SpringGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.SteelBlue
+  commentId: F:GG.Extensions.Colors.SteelBlue
+  id: SteelBlue
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: SteelBlue
+  nameWithType: Colors.SteelBlue
+  fullName: GG.Extensions.Colors.SteelBlue
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: SteelBlue
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 148
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color SteelBlue
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly SteelBlue As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Tan
+  commentId: F:GG.Extensions.Colors.Tan
+  id: Tan
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Tan
+  nameWithType: Colors.Tan
+  fullName: GG.Extensions.Colors.Tan
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Tan
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 149
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Tan
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Tan As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Teal
+  commentId: F:GG.Extensions.Colors.Teal
+  id: Teal
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Teal
+  nameWithType: Colors.Teal
+  fullName: GG.Extensions.Colors.Teal
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Teal
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 150
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Teal
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Teal As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Thistle
+  commentId: F:GG.Extensions.Colors.Thistle
+  id: Thistle
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Thistle
+  nameWithType: Colors.Thistle
+  fullName: GG.Extensions.Colors.Thistle
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Thistle
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 151
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Thistle
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Thistle As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Tomato
+  commentId: F:GG.Extensions.Colors.Tomato
+  id: Tomato
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Tomato
+  nameWithType: Colors.Tomato
+  fullName: GG.Extensions.Colors.Tomato
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Tomato
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 152
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Tomato
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Tomato As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Turquoise
+  commentId: F:GG.Extensions.Colors.Turquoise
+  id: Turquoise
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Turquoise
+  nameWithType: Colors.Turquoise
+  fullName: GG.Extensions.Colors.Turquoise
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Turquoise
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 153
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Turquoise
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Turquoise As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Violet
+  commentId: F:GG.Extensions.Colors.Violet
+  id: Violet
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Violet
+  nameWithType: Colors.Violet
+  fullName: GG.Extensions.Colors.Violet
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Violet
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 154
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Violet
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Violet As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Wheat
+  commentId: F:GG.Extensions.Colors.Wheat
+  id: Wheat
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Wheat
+  nameWithType: Colors.Wheat
+  fullName: GG.Extensions.Colors.Wheat
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Wheat
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 155
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Wheat
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Wheat As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.White
+  commentId: F:GG.Extensions.Colors.White
+  id: White
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: White
+  nameWithType: Colors.White
+  fullName: GG.Extensions.Colors.White
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: White
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 156
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color White
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly White As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.WhiteSmoke
+  commentId: F:GG.Extensions.Colors.WhiteSmoke
+  id: WhiteSmoke
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: WhiteSmoke
+  nameWithType: Colors.WhiteSmoke
+  fullName: GG.Extensions.Colors.WhiteSmoke
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: WhiteSmoke
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 157
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color WhiteSmoke
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly WhiteSmoke As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.Yellow
+  commentId: F:GG.Extensions.Colors.Yellow
+  id: Yellow
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: Colors.Yellow
+  fullName: GG.Extensions.Colors.Yellow
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Yellow
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 158
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color Yellow
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly Yellow As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: GG.Extensions.Colors.YellowGreen
+  commentId: F:GG.Extensions.Colors.YellowGreen
+  id: YellowGreen
+  parent: GG.Extensions.Colors
+  langs:
+  - csharp
+  - vb
+  name: YellowGreen
+  nameWithType: Colors.YellowGreen
+  fullName: GG.Extensions.Colors.YellowGreen
+  type: Field
+  source:
+    remote:
+      path: Assets/Unity_Extensions/Colors.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: YellowGreen
+    path: ../Assets/Unity_Extensions/Colors.cs
+    startLine: 159
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static readonly Color YellowGreen
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared ReadOnly YellowGreen As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: GG.Extensions.Colors.GG.Extensions.EnumExtensions.GetDescription``1
+  commentId: M:GG.Extensions.EnumExtensions.GetDescription``1(``0)
+  parent: GG.Extensions.EnumExtensions
+  definition: GG.Extensions.EnumExtensions.GetDescription``1(``0)
+  name: GetDescription<Colors>()
+  nameWithType: EnumExtensions.GetDescription<Colors>()
+  fullName: GG.Extensions.EnumExtensions.GetDescription<GG.Extensions.Colors>()
+  nameWithType.vb: EnumExtensions.GetDescription(Of Colors)()
+  fullName.vb: GG.Extensions.EnumExtensions.GetDescription(Of GG.Extensions.Colors)()
+  name.vb: GetDescription(Of Colors)()
+  spec.csharp:
+  - uid: GG.Extensions.EnumExtensions.GetDescription``1
+    name: GetDescription<Colors>
+    nameWithType: EnumExtensions.GetDescription<Colors>
+    fullName: GG.Extensions.EnumExtensions.GetDescription<GG.Extensions.Colors>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GG.Extensions.EnumExtensions.GetDescription``1
+    name: GetDescription(Of Colors)
+    nameWithType: EnumExtensions.GetDescription(Of Colors)
+    fullName: GG.Extensions.EnumExtensions.GetDescription(Of GG.Extensions.Colors)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GG.Extensions.Colors.GG.Extensions.MiscExtensions.CopyAll``2({T2})
+  commentId: M:GG.Extensions.MiscExtensions.CopyAll``2(``0,``1)
+  parent: GG.Extensions.MiscExtensions
+  definition: GG.Extensions.MiscExtensions.CopyAll``2(``0,``1)
+  name: CopyAll<Colors, T2>(T2)
+  nameWithType: MiscExtensions.CopyAll<Colors, T2>(T2)
+  fullName: GG.Extensions.MiscExtensions.CopyAll<GG.Extensions.Colors, T2>(T2)
+  nameWithType.vb: MiscExtensions.CopyAll(Of Colors, T2)(T2)
+  fullName.vb: GG.Extensions.MiscExtensions.CopyAll(Of GG.Extensions.Colors, T2)(T2)
+  name.vb: CopyAll(Of Colors, T2)(T2)
+  spec.csharp:
+  - uid: GG.Extensions.MiscExtensions.CopyAll``2(``1)
+    name: CopyAll<Colors, T2>
+    nameWithType: MiscExtensions.CopyAll<Colors, T2>
+    fullName: GG.Extensions.MiscExtensions.CopyAll<GG.Extensions.Colors, T2>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GG.Extensions.MiscExtensions.CopyAll``2(``1)
+    name: CopyAll(Of Colors, T2)
+    nameWithType: MiscExtensions.CopyAll(Of Colors, T2)
+    fullName: GG.Extensions.MiscExtensions.CopyAll(Of GG.Extensions.Colors, T2)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.EnumExtensions.GetDescription``1(``0)
+  commentId: M:GG.Extensions.EnumExtensions.GetDescription``1(``0)
+  name: GetDescription<T>(T)
+  nameWithType: EnumExtensions.GetDescription<T>(T)
+  fullName: GG.Extensions.EnumExtensions.GetDescription<T>(T)
+  nameWithType.vb: EnumExtensions.GetDescription(Of T)(T)
+  fullName.vb: GG.Extensions.EnumExtensions.GetDescription(Of T)(T)
+  name.vb: GetDescription(Of T)(T)
+  spec.csharp:
+  - uid: GG.Extensions.EnumExtensions.GetDescription``1(``0)
+    name: GetDescription<T>
+    nameWithType: EnumExtensions.GetDescription<T>
+    fullName: GG.Extensions.EnumExtensions.GetDescription<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GG.Extensions.EnumExtensions.GetDescription``1(``0)
+    name: GetDescription(Of T)
+    nameWithType: EnumExtensions.GetDescription(Of T)
+    fullName: GG.Extensions.EnumExtensions.GetDescription(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GG.Extensions.EnumExtensions
+  commentId: T:GG.Extensions.EnumExtensions
+  parent: GG.Extensions
+  name: EnumExtensions
+  nameWithType: EnumExtensions
+  fullName: GG.Extensions.EnumExtensions
+- uid: GG.Extensions.MiscExtensions.CopyAll``2(``0,``1)
+  commentId: M:GG.Extensions.MiscExtensions.CopyAll``2(``0,``1)
+  name: CopyAll<T, T2>(T, T2)
+  nameWithType: MiscExtensions.CopyAll<T, T2>(T, T2)
+  fullName: GG.Extensions.MiscExtensions.CopyAll<T, T2>(T, T2)
+  nameWithType.vb: MiscExtensions.CopyAll(Of T, T2)(T, T2)
+  fullName.vb: GG.Extensions.MiscExtensions.CopyAll(Of T, T2)(T, T2)
+  name.vb: CopyAll(Of T, T2)(T, T2)
+  spec.csharp:
+  - uid: GG.Extensions.MiscExtensions.CopyAll``2(``0,``1)
+    name: CopyAll<T, T2>
+    nameWithType: MiscExtensions.CopyAll<T, T2>
+    fullName: GG.Extensions.MiscExtensions.CopyAll<T, T2>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GG.Extensions.MiscExtensions.CopyAll``2(``0,``1)
+    name: CopyAll(Of T, T2)
+    nameWithType: MiscExtensions.CopyAll(Of T, T2)
+    fullName: GG.Extensions.MiscExtensions.CopyAll(Of T, T2)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GG.Extensions.MiscExtensions
+  commentId: T:GG.Extensions.MiscExtensions
+  parent: GG.Extensions
+  name: MiscExtensions
+  nameWithType: MiscExtensions
+  fullName: GG.Extensions.MiscExtensions
+- uid: GG.Extensions.Colors.Random*
+  commentId: Overload:GG.Extensions.Colors.Random
+  name: Random
+  nameWithType: Colors.Random
+  fullName: GG.Extensions.Colors.Random
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

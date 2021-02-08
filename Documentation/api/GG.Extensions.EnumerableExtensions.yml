@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.EnumerableExtensions
+  commentId: T:GG.Extensions.EnumerableExtensions
+  id: EnumerableExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.EnumerableExtensions.Every``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  - GG.Extensions.EnumerableExtensions.GetEveryXEntry``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  - GG.Extensions.EnumerableExtensions.Move``1(System.Collections.Generic.List{``0},``0,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: EnumerableExtensions
+  nameWithType: EnumerableExtensions
+  fullName: GG.Extensions.EnumerableExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumerableExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: EnumerableExtensions
+    path: ../Assets/Unity_Extensions/EnumerableExtensions.cs
+    startLine: 8
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class EnumerableExtensions
+    content.vb: Public Module EnumerableExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.EnumerableExtensions.GetEveryXEntry``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:GG.Extensions.EnumerableExtensions.GetEveryXEntry``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  id: GetEveryXEntry``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumerableExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetEveryXEntry<T>(IEnumerable<T>, Int32)
+  nameWithType: EnumerableExtensions.GetEveryXEntry<T>(IEnumerable<T>, Int32)
+  fullName: GG.Extensions.EnumerableExtensions.GetEveryXEntry<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumerableExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: GetEveryXEntry
+    path: ../Assets/Unity_Extensions/EnumerableExtensions.cs
+    startLine: 17
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nReturns a list of ever X entry in an IEnumerable\n"
+  example: []
+  syntax:
+    content: public static List<T> GetEveryXEntry<T>(this IEnumerable<T> source, int nth)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: nth
+      type: System.Int32
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.List{{T}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetEveryXEntry(Of T)(source As IEnumerable(Of T), nth As Integer) As List(Of T)
+  overload: GG.Extensions.EnumerableExtensions.GetEveryXEntry*
+  nameWithType.vb: EnumerableExtensions.GetEveryXEntry(Of T)(IEnumerable(Of T), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumerableExtensions.GetEveryXEntry(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: GetEveryXEntry(Of T)(IEnumerable(Of T), Int32)
+- uid: GG.Extensions.EnumerableExtensions.Every``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:GG.Extensions.EnumerableExtensions.Every``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  id: Every``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumerableExtensions
+  langs:
+  - csharp
+  - vb
+  name: Every<T>(IEnumerable<T>, Int32)
+  nameWithType: EnumerableExtensions.Every<T>(IEnumerable<T>, Int32)
+  fullName: GG.Extensions.EnumerableExtensions.Every<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumerableExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Every
+    path: ../Assets/Unity_Extensions/EnumerableExtensions.cs
+    startLine: 29
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nIterates though every X entry in an IEnumerable\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<T> Every<T>(this IEnumerable<T> source, int count)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    - id: count
+      type: System.Int32
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Every(Of T)(source As IEnumerable(Of T), count As Integer) As IEnumerable(Of T)
+  overload: GG.Extensions.EnumerableExtensions.Every*
+  nameWithType.vb: EnumerableExtensions.Every(Of T)(IEnumerable(Of T), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumerableExtensions.Every(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: Every(Of T)(IEnumerable(Of T), Int32)
+- uid: GG.Extensions.EnumerableExtensions.Move``1(System.Collections.Generic.List{``0},``0,System.Int32)
+  commentId: M:GG.Extensions.EnumerableExtensions.Move``1(System.Collections.Generic.List{``0},``0,System.Int32)
+  id: Move``1(System.Collections.Generic.List{``0},``0,System.Int32)
+  isExtensionMethod: true
+  parent: GG.Extensions.EnumerableExtensions
+  langs:
+  - csharp
+  - vb
+  name: Move<T>(List<T>, T, Int32)
+  nameWithType: EnumerableExtensions.Move<T>(List<T>, T, Int32)
+  fullName: GG.Extensions.EnumerableExtensions.Move<T>(System.Collections.Generic.List<T>, T, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/EnumerableExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: Move
+    path: ../Assets/Unity_Extensions/EnumerableExtensions.cs
+    startLine: 46
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nMoves the item matching the <code data-dev-comment-type=\"paramref\" class=\"paramref\">itemSelector</code> to the <code data-dev-comment-type=\"paramref\" class=\"paramref\">newIndex</code> in a list.\n"
+  example: []
+  syntax:
+    content: >-
+      public static void Move<T>(this List<T> list, T itemSelector, int newIndex)
+          where T : class
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{{T}}
+    - id: itemSelector
+      type: '{T}'
+    - id: newIndex
+      type: System.Int32
+    typeParameters:
+    - id: T
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Move(Of T As Class)(list As List(Of T), itemSelector As T, newIndex As Integer)
+  overload: GG.Extensions.EnumerableExtensions.Move*
+  nameWithType.vb: EnumerableExtensions.Move(Of T)(List(Of T), T, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GG.Extensions.EnumerableExtensions.Move(Of T)(System.Collections.Generic.List(Of T), T, System.Int32)
+  name.vb: Move(Of T)(List(Of T), T, Int32)
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.EnumerableExtensions.GetEveryXEntry*
+  commentId: Overload:GG.Extensions.EnumerableExtensions.GetEveryXEntry
+  name: GetEveryXEntry
+  nameWithType: EnumerableExtensions.GetEveryXEntry
+  fullName: GG.Extensions.EnumerableExtensions.GetEveryXEntry
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GG.Extensions.EnumerableExtensions.Every*
+  commentId: Overload:GG.Extensions.EnumerableExtensions.Every
+  name: Every
+  nameWithType: EnumerableExtensions.Every
+  fullName: GG.Extensions.EnumerableExtensions.Every
+- uid: GG.Extensions.EnumerableExtensions.Move*
+  commentId: Overload:GG.Extensions.EnumerableExtensions.Move
+  name: Move
+  nameWithType: EnumerableExtensions.Move
+  fullName: GG.Extensions.EnumerableExtensions.Move
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

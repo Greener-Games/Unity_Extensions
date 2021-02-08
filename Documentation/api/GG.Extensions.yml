@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  id: GG.Extensions
+  children:
+  - GG.Extensions.AwaitExtensions
+  - GG.Extensions.ByteExtensions
+  - GG.Extensions.CameraExtensions
+  - GG.Extensions.ColorExtensions
+  - GG.Extensions.Colors
+  - GG.Extensions.DebugExtension
+  - GG.Extensions.DictionaryExtensions
+  - GG.Extensions.EnumerableExtensions
+  - GG.Extensions.EnumExtensions
+  - GG.Extensions.FileExtensions
+  - GG.Extensions.GameObjectExtensions
+  - GG.Extensions.ImageExtensions
+  - GG.Extensions.LayerMaskExtensions
+  - GG.Extensions.MathsExtensions
+  - GG.Extensions.MiscExtensions
+  - GG.Extensions.MiscExtensions.UnityAction`5
+  - GG.Extensions.NumberExtensions
+  - GG.Extensions.NumberExtensions.RoundMode
+  - GG.Extensions.RendererExtensions
+  - GG.Extensions.SecurityExtensions
+  - GG.Extensions.StringExtensions
+  - GG.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+  type: Namespace
+  assemblies:
+  - gg.extensions
+references:
+- uid: GG.Extensions.AwaitExtensions
+  commentId: T:GG.Extensions.AwaitExtensions
+  name: AwaitExtensions
+  nameWithType: AwaitExtensions
+  fullName: GG.Extensions.AwaitExtensions
+- uid: GG.Extensions.ByteExtensions
+  commentId: T:GG.Extensions.ByteExtensions
+  name: ByteExtensions
+  nameWithType: ByteExtensions
+  fullName: GG.Extensions.ByteExtensions
+- uid: GG.Extensions.CameraExtensions
+  commentId: T:GG.Extensions.CameraExtensions
+  name: CameraExtensions
+  nameWithType: CameraExtensions
+  fullName: GG.Extensions.CameraExtensions
+- uid: GG.Extensions.ColorExtensions
+  commentId: T:GG.Extensions.ColorExtensions
+  name: ColorExtensions
+  nameWithType: ColorExtensions
+  fullName: GG.Extensions.ColorExtensions
+- uid: GG.Extensions.Colors
+  commentId: T:GG.Extensions.Colors
+  name: Colors
+  nameWithType: Colors
+  fullName: GG.Extensions.Colors
+- uid: GG.Extensions.DebugExtension
+  commentId: T:GG.Extensions.DebugExtension
+  name: DebugExtension
+  nameWithType: DebugExtension
+  fullName: GG.Extensions.DebugExtension
+- uid: GG.Extensions.DictionaryExtensions
+  commentId: T:GG.Extensions.DictionaryExtensions
+  name: DictionaryExtensions
+  nameWithType: DictionaryExtensions
+  fullName: GG.Extensions.DictionaryExtensions
+- uid: GG.Extensions.EnumExtensions
+  commentId: T:GG.Extensions.EnumExtensions
+  parent: GG.Extensions
+  name: EnumExtensions
+  nameWithType: EnumExtensions
+  fullName: GG.Extensions.EnumExtensions
+- uid: GG.Extensions.EnumerableExtensions
+  commentId: T:GG.Extensions.EnumerableExtensions
+  name: EnumerableExtensions
+  nameWithType: EnumerableExtensions
+  fullName: GG.Extensions.EnumerableExtensions
+- uid: GG.Extensions.FileExtensions
+  commentId: T:GG.Extensions.FileExtensions
+  name: FileExtensions
+  nameWithType: FileExtensions
+  fullName: GG.Extensions.FileExtensions
+- uid: GG.Extensions.GameObjectExtensions
+  commentId: T:GG.Extensions.GameObjectExtensions
+  name: GameObjectExtensions
+  nameWithType: GameObjectExtensions
+  fullName: GG.Extensions.GameObjectExtensions
+- uid: GG.Extensions.ImageExtensions
+  commentId: T:GG.Extensions.ImageExtensions
+  name: ImageExtensions
+  nameWithType: ImageExtensions
+  fullName: GG.Extensions.ImageExtensions
+- uid: GG.Extensions.LayerMaskExtensions
+  commentId: T:GG.Extensions.LayerMaskExtensions
+  name: LayerMaskExtensions
+  nameWithType: LayerMaskExtensions
+  fullName: GG.Extensions.LayerMaskExtensions
+- uid: GG.Extensions.MathsExtensions
+  commentId: T:GG.Extensions.MathsExtensions
+  name: MathsExtensions
+  nameWithType: MathsExtensions
+  fullName: GG.Extensions.MathsExtensions
+- uid: GG.Extensions.MiscExtensions
+  commentId: T:GG.Extensions.MiscExtensions
+  parent: GG.Extensions
+  name: MiscExtensions
+  nameWithType: MiscExtensions
+  fullName: GG.Extensions.MiscExtensions
+- uid: GG.Extensions.MiscExtensions.UnityAction`5
+  commentId: T:GG.Extensions.MiscExtensions.UnityAction`5
+  name: MiscExtensions.UnityAction<T0, T1, T2, T3, T4>
+  nameWithType: MiscExtensions.UnityAction<T0, T1, T2, T3, T4>
+  fullName: GG.Extensions.MiscExtensions.UnityAction<T0, T1, T2, T3, T4>
+  nameWithType.vb: MiscExtensions.UnityAction(Of T0, T1, T2, T3, T4)
+  fullName.vb: GG.Extensions.MiscExtensions.UnityAction(Of T0, T1, T2, T3, T4)
+  name.vb: MiscExtensions.UnityAction(Of T0, T1, T2, T3, T4)
+  spec.csharp:
+  - uid: GG.Extensions.MiscExtensions.UnityAction`5
+    name: MiscExtensions.UnityAction
+    nameWithType: MiscExtensions.UnityAction
+    fullName: GG.Extensions.MiscExtensions.UnityAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GG.Extensions.MiscExtensions.UnityAction`5
+    name: MiscExtensions.UnityAction
+    nameWithType: MiscExtensions.UnityAction
+    fullName: GG.Extensions.MiscExtensions.UnityAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GG.Extensions.NumberExtensions
+  commentId: T:GG.Extensions.NumberExtensions
+  name: NumberExtensions
+  nameWithType: NumberExtensions
+  fullName: GG.Extensions.NumberExtensions
+- uid: GG.Extensions.NumberExtensions.RoundMode
+  commentId: T:GG.Extensions.NumberExtensions.RoundMode
+  parent: GG.Extensions
+  name: NumberExtensions.RoundMode
+  nameWithType: NumberExtensions.RoundMode
+  fullName: GG.Extensions.NumberExtensions.RoundMode
+- uid: GG.Extensions.RendererExtensions
+  commentId: T:GG.Extensions.RendererExtensions
+  name: RendererExtensions
+  nameWithType: RendererExtensions
+  fullName: GG.Extensions.RendererExtensions
+- uid: GG.Extensions.SecurityExtensions
+  commentId: T:GG.Extensions.SecurityExtensions
+  name: SecurityExtensions
+  nameWithType: SecurityExtensions
+  fullName: GG.Extensions.SecurityExtensions
+- uid: GG.Extensions.StringExtensions
+  commentId: T:GG.Extensions.StringExtensions
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: GG.Extensions.StringExtensions
+- uid: GG.Extensions.TransformExtensions
+  commentId: T:GG.Extensions.TransformExtensions
+  name: TransformExtensions
+  nameWithType: TransformExtensions
+  fullName: GG.Extensions.TransformExtensions
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions

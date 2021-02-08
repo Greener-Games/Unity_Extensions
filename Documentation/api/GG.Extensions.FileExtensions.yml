@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: GG.Extensions.FileExtensions
+  commentId: T:GG.Extensions.FileExtensions
+  id: FileExtensions
+  parent: GG.Extensions
+  children:
+  - GG.Extensions.FileExtensions.DirectoryCopy(System.String,System.String,System.Boolean)
+  - GG.Extensions.FileExtensions.IsFileInUse(System.IO.FileInfo)
+  - GG.Extensions.FileExtensions.RemoveFileExtension(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FileExtensions
+  nameWithType: FileExtensions
+  fullName: GG.Extensions.FileExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/Unity_Extensions/FileExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: FileExtensions
+    path: ../Assets/Unity_Extensions/FileExtensions.cs
+    startLine: 5
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static class FileExtensions
+    content.vb: Public Module FileExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: GG.Extensions.FileExtensions.IsFileInUse(System.IO.FileInfo)
+  commentId: M:GG.Extensions.FileExtensions.IsFileInUse(System.IO.FileInfo)
+  id: IsFileInUse(System.IO.FileInfo)
+  parent: GG.Extensions.FileExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsFileInUse(FileInfo)
+  nameWithType: FileExtensions.IsFileInUse(FileInfo)
+  fullName: GG.Extensions.FileExtensions.IsFileInUse(System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/FileExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: IsFileInUse
+    path: ../Assets/Unity_Extensions/FileExtensions.cs
+    startLine: 7
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static bool IsFileInUse(FileInfo file)
+    parameters:
+    - id: file
+      type: System.IO.FileInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsFileInUse(file As FileInfo) As Boolean
+  overload: GG.Extensions.FileExtensions.IsFileInUse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.FileExtensions.DirectoryCopy(System.String,System.String,System.Boolean)
+  commentId: M:GG.Extensions.FileExtensions.DirectoryCopy(System.String,System.String,System.Boolean)
+  id: DirectoryCopy(System.String,System.String,System.Boolean)
+  parent: GG.Extensions.FileExtensions
+  langs:
+  - csharp
+  - vb
+  name: DirectoryCopy(String, String, Boolean)
+  nameWithType: FileExtensions.DirectoryCopy(String, String, Boolean)
+  fullName: GG.Extensions.FileExtensions.DirectoryCopy(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/FileExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: DirectoryCopy
+    path: ../Assets/Unity_Extensions/FileExtensions.cs
+    startLine: 37
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  summary: "\nCopy a whole directory with option to copy all sub folders\n"
+  example: []
+  syntax:
+    content: public static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
+    parameters:
+    - id: sourceDirName
+      type: System.String
+      description: ''
+    - id: destDirName
+      type: System.String
+      description: ''
+    - id: copySubDirs
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Sub DirectoryCopy(sourceDirName As String, destDirName As String, copySubDirs As Boolean)
+  overload: GG.Extensions.FileExtensions.DirectoryCopy*
+  exceptions:
+  - type: System.IO.DirectoryNotFoundException
+    commentId: T:System.IO.DirectoryNotFoundException
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GG.Extensions.FileExtensions.RemoveFileExtension(System.String)
+  commentId: M:GG.Extensions.FileExtensions.RemoveFileExtension(System.String)
+  id: RemoveFileExtension(System.String)
+  parent: GG.Extensions.FileExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveFileExtension(String)
+  nameWithType: FileExtensions.RemoveFileExtension(String)
+  fullName: GG.Extensions.FileExtensions.RemoveFileExtension(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Unity_Extensions/FileExtensions.cs
+      branch: master
+      repo: https://github.com/Reddevildragg/Unity_Extensions.git
+    id: RemoveFileExtension
+    path: ../Assets/Unity_Extensions/FileExtensions.cs
+    startLine: 75
+  assemblies:
+  - gg.extensions
+  namespace: GG.Extensions
+  syntax:
+    content: public static string RemoveFileExtension(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveFileExtension(filePath As String) As String
+  overload: GG.Extensions.FileExtensions.RemoveFileExtension*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GG.Extensions
+  commentId: N:GG.Extensions
+  name: GG.Extensions
+  nameWithType: GG.Extensions
+  fullName: GG.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GG.Extensions.FileExtensions.IsFileInUse*
+  commentId: Overload:GG.Extensions.FileExtensions.IsFileInUse
+  name: IsFileInUse
+  nameWithType: FileExtensions.IsFileInUse
+  fullName: GG.Extensions.FileExtensions.IsFileInUse
+- uid: System.IO.FileInfo
+  commentId: T:System.IO.FileInfo
+  parent: System.IO
+  isExternal: true
+  name: FileInfo
+  nameWithType: FileInfo
+  fullName: System.IO.FileInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: System.IO.DirectoryNotFoundException
+  commentId: T:System.IO.DirectoryNotFoundException
+  isExternal: true
+- uid: GG.Extensions.FileExtensions.DirectoryCopy*
+  commentId: Overload:GG.Extensions.FileExtensions.DirectoryCopy
+  name: DirectoryCopy
+  nameWithType: FileExtensions.DirectoryCopy
+  fullName: GG.Extensions.FileExtensions.DirectoryCopy
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GG.Extensions.FileExtensions.RemoveFileExtension*
+  commentId: Overload:GG.Extensions.FileExtensions.RemoveFileExtension
+  name: RemoveFileExtension
+  nameWithType: FileExtensions.RemoveFileExtension
+  fullName: GG.Extensions.FileExtensions.RemoveFileExtension
