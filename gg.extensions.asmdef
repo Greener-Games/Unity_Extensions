@@ -1,3 +1,15 @@
-﻿{
-	"name": "gg.extensions"
+{
+    "name": "gg.extensions",
+    "references": [
+        "GUID:6f099b00ee0d34f4eb8ef168f15e5087"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
