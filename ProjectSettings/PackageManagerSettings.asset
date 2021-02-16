@@ -27,7 +27,7 @@ MonoBehaviour:
     - com.svermeulen
     - com.firenero
     m_IsDefault: 0
-  m_UserSelectedRegistryName: OpenUpm
+  m_UserSelectedRegistryName: 
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
     m_ErrorMessage: 
