@@ -149,66 +149,66 @@ namespace GG.Extensions
 	    /// <summary>
 	    /// Translates this transform along the X axis.
 	    /// </summary>
-	    public static void TranslateX(this Transform transform, float x)
+	    public static void TranslateX(this Transform transform, float x, bool local = false)
 	    {
-		    var offset = new Vector3(x, 0, 0);
-
-		    transform.position += offset;
+		    transform.TranslateXYZ(x,0,0,local);
 	    }
 
 	    /// <summary>
 	    /// Translates this transform along the Y axis.
 	    /// </summary>
-	    public static void TranslateY(this Transform transform, float y)
+	    public static void TranslateY(this Transform transform, float y, bool local = false)
 	    {
-		    var offset = new Vector3(0, y, 0);
-
-		    transform.position += offset;
+		    transform.TranslateXYZ(0,y,0,local);
 	    }
 	    
 	    /// <summary>
 	    /// Translates this transform along the Z axis.
 	    /// </summary>
-	    public static void TranslateZ(this Transform transform, float z)
+	    public static void TranslateZ(this Transform transform, float z, bool local = false)
 	    {
-		    var offset = new Vector3(0, 0, z);
-		    transform.position += offset;
+		    transform.TranslateXYZ(0,0,z,local);
 	    }
 
 	    /// <summary>
 	    /// Translates this transform along the X and Y axes.
 	    /// </summary>
-	    public static void TranslateXY(this Transform transform, float x, float y)
+	    public static void TranslateXY(this Transform transform, float x, float y, bool local = false)
 	    {
-		    var offset = new Vector3(x, y, 0);
-		    transform.position += offset;
+		    transform.TranslateXYZ(x,y,0,local);
 	    }
 
 	    /// <summary>
 	    /// Translates this transform along the X and Z axes.
 	    /// </summary>
-	    public static void TranslateXZ(this Transform transform, float x, float z)
+	    public static void TranslateXZ(this Transform transform, float x, float z, bool local = false)
 	    {
-		    var offset = new Vector3(x, 0, z);
-		    transform.position += offset;
+		    transform.TranslateXYZ(x,0,z,local);
 	    }
 
 	    /// <summary>
 	    /// Translates this transform along the Y and Z axes.
 	    /// </summary>
-	    public static void TranslateYZ(this Transform transform, float y, float z)
+	    public static void TranslateYZ(this Transform transform, float y, float z, bool local = false)
 	    {
-		    var offset = new Vector3(0, y, z);
-		    transform.position += offset;
+		    transform.TranslateXYZ(0,y,z,local);
 	    }
 
 	    /// <summary>
 	    /// Translates this transform along the X, Y and Z axis.
 	    /// </summary>
-	    public static void TranslateXYZ(this Transform transform, float x, float y, float z)
+	    public static void TranslateXYZ(this Transform transform, float x, float y, float z, bool local = false)
 	    {
-		    var offset = new Vector3(x, y, z);
-		    transform.position += offset;
+		    Vector3 offset = new Vector3(x, y, z);
+
+		    if (local)
+		    {
+			    transform.localPosition += offset;
+		    }
+		    else
+		    {
+			    transform.position += offset;
+		    }
 	    }
 
 	    /// <summary>
