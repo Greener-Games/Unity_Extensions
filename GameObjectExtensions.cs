@@ -74,5 +74,41 @@ namespace GG.Extensions
 			savedObjects = savedObjects.Where(x => x != null).ToList();
 			return new List<GameObject>(savedObjects); 
 		}
+		
+		/// <summary>
+		/// Return a list of all child objects
+		/// </summary>
+		/// <param name="gameObject"></param>
+		/// <returns></returns>
+		public static List<GameObject> GetAllChildren(this GameObject gameObject)
+		{
+			Transform[] childTransforms = gameObject.GetComponentsInChildren<Transform>();
+			List<GameObject> allChildren = new List<GameObject>(childTransforms.Length);
+
+			foreach(Transform child in childTransforms)
+			{
+				if(child.gameObject != gameObject) allChildren.Add(child.gameObject);
+			}
+
+			return allChildren;
+		}
+
+		/// <summary>
+		/// Return a list of all child objects including itself
+		/// </summary>
+		/// <param name="gameObject"></param>
+		/// <returns></returns>
+		public static List<GameObject> GetAllChildrenAndSelf(this GameObject gameObject)
+		{
+			Transform[] childTransforms = gameObject.GetComponentsInChildren<Transform>();
+			List<GameObject> allChildren = new List<GameObject>(childTransforms.Length);
+
+			for (int transformIndex = 0; transformIndex < childTransforms.Length; ++transformIndex)
+			{
+				allChildren.Add(childTransforms[transformIndex].gameObject);
+			}
+
+			return allChildren;
+		}
 	}
 }

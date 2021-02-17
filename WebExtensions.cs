@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.Networking;
 
 namespace GG.Extensions
@@ -49,6 +50,29 @@ namespace GG.Extensions
             {
                 request.url += $"?{parameter}={value}";
             }
+        }
+        
+        /// <summary>
+        /// Download texture from a urlImagePath
+        /// </summary>
+        /// <param name="urlToImage"></param>
+        /// <returns></returns>
+        public static async Task<Texture2D> GetTexture(string urlToImage) 
+        {
+            UnityWebRequest www = UnityWebRequestTexture.GetTexture(urlToImage);
+            await www.SendWebRequest();
+
+            if(www.isNetworkError || www.isHttpError) 
+            {
+                Debug.Log(www.error);
+            }
+            else
+            {
+                Texture2D myTexture = DownloadHandlerTexture.GetContent(www);
+                return myTexture;
+            }
+
+            return null;
         }
     }
 }
