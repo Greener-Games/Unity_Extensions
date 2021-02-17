@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Atkins.Core
+namespace GG.Extensions
 {
     public enum AnchorPresets
     {
