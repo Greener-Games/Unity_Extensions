@@ -34,18 +34,8 @@
                 "files": [ "resources/**/*" ]
             }
         ],
-        "sitemap":
-        {
-            "baseUrl": "",
-            "changefreq": "weekly",
-            "fileOptions": {
-                "api/*": {
-                    "changefreq": "daily"
-                }
-            }
-        },
         "xref": [ "https://nicoco007.github.io/UnityXRefMap/2019.4/xrefmap.yml" ],
         "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
-        "dest": "_site"
+        "dest": "../_site"
     }
 }

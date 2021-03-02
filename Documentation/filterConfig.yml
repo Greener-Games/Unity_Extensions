@@ -1,6 +1,9 @@
 apiRules:
 - include:
-    uidRegex: ^GG.Extensions
+    uidRegex: ^Global
+    type: Namespace
+- include:
+    uidRegex: ^GG
     type: Namespace
 - exclude:
     uidRegex: .* # Every other namespaces are ignored
