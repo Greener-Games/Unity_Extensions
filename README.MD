@@ -1,3 +1,5 @@
+[![openupm](https://img.shields.io/npm/v/com.greener-games.unity-extensions?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.greener-games.unity-extensions/)
+
 Collection of Unity extension methods.
 
 Have been gathered from multiple sources to have them all in one place
