@@ -1,0 +1,526 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.AnchorPresets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.AnchorPresets.html",
+          "hash": "F8JT8y6Ut9iWf5uMKWep0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.AwaitExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.AwaitExtensions.html",
+          "hash": "MnywMSWKiOvg8VUk7PErlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.ByteExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.ByteExtensions.html",
+          "hash": "fIpEwIjI1qY7eROPO71noA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.CameraExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.CameraExtensions.html",
+          "hash": "js5Oh+CAG6kON2r573P9wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.ColorExtensions.html",
+          "hash": "1/YaP1gocr0csA0yUQC1gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.Colors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.Colors.html",
+          "hash": "dmsRh5BbuxGQupCWcfonFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.DebugExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.DebugExtension.html",
+          "hash": "aK3uHwsUWQ4+hxfYuvbOfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.DictionaryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.DictionaryExtensions.html",
+          "hash": "CCRYCqNqMdzwqnw1U1bWnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.EnumExtensions.html",
+          "hash": "x/IOl8z9GuErMAXuj62fjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.EnumerableExtensions.html",
+          "hash": "6J2DHA+ccX6yIjEtntl29Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.FileExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.FileExtensions.html",
+          "hash": "FoITRTDWgB999C2AcE1mvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.GameObjectExtensions.html",
+          "hash": "Bf94PbdT3R8h9mpJdLLrNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.Geometry.html",
+          "hash": "lE2yKnWpj4N/srU6pBCWiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.ImageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.ImageExtensions.html",
+          "hash": "IooqvrJHhZxMOvzJyD45Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.LayerMaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.LayerMaskExtensions.html",
+          "hash": "Sv70si7B7LUmQGTk2Bo3Tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.MathsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.MathsExtensions.html",
+          "hash": "KdbT7LS0M2MUM2nlIz+Xdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.MiscExtensions.UnityAction-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.MiscExtensions.UnityAction-5.html",
+          "hash": "XGboYTqsxqbVtObO7bW5uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.MiscExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.MiscExtensions.html",
+          "hash": "2Qs2LaIzQQBOuRhhqhWV0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.NumberExtensions.RoundMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.NumberExtensions.RoundMode.html",
+          "hash": "4AzVQGHsRxmej/25ybSWww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.NumberExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.NumberExtensions.html",
+          "hash": "r/oHUoKBhjBxnNgCZ4aYsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.PivotPresets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.PivotPresets.html",
+          "hash": "sX+vPK7QzgBQXA94alHSCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.RectTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.RectTransformExtensions.html",
+          "hash": "djYFsTsSMTzGjHyE7s5gDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.RendererExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.RendererExtensions.html",
+          "hash": "4qxZgVAFNvfEudSKWdadQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.SecurityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.SecurityExtensions.html",
+          "hash": "ZkXVljVi3k0dwnLuribMiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.StringExtensions.html",
+          "hash": "z8y0XgV/Ff0nD3RJEnPgJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.TransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.TransformExtensions.html",
+          "hash": "nPxpyzXUv7YwdRxrUweeJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.UiExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.UiExtensions.html",
+          "hash": "dBa4/f2f6+t2YmYjRoDjsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.VectorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.VectorExtensions.html",
+          "hash": "HZdoXoiQUxvUgcIrpx3SvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.VersionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.VersionExtension.html",
+          "hash": "bVyKJah5K7X9PPkHCcQJPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.WebExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.WebExtensions.html",
+          "hash": "v7KXBVgqrJC4GLiGr+r8rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GG.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GG.Extensions.html",
+          "hash": "KU11jE6iRqtu4j1Etr5l4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DateTimeExtensions.html",
+          "hash": "8NnRrvspLs8biUayVUdapg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "tdKaN1KVuG0hmTanRLfwkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Eoyuby4VqySSv9VjdpgAQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "edWp94//QyZ74nsq0zEjQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "IG+CCG+pRN7tJgsbCTnQ6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 33,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
