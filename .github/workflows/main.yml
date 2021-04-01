@@ -1,8 +1,9 @@
 name: CI
+# Controls when the action will run. 
 on:
   push:
-    branches:
-    - master
+    tags:
+    - '*'
 jobs:
   split-upm:
     name: split upm branch
