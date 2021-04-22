@@ -6,7 +6,8 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
-
+namespace GG.Extensions
+{
 public static class DateTimeExtensions
     {
         public static readonly DateTime UNIXTIME_ZERO_POINT = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
@@ -223,3 +224,4 @@ public static class DateTimeExtensions
 
         }
     }
+}
