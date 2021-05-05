@@ -2,7 +2,7 @@
   "name": "com.greener-games.unity-extensions",
   "displayName": "Unity Extensions",
   "description": "Collection of extensions for use in unity",
-  "version": "0.13.0",
+  "version": "1.0.0",
   "unity": "2018.1",
   "license": "MIT",
   "author": {
