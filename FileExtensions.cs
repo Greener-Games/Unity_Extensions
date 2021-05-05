@@ -1,4 +1,4 @@
-using System;
+using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
@@ -118,25 +118,13 @@ namespace GG.Extensions
 	public static string[] GetResourcesDirectories ()
 	{
 		List<string> result = new List<string>();
-		Stack<string> stack = new Stack<string>();
-		// Add the root directory to the stack
-		stack.Push(Application.dataPath);
-		// While we have directories to process...
-		while (stack.Count > 0) {
-			// Grab a directory off the stack
-			string currentDir = stack.Pop();
-			try {
-				foreach (string dir in Directory.GetDirectories(currentDir)) {
-					if (Path.GetFileName(dir).Equals("Resources")) {
-						// If one of the found directories is a Resources dir, add it to the result
-						result.Add(dir);
-					}
-					// Add directories at the current level into the stack
-					stack.Push(dir);
-				}
-			}
-			catch {
-				Debug.LogError("Directory " + currentDir + " couldn't be read from.");
+		
+		foreach (string dir in Directory.GetDirectories(Application.dataPath, "*", SearchOption.AllDirectories)) 
+		{
+			if (Path.GetFileName(dir).Equals("Resources")) 
+			{
+				// If one of the found directories is a Resources dir, add it to the result
+				result.Add(dir);
 			}
 		}
 		return result.ToArray();
