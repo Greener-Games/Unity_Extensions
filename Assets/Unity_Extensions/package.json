@@ -2,7 +2,7 @@
   "name": "com.greener-games.unity-extensions",
   "displayName": "Unity Extensions",
   "description": "Collection of extensions for use in unity",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "unity": "2018.1",
   "license": "MIT",
   "author": {
@@ -13,6 +13,6 @@
     "url": "https://github.com/Greener-Games/Unity_Extensions"
   },
   "dependencies": {
-  "com.svermeulen.asyncawaitutil": "0.1.3"
+    "com.svermeulen.asyncawaitutil": "0.1.3"
   }
 }
