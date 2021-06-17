@@ -1352,6 +1352,222 @@ references:
   commentId: F:GG.Extensions.Colors.YellowGreen
   fullName: GG.Extensions.Colors.YellowGreen
   nameWithType: Colors.YellowGreen
+- uid: GG.Extensions.DateTimeExtensions
+  name: DateTimeExtensions
+  href: api/GG.Extensions.DateTimeExtensions.html
+  commentId: T:GG.Extensions.DateTimeExtensions
+  fullName: GG.Extensions.DateTimeExtensions
+  nameWithType: DateTimeExtensions
+- uid: GG.Extensions.DateTimeExtensions.AllDatesInMonth(System.Collections.Generic.List{System.DateTime},System.Int32,System.Int32)
+  name: AllDatesInMonth(List<DateTime>, Int32, Int32)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_AllDatesInMonth_System_Collections_Generic_List_System_DateTime__System_Int32_System_Int32_
+  commentId: M:GG.Extensions.DateTimeExtensions.AllDatesInMonth(System.Collections.Generic.List{System.DateTime},System.Int32,System.Int32)
+  name.vb: AllDatesInMonth(List(Of DateTime), Int32, Int32)
+  fullName: GG.Extensions.DateTimeExtensions.AllDatesInMonth(System.Collections.Generic.List<System.DateTime>, System.Int32, System.Int32)
+  fullName.vb: GG.Extensions.DateTimeExtensions.AllDatesInMonth(System.Collections.Generic.List(Of System.DateTime), System.Int32, System.Int32)
+  nameWithType: DateTimeExtensions.AllDatesInMonth(List<DateTime>, Int32, Int32)
+  nameWithType.vb: DateTimeExtensions.AllDatesInMonth(List(Of DateTime), Int32, Int32)
+- uid: GG.Extensions.DateTimeExtensions.AllDatesInMonth*
+  name: AllDatesInMonth
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_AllDatesInMonth_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.AllDatesInMonth
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.AllDatesInMonth
+  nameWithType: DateTimeExtensions.AllDatesInMonth
+- uid: GG.Extensions.DateTimeExtensions.FromUnixtime(System.Int64,System.Boolean,System.Boolean)
+  name: FromUnixtime(Int64, Boolean, Boolean)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_FromUnixtime_System_Int64_System_Boolean_System_Boolean_
+  commentId: M:GG.Extensions.DateTimeExtensions.FromUnixtime(System.Int64,System.Boolean,System.Boolean)
+  fullName: GG.Extensions.DateTimeExtensions.FromUnixtime(System.Int64, System.Boolean, System.Boolean)
+  nameWithType: DateTimeExtensions.FromUnixtime(Int64, Boolean, Boolean)
+- uid: GG.Extensions.DateTimeExtensions.FromUnixtime*
+  name: FromUnixtime
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_FromUnixtime_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.FromUnixtime
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.FromUnixtime
+  nameWithType: DateTimeExtensions.FromUnixtime
+- uid: GG.Extensions.DateTimeExtensions.GetCurrentWeekNumber(System.DateTime)
+  name: GetCurrentWeekNumber(DateTime)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_GetCurrentWeekNumber_System_DateTime_
+  commentId: M:GG.Extensions.DateTimeExtensions.GetCurrentWeekNumber(System.DateTime)
+  fullName: GG.Extensions.DateTimeExtensions.GetCurrentWeekNumber(System.DateTime)
+  nameWithType: DateTimeExtensions.GetCurrentWeekNumber(DateTime)
+- uid: GG.Extensions.DateTimeExtensions.GetCurrentWeekNumber*
+  name: GetCurrentWeekNumber
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_GetCurrentWeekNumber_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.GetCurrentWeekNumber
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.GetCurrentWeekNumber
+  nameWithType: DateTimeExtensions.GetCurrentWeekNumber
+- uid: GG.Extensions.DateTimeExtensions.GetRandomDates(System.DateTime,System.DateTime,System.Int32)
+  name: GetRandomDates(DateTime, DateTime, Int32)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_GetRandomDates_System_DateTime_System_DateTime_System_Int32_
+  commentId: M:GG.Extensions.DateTimeExtensions.GetRandomDates(System.DateTime,System.DateTime,System.Int32)
+  fullName: GG.Extensions.DateTimeExtensions.GetRandomDates(System.DateTime, System.DateTime, System.Int32)
+  nameWithType: DateTimeExtensions.GetRandomDates(DateTime, DateTime, Int32)
+- uid: GG.Extensions.DateTimeExtensions.GetRandomDates*
+  name: GetRandomDates
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_GetRandomDates_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.GetRandomDates
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.GetRandomDates
+  nameWithType: DateTimeExtensions.GetRandomDates
+- uid: GG.Extensions.DateTimeExtensions.InRange(System.DateTime,System.DateTime,System.DateTime)
+  name: InRange(DateTime, DateTime, DateTime)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_InRange_System_DateTime_System_DateTime_System_DateTime_
+  commentId: M:GG.Extensions.DateTimeExtensions.InRange(System.DateTime,System.DateTime,System.DateTime)
+  fullName: GG.Extensions.DateTimeExtensions.InRange(System.DateTime, System.DateTime, System.DateTime)
+  nameWithType: DateTimeExtensions.InRange(DateTime, DateTime, DateTime)
+- uid: GG.Extensions.DateTimeExtensions.InRange*
+  name: InRange
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_InRange_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.InRange
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.InRange
+  nameWithType: DateTimeExtensions.InRange
+- uid: GG.Extensions.DateTimeExtensions.RoundDown(System.DateTime,System.TimeSpan)
+  name: RoundDown(DateTime, TimeSpan)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_RoundDown_System_DateTime_System_TimeSpan_
+  commentId: M:GG.Extensions.DateTimeExtensions.RoundDown(System.DateTime,System.TimeSpan)
+  fullName: GG.Extensions.DateTimeExtensions.RoundDown(System.DateTime, System.TimeSpan)
+  nameWithType: DateTimeExtensions.RoundDown(DateTime, TimeSpan)
+- uid: GG.Extensions.DateTimeExtensions.RoundDown*
+  name: RoundDown
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_RoundDown_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.RoundDown
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.RoundDown
+  nameWithType: DateTimeExtensions.RoundDown
+- uid: GG.Extensions.DateTimeExtensions.RoundToNearest(System.DateTime,System.TimeSpan)
+  name: RoundToNearest(DateTime, TimeSpan)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_RoundToNearest_System_DateTime_System_TimeSpan_
+  commentId: M:GG.Extensions.DateTimeExtensions.RoundToNearest(System.DateTime,System.TimeSpan)
+  fullName: GG.Extensions.DateTimeExtensions.RoundToNearest(System.DateTime, System.TimeSpan)
+  nameWithType: DateTimeExtensions.RoundToNearest(DateTime, TimeSpan)
+- uid: GG.Extensions.DateTimeExtensions.RoundToNearest*
+  name: RoundToNearest
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_RoundToNearest_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.RoundToNearest
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.RoundToNearest
+  nameWithType: DateTimeExtensions.RoundToNearest
+- uid: GG.Extensions.DateTimeExtensions.RoundUp(System.DateTime,System.TimeSpan)
+  name: RoundUp(DateTime, TimeSpan)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_RoundUp_System_DateTime_System_TimeSpan_
+  commentId: M:GG.Extensions.DateTimeExtensions.RoundUp(System.DateTime,System.TimeSpan)
+  fullName: GG.Extensions.DateTimeExtensions.RoundUp(System.DateTime, System.TimeSpan)
+  nameWithType: DateTimeExtensions.RoundUp(DateTime, TimeSpan)
+- uid: GG.Extensions.DateTimeExtensions.RoundUp*
+  name: RoundUp
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_RoundUp_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.RoundUp
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.RoundUp
+  nameWithType: DateTimeExtensions.RoundUp
+- uid: GG.Extensions.DateTimeExtensions.StartOfMonth(System.DateTime)
+  name: StartOfMonth(DateTime)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_StartOfMonth_System_DateTime_
+  commentId: M:GG.Extensions.DateTimeExtensions.StartOfMonth(System.DateTime)
+  fullName: GG.Extensions.DateTimeExtensions.StartOfMonth(System.DateTime)
+  nameWithType: DateTimeExtensions.StartOfMonth(DateTime)
+- uid: GG.Extensions.DateTimeExtensions.StartOfMonth*
+  name: StartOfMonth
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_StartOfMonth_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.StartOfMonth
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.StartOfMonth
+  nameWithType: DateTimeExtensions.StartOfMonth
+- uid: GG.Extensions.DateTimeExtensions.StartOfWeek(System.DateTime,System.DayOfWeek)
+  name: StartOfWeek(DateTime, DayOfWeek)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_StartOfWeek_System_DateTime_System_DayOfWeek_
+  commentId: M:GG.Extensions.DateTimeExtensions.StartOfWeek(System.DateTime,System.DayOfWeek)
+  fullName: GG.Extensions.DateTimeExtensions.StartOfWeek(System.DateTime, System.DayOfWeek)
+  nameWithType: DateTimeExtensions.StartOfWeek(DateTime, DayOfWeek)
+- uid: GG.Extensions.DateTimeExtensions.StartOfWeek*
+  name: StartOfWeek
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_StartOfWeek_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.StartOfWeek
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.StartOfWeek
+  nameWithType: DateTimeExtensions.StartOfWeek
+- uid: GG.Extensions.DateTimeExtensions.StartOfYear(System.DateTime)
+  name: StartOfYear(DateTime)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_StartOfYear_System_DateTime_
+  commentId: M:GG.Extensions.DateTimeExtensions.StartOfYear(System.DateTime)
+  fullName: GG.Extensions.DateTimeExtensions.StartOfYear(System.DateTime)
+  nameWithType: DateTimeExtensions.StartOfYear(DateTime)
+- uid: GG.Extensions.DateTimeExtensions.StartOfYear*
+  name: StartOfYear
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_StartOfYear_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.StartOfYear
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.StartOfYear
+  nameWithType: DateTimeExtensions.StartOfYear
+- uid: GG.Extensions.DateTimeExtensions.ToDateTime(System.String,System.String,System.Globalization.CultureInfo)
+  name: ToDateTime(String, String, CultureInfo)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_ToDateTime_System_String_System_String_System_Globalization_CultureInfo_
+  commentId: M:GG.Extensions.DateTimeExtensions.ToDateTime(System.String,System.String,System.Globalization.CultureInfo)
+  fullName: GG.Extensions.DateTimeExtensions.ToDateTime(System.String, System.String, System.Globalization.CultureInfo)
+  nameWithType: DateTimeExtensions.ToDateTime(String, String, CultureInfo)
+- uid: GG.Extensions.DateTimeExtensions.ToDateTime(System.String,System.String,System.String)
+  name: ToDateTime(String, String, String)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_ToDateTime_System_String_System_String_System_String_
+  commentId: M:GG.Extensions.DateTimeExtensions.ToDateTime(System.String,System.String,System.String)
+  fullName: GG.Extensions.DateTimeExtensions.ToDateTime(System.String, System.String, System.String)
+  nameWithType: DateTimeExtensions.ToDateTime(String, String, String)
+- uid: GG.Extensions.DateTimeExtensions.ToDateTime*
+  name: ToDateTime
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_ToDateTime_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.ToDateTime
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.ToDateTime
+  nameWithType: DateTimeExtensions.ToDateTime
+- uid: GG.Extensions.DateTimeExtensions.ToOccurrenceSuffix(System.Int32)
+  name: ToOccurrenceSuffix(Int32)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_ToOccurrenceSuffix_System_Int32_
+  commentId: M:GG.Extensions.DateTimeExtensions.ToOccurrenceSuffix(System.Int32)
+  fullName: GG.Extensions.DateTimeExtensions.ToOccurrenceSuffix(System.Int32)
+  nameWithType: DateTimeExtensions.ToOccurrenceSuffix(Int32)
+- uid: GG.Extensions.DateTimeExtensions.ToOccurrenceSuffix*
+  name: ToOccurrenceSuffix
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_ToOccurrenceSuffix_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.ToOccurrenceSuffix
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.ToOccurrenceSuffix
+  nameWithType: DateTimeExtensions.ToOccurrenceSuffix
+- uid: GG.Extensions.DateTimeExtensions.ToString(System.DateTime,System.String,System.Boolean)
+  name: ToString(DateTime, String, Boolean)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_ToString_System_DateTime_System_String_System_Boolean_
+  commentId: M:GG.Extensions.DateTimeExtensions.ToString(System.DateTime,System.String,System.Boolean)
+  fullName: GG.Extensions.DateTimeExtensions.ToString(System.DateTime, System.String, System.Boolean)
+  nameWithType: DateTimeExtensions.ToString(DateTime, String, Boolean)
+- uid: GG.Extensions.DateTimeExtensions.ToString*
+  name: ToString
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_ToString_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.ToString
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.ToString
+  nameWithType: DateTimeExtensions.ToString
+- uid: GG.Extensions.DateTimeExtensions.ToUnixtime(System.DateTime,System.Boolean)
+  name: ToUnixtime(DateTime, Boolean)
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_ToUnixtime_System_DateTime_System_Boolean_
+  commentId: M:GG.Extensions.DateTimeExtensions.ToUnixtime(System.DateTime,System.Boolean)
+  fullName: GG.Extensions.DateTimeExtensions.ToUnixtime(System.DateTime, System.Boolean)
+  nameWithType: DateTimeExtensions.ToUnixtime(DateTime, Boolean)
+- uid: GG.Extensions.DateTimeExtensions.ToUnixtime*
+  name: ToUnixtime
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_ToUnixtime_
+  commentId: Overload:GG.Extensions.DateTimeExtensions.ToUnixtime
+  isSpec: "True"
+  fullName: GG.Extensions.DateTimeExtensions.ToUnixtime
+  nameWithType: DateTimeExtensions.ToUnixtime
+- uid: GG.Extensions.DateTimeExtensions.UNIXTIME_ZERO_POINT
+  name: UNIXTIME_ZERO_POINT
+  href: api/GG.Extensions.DateTimeExtensions.html#GG_Extensions_DateTimeExtensions_UNIXTIME_ZERO_POINT
+  commentId: F:GG.Extensions.DateTimeExtensions.UNIXTIME_ZERO_POINT
+  fullName: GG.Extensions.DateTimeExtensions.UNIXTIME_ZERO_POINT
+  nameWithType: DateTimeExtensions.UNIXTIME_ZERO_POINT
 - uid: GG.Extensions.DebugExtension
   name: DebugExtension
   href: api/GG.Extensions.DebugExtension.html
@@ -2052,6 +2268,19 @@ references:
   commentId: T:GG.Extensions.FileExtensions
   fullName: GG.Extensions.FileExtensions
   nameWithType: FileExtensions
+- uid: GG.Extensions.FileExtensions.AssetsRelativePath(System.String)
+  name: AssetsRelativePath(String)
+  href: api/GG.Extensions.FileExtensions.html#GG_Extensions_FileExtensions_AssetsRelativePath_System_String_
+  commentId: M:GG.Extensions.FileExtensions.AssetsRelativePath(System.String)
+  fullName: GG.Extensions.FileExtensions.AssetsRelativePath(System.String)
+  nameWithType: FileExtensions.AssetsRelativePath(String)
+- uid: GG.Extensions.FileExtensions.AssetsRelativePath*
+  name: AssetsRelativePath
+  href: api/GG.Extensions.FileExtensions.html#GG_Extensions_FileExtensions_AssetsRelativePath_
+  commentId: Overload:GG.Extensions.FileExtensions.AssetsRelativePath
+  isSpec: "True"
+  fullName: GG.Extensions.FileExtensions.AssetsRelativePath
+  nameWithType: FileExtensions.AssetsRelativePath
 - uid: GG.Extensions.FileExtensions.DirectoryCopy(System.String,System.String,System.Boolean)
   name: DirectoryCopy(String, String, Boolean)
   href: api/GG.Extensions.FileExtensions.html#GG_Extensions_FileExtensions_DirectoryCopy_System_String_System_String_System_Boolean_
@@ -2065,6 +2294,19 @@ references:
   isSpec: "True"
   fullName: GG.Extensions.FileExtensions.DirectoryCopy
   nameWithType: FileExtensions.DirectoryCopy
+- uid: GG.Extensions.FileExtensions.GetResourcesDirectories
+  name: GetResourcesDirectories()
+  href: api/GG.Extensions.FileExtensions.html#GG_Extensions_FileExtensions_GetResourcesDirectories
+  commentId: M:GG.Extensions.FileExtensions.GetResourcesDirectories
+  fullName: GG.Extensions.FileExtensions.GetResourcesDirectories()
+  nameWithType: FileExtensions.GetResourcesDirectories()
+- uid: GG.Extensions.FileExtensions.GetResourcesDirectories*
+  name: GetResourcesDirectories
+  href: api/GG.Extensions.FileExtensions.html#GG_Extensions_FileExtensions_GetResourcesDirectories_
+  commentId: Overload:GG.Extensions.FileExtensions.GetResourcesDirectories
+  isSpec: "True"
+  fullName: GG.Extensions.FileExtensions.GetResourcesDirectories
+  nameWithType: FileExtensions.GetResourcesDirectories
 - uid: GG.Extensions.FileExtensions.IsFileInUse(System.IO.FileInfo)
   name: IsFileInUse(FileInfo)
   href: api/GG.Extensions.FileExtensions.html#GG_Extensions_FileExtensions_IsFileInUse_System_IO_FileInfo_
@@ -2078,6 +2320,19 @@ references:
   isSpec: "True"
   fullName: GG.Extensions.FileExtensions.IsFileInUse
   nameWithType: FileExtensions.IsFileInUse
+- uid: GG.Extensions.FileExtensions.PathIsDirectory(System.String)
+  name: PathIsDirectory(String)
+  href: api/GG.Extensions.FileExtensions.html#GG_Extensions_FileExtensions_PathIsDirectory_System_String_
+  commentId: M:GG.Extensions.FileExtensions.PathIsDirectory(System.String)
+  fullName: GG.Extensions.FileExtensions.PathIsDirectory(System.String)
+  nameWithType: FileExtensions.PathIsDirectory(String)
+- uid: GG.Extensions.FileExtensions.PathIsDirectory*
+  name: PathIsDirectory
+  href: api/GG.Extensions.FileExtensions.html#GG_Extensions_FileExtensions_PathIsDirectory_
+  commentId: Overload:GG.Extensions.FileExtensions.PathIsDirectory
+  isSpec: "True"
+  fullName: GG.Extensions.FileExtensions.PathIsDirectory
+  nameWithType: FileExtensions.PathIsDirectory
 - uid: GG.Extensions.FileExtensions.RemoveFileExtension(System.String)
   name: RemoveFileExtension(String)
   href: api/GG.Extensions.FileExtensions.html#GG_Extensions_FileExtensions_RemoveFileExtension_System_String_
@@ -3213,6 +3468,35 @@ references:
   isSpec: "True"
   fullName: GG.Extensions.StringExtensions.FirstNameAndInitial
   nameWithType: StringExtensions.FirstNameAndInitial
+- uid: GG.Extensions.StringExtensions.SliceString(System.String,System.Int32)
+  name: SliceString(String, Int32)
+  href: api/GG.Extensions.StringExtensions.html#GG_Extensions_StringExtensions_SliceString_System_String_System_Int32_
+  commentId: M:GG.Extensions.StringExtensions.SliceString(System.String,System.Int32)
+  fullName: GG.Extensions.StringExtensions.SliceString(System.String, System.Int32)
+  nameWithType: StringExtensions.SliceString(String, Int32)
+- uid: GG.Extensions.StringExtensions.SliceString*
+  name: SliceString
+  href: api/GG.Extensions.StringExtensions.html#GG_Extensions_StringExtensions_SliceString_
+  commentId: Overload:GG.Extensions.StringExtensions.SliceString
+  isSpec: "True"
+  fullName: GG.Extensions.StringExtensions.SliceString
+  nameWithType: StringExtensions.SliceString
+- uid: GG.Extensions.StringExtensions.SplitAtIndexs(System.String,System.Int32[])
+  name: SplitAtIndexs(String, Int32[])
+  href: api/GG.Extensions.StringExtensions.html#GG_Extensions_StringExtensions_SplitAtIndexs_System_String_System_Int32___
+  commentId: M:GG.Extensions.StringExtensions.SplitAtIndexs(System.String,System.Int32[])
+  name.vb: SplitAtIndexs(String, Int32())
+  fullName: GG.Extensions.StringExtensions.SplitAtIndexs(System.String, System.Int32[])
+  fullName.vb: GG.Extensions.StringExtensions.SplitAtIndexs(System.String, System.Int32())
+  nameWithType: StringExtensions.SplitAtIndexs(String, Int32[])
+  nameWithType.vb: StringExtensions.SplitAtIndexs(String, Int32())
+- uid: GG.Extensions.StringExtensions.SplitAtIndexs*
+  name: SplitAtIndexs
+  href: api/GG.Extensions.StringExtensions.html#GG_Extensions_StringExtensions_SplitAtIndexs_
+  commentId: Overload:GG.Extensions.StringExtensions.SplitAtIndexs
+  isSpec: "True"
+  fullName: GG.Extensions.StringExtensions.SplitAtIndexs
+  nameWithType: StringExtensions.SplitAtIndexs
 - uid: GG.Extensions.StringExtensions.TitleCase(System.String)
   name: TitleCase(String)
   href: api/GG.Extensions.StringExtensions.html#GG_Extensions_StringExtensions_TitleCase_System_String_
@@ -5040,227 +5324,3 @@ references:
   isSpec: "True"
   fullName: GG.Extensions.WebExtensions.SetupPostWebRequest
   nameWithType: WebExtensions.SetupPostWebRequest
-- uid: Global
-  name: Global
-  href: api/Global.html
-  name.vb: ''
-  fullName: Global
-  fullName.vb: ''
-  nameWithType: Global
-  nameWithType.vb: ''
-- uid: Global.DateTimeExtensions
-  name: DateTimeExtensions
-  href: api/Global.DateTimeExtensions.html
-  commentId: T:Global.DateTimeExtensions
-  fullName: DateTimeExtensions
-  nameWithType: DateTimeExtensions
-- uid: Global.DateTimeExtensions.AllDatesInMonth(System.Collections.Generic.List{System.DateTime},System.Int32,System.Int32)
-  name: AllDatesInMonth(List<DateTime>, Int32, Int32)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_AllDatesInMonth_System_Collections_Generic_List_System_DateTime__System_Int32_System_Int32_
-  commentId: M:Global.DateTimeExtensions.AllDatesInMonth(System.Collections.Generic.List{System.DateTime},System.Int32,System.Int32)
-  name.vb: AllDatesInMonth(List(Of DateTime), Int32, Int32)
-  fullName: DateTimeExtensions.AllDatesInMonth(System.Collections.Generic.List<System.DateTime>, System.Int32, System.Int32)
-  fullName.vb: DateTimeExtensions.AllDatesInMonth(System.Collections.Generic.List(Of System.DateTime), System.Int32, System.Int32)
-  nameWithType: DateTimeExtensions.AllDatesInMonth(List<DateTime>, Int32, Int32)
-  nameWithType.vb: DateTimeExtensions.AllDatesInMonth(List(Of DateTime), Int32, Int32)
-- uid: Global.DateTimeExtensions.AllDatesInMonth*
-  name: AllDatesInMonth
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_AllDatesInMonth_
-  commentId: Overload:Global.DateTimeExtensions.AllDatesInMonth
-  isSpec: "True"
-  fullName: DateTimeExtensions.AllDatesInMonth
-  nameWithType: DateTimeExtensions.AllDatesInMonth
-- uid: Global.DateTimeExtensions.FromUnixtime(System.Int64,System.Boolean,System.Boolean)
-  name: FromUnixtime(Int64, Boolean, Boolean)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_FromUnixtime_System_Int64_System_Boolean_System_Boolean_
-  commentId: M:Global.DateTimeExtensions.FromUnixtime(System.Int64,System.Boolean,System.Boolean)
-  fullName: DateTimeExtensions.FromUnixtime(System.Int64, System.Boolean, System.Boolean)
-  nameWithType: DateTimeExtensions.FromUnixtime(Int64, Boolean, Boolean)
-- uid: Global.DateTimeExtensions.FromUnixtime*
-  name: FromUnixtime
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_FromUnixtime_
-  commentId: Overload:Global.DateTimeExtensions.FromUnixtime
-  isSpec: "True"
-  fullName: DateTimeExtensions.FromUnixtime
-  nameWithType: DateTimeExtensions.FromUnixtime
-- uid: Global.DateTimeExtensions.GetCurrentWeekNumber(System.DateTime)
-  name: GetCurrentWeekNumber(DateTime)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_GetCurrentWeekNumber_System_DateTime_
-  commentId: M:Global.DateTimeExtensions.GetCurrentWeekNumber(System.DateTime)
-  fullName: DateTimeExtensions.GetCurrentWeekNumber(System.DateTime)
-  nameWithType: DateTimeExtensions.GetCurrentWeekNumber(DateTime)
-- uid: Global.DateTimeExtensions.GetCurrentWeekNumber*
-  name: GetCurrentWeekNumber
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_GetCurrentWeekNumber_
-  commentId: Overload:Global.DateTimeExtensions.GetCurrentWeekNumber
-  isSpec: "True"
-  fullName: DateTimeExtensions.GetCurrentWeekNumber
-  nameWithType: DateTimeExtensions.GetCurrentWeekNumber
-- uid: Global.DateTimeExtensions.GetRandomDates(System.DateTime,System.DateTime,System.Int32)
-  name: GetRandomDates(DateTime, DateTime, Int32)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_GetRandomDates_System_DateTime_System_DateTime_System_Int32_
-  commentId: M:Global.DateTimeExtensions.GetRandomDates(System.DateTime,System.DateTime,System.Int32)
-  fullName: DateTimeExtensions.GetRandomDates(System.DateTime, System.DateTime, System.Int32)
-  nameWithType: DateTimeExtensions.GetRandomDates(DateTime, DateTime, Int32)
-- uid: Global.DateTimeExtensions.GetRandomDates*
-  name: GetRandomDates
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_GetRandomDates_
-  commentId: Overload:Global.DateTimeExtensions.GetRandomDates
-  isSpec: "True"
-  fullName: DateTimeExtensions.GetRandomDates
-  nameWithType: DateTimeExtensions.GetRandomDates
-- uid: Global.DateTimeExtensions.InRange(System.DateTime,System.DateTime,System.DateTime)
-  name: InRange(DateTime, DateTime, DateTime)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_InRange_System_DateTime_System_DateTime_System_DateTime_
-  commentId: M:Global.DateTimeExtensions.InRange(System.DateTime,System.DateTime,System.DateTime)
-  fullName: DateTimeExtensions.InRange(System.DateTime, System.DateTime, System.DateTime)
-  nameWithType: DateTimeExtensions.InRange(DateTime, DateTime, DateTime)
-- uid: Global.DateTimeExtensions.InRange*
-  name: InRange
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_InRange_
-  commentId: Overload:Global.DateTimeExtensions.InRange
-  isSpec: "True"
-  fullName: DateTimeExtensions.InRange
-  nameWithType: DateTimeExtensions.InRange
-- uid: Global.DateTimeExtensions.RoundDown(System.DateTime,System.TimeSpan)
-  name: RoundDown(DateTime, TimeSpan)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_RoundDown_System_DateTime_System_TimeSpan_
-  commentId: M:Global.DateTimeExtensions.RoundDown(System.DateTime,System.TimeSpan)
-  fullName: DateTimeExtensions.RoundDown(System.DateTime, System.TimeSpan)
-  nameWithType: DateTimeExtensions.RoundDown(DateTime, TimeSpan)
-- uid: Global.DateTimeExtensions.RoundDown*
-  name: RoundDown
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_RoundDown_
-  commentId: Overload:Global.DateTimeExtensions.RoundDown
-  isSpec: "True"
-  fullName: DateTimeExtensions.RoundDown
-  nameWithType: DateTimeExtensions.RoundDown
-- uid: Global.DateTimeExtensions.RoundToNearest(System.DateTime,System.TimeSpan)
-  name: RoundToNearest(DateTime, TimeSpan)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_RoundToNearest_System_DateTime_System_TimeSpan_
-  commentId: M:Global.DateTimeExtensions.RoundToNearest(System.DateTime,System.TimeSpan)
-  fullName: DateTimeExtensions.RoundToNearest(System.DateTime, System.TimeSpan)
-  nameWithType: DateTimeExtensions.RoundToNearest(DateTime, TimeSpan)
-- uid: Global.DateTimeExtensions.RoundToNearest*
-  name: RoundToNearest
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_RoundToNearest_
-  commentId: Overload:Global.DateTimeExtensions.RoundToNearest
-  isSpec: "True"
-  fullName: DateTimeExtensions.RoundToNearest
-  nameWithType: DateTimeExtensions.RoundToNearest
-- uid: Global.DateTimeExtensions.RoundUp(System.DateTime,System.TimeSpan)
-  name: RoundUp(DateTime, TimeSpan)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_RoundUp_System_DateTime_System_TimeSpan_
-  commentId: M:Global.DateTimeExtensions.RoundUp(System.DateTime,System.TimeSpan)
-  fullName: DateTimeExtensions.RoundUp(System.DateTime, System.TimeSpan)
-  nameWithType: DateTimeExtensions.RoundUp(DateTime, TimeSpan)
-- uid: Global.DateTimeExtensions.RoundUp*
-  name: RoundUp
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_RoundUp_
-  commentId: Overload:Global.DateTimeExtensions.RoundUp
-  isSpec: "True"
-  fullName: DateTimeExtensions.RoundUp
-  nameWithType: DateTimeExtensions.RoundUp
-- uid: Global.DateTimeExtensions.StartOfMonth(System.DateTime)
-  name: StartOfMonth(DateTime)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_StartOfMonth_System_DateTime_
-  commentId: M:Global.DateTimeExtensions.StartOfMonth(System.DateTime)
-  fullName: DateTimeExtensions.StartOfMonth(System.DateTime)
-  nameWithType: DateTimeExtensions.StartOfMonth(DateTime)
-- uid: Global.DateTimeExtensions.StartOfMonth*
-  name: StartOfMonth
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_StartOfMonth_
-  commentId: Overload:Global.DateTimeExtensions.StartOfMonth
-  isSpec: "True"
-  fullName: DateTimeExtensions.StartOfMonth
-  nameWithType: DateTimeExtensions.StartOfMonth
-- uid: Global.DateTimeExtensions.StartOfWeek(System.DateTime,System.DayOfWeek)
-  name: StartOfWeek(DateTime, DayOfWeek)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_StartOfWeek_System_DateTime_System_DayOfWeek_
-  commentId: M:Global.DateTimeExtensions.StartOfWeek(System.DateTime,System.DayOfWeek)
-  fullName: DateTimeExtensions.StartOfWeek(System.DateTime, System.DayOfWeek)
-  nameWithType: DateTimeExtensions.StartOfWeek(DateTime, DayOfWeek)
-- uid: Global.DateTimeExtensions.StartOfWeek*
-  name: StartOfWeek
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_StartOfWeek_
-  commentId: Overload:Global.DateTimeExtensions.StartOfWeek
-  isSpec: "True"
-  fullName: DateTimeExtensions.StartOfWeek
-  nameWithType: DateTimeExtensions.StartOfWeek
-- uid: Global.DateTimeExtensions.StartOfYear(System.DateTime)
-  name: StartOfYear(DateTime)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_StartOfYear_System_DateTime_
-  commentId: M:Global.DateTimeExtensions.StartOfYear(System.DateTime)
-  fullName: DateTimeExtensions.StartOfYear(System.DateTime)
-  nameWithType: DateTimeExtensions.StartOfYear(DateTime)
-- uid: Global.DateTimeExtensions.StartOfYear*
-  name: StartOfYear
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_StartOfYear_
-  commentId: Overload:Global.DateTimeExtensions.StartOfYear
-  isSpec: "True"
-  fullName: DateTimeExtensions.StartOfYear
-  nameWithType: DateTimeExtensions.StartOfYear
-- uid: Global.DateTimeExtensions.ToDateTime(System.String,System.String,System.Globalization.CultureInfo)
-  name: ToDateTime(String, String, CultureInfo)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_ToDateTime_System_String_System_String_System_Globalization_CultureInfo_
-  commentId: M:Global.DateTimeExtensions.ToDateTime(System.String,System.String,System.Globalization.CultureInfo)
-  fullName: DateTimeExtensions.ToDateTime(System.String, System.String, System.Globalization.CultureInfo)
-  nameWithType: DateTimeExtensions.ToDateTime(String, String, CultureInfo)
-- uid: Global.DateTimeExtensions.ToDateTime(System.String,System.String,System.String)
-  name: ToDateTime(String, String, String)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_ToDateTime_System_String_System_String_System_String_
-  commentId: M:Global.DateTimeExtensions.ToDateTime(System.String,System.String,System.String)
-  fullName: DateTimeExtensions.ToDateTime(System.String, System.String, System.String)
-  nameWithType: DateTimeExtensions.ToDateTime(String, String, String)
-- uid: Global.DateTimeExtensions.ToDateTime*
-  name: ToDateTime
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_ToDateTime_
-  commentId: Overload:Global.DateTimeExtensions.ToDateTime
-  isSpec: "True"
-  fullName: DateTimeExtensions.ToDateTime
-  nameWithType: DateTimeExtensions.ToDateTime
-- uid: Global.DateTimeExtensions.ToOccurrenceSuffix(System.Int32)
-  name: ToOccurrenceSuffix(Int32)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_ToOccurrenceSuffix_System_Int32_
-  commentId: M:Global.DateTimeExtensions.ToOccurrenceSuffix(System.Int32)
-  fullName: DateTimeExtensions.ToOccurrenceSuffix(System.Int32)
-  nameWithType: DateTimeExtensions.ToOccurrenceSuffix(Int32)
-- uid: Global.DateTimeExtensions.ToOccurrenceSuffix*
-  name: ToOccurrenceSuffix
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_ToOccurrenceSuffix_
-  commentId: Overload:Global.DateTimeExtensions.ToOccurrenceSuffix
-  isSpec: "True"
-  fullName: DateTimeExtensions.ToOccurrenceSuffix
-  nameWithType: DateTimeExtensions.ToOccurrenceSuffix
-- uid: Global.DateTimeExtensions.ToString(System.DateTime,System.String,System.Boolean)
-  name: ToString(DateTime, String, Boolean)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_ToString_System_DateTime_System_String_System_Boolean_
-  commentId: M:Global.DateTimeExtensions.ToString(System.DateTime,System.String,System.Boolean)
-  fullName: DateTimeExtensions.ToString(System.DateTime, System.String, System.Boolean)
-  nameWithType: DateTimeExtensions.ToString(DateTime, String, Boolean)
-- uid: Global.DateTimeExtensions.ToString*
-  name: ToString
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_ToString_
-  commentId: Overload:Global.DateTimeExtensions.ToString
-  isSpec: "True"
-  fullName: DateTimeExtensions.ToString
-  nameWithType: DateTimeExtensions.ToString
-- uid: Global.DateTimeExtensions.ToUnixtime(System.DateTime,System.Boolean)
-  name: ToUnixtime(DateTime, Boolean)
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_ToUnixtime_System_DateTime_System_Boolean_
-  commentId: M:Global.DateTimeExtensions.ToUnixtime(System.DateTime,System.Boolean)
-  fullName: DateTimeExtensions.ToUnixtime(System.DateTime, System.Boolean)
-  nameWithType: DateTimeExtensions.ToUnixtime(DateTime, Boolean)
-- uid: Global.DateTimeExtensions.ToUnixtime*
-  name: ToUnixtime
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_ToUnixtime_
-  commentId: Overload:Global.DateTimeExtensions.ToUnixtime
-  isSpec: "True"
-  fullName: DateTimeExtensions.ToUnixtime
-  nameWithType: DateTimeExtensions.ToUnixtime
-- uid: Global.DateTimeExtensions.UNIXTIME_ZERO_POINT
-  name: UNIXTIME_ZERO_POINT
-  href: api/Global.DateTimeExtensions.html#Global_DateTimeExtensions_UNIXTIME_ZERO_POINT
-  commentId: F:Global.DateTimeExtensions.UNIXTIME_ZERO_POINT
-  fullName: DateTimeExtensions.UNIXTIME_ZERO_POINT
-  nameWithType: DateTimeExtensions.UNIXTIME_ZERO_POINT

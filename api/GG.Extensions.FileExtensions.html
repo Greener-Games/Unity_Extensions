@@ -100,10 +100,64 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Greener-Games/Unity_Extensions/new/master/apiSpec/new?filename=GG_Extensions_FileExtensions_DirectoryCopy_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions.DirectoryCopy(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Greener-Games/Unity_Extensions/new/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/apiSpec/new?filename=GG_Extensions_FileExtensions_AssetsRelativePath_System_String_.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions.AssetsRelativePath(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/master/Assets/Unity_Extensions/FileExtensions.cs/#L38">View Source</a>
+    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/Assets/Unity_Extensions/FileExtensions.cs/#L104">View Source</a>
+  </span>
+  <a id="GG_Extensions_FileExtensions_AssetsRelativePath_" data-uid="GG.Extensions.FileExtensions.AssetsRelativePath*"></a>
+  <h4 id="GG_Extensions_FileExtensions_AssetsRelativePath_System_String_" data-uid="GG.Extensions.FileExtensions.AssetsRelativePath(System.String)">AssetsRelativePath(String)</h4>
+  <div class="markdown level1 summary"><p>Given an absolute path, return a path rooted at the Assets folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string AssetsRelativePath(string absolutePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">absolutePath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GG_Extensions_FileExtensions_AssetsRelativePath_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Asset relative paths can only be used in the editor. They will break in builds.</p>
+</div>
+  <h5 id="GG_Extensions_FileExtensions_AssetsRelativePath_System_String__examples">Examples</h5>
+  <p>/Folder/UnityProject/Assets/resources/music returns Assets/resources/music</p>
+
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Greener-Games/Unity_Extensions/new/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/apiSpec/new?filename=GG_Extensions_FileExtensions_DirectoryCopy_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions.DirectoryCopy(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/Assets/Unity_Extensions/FileExtensions.cs/#L39">View Source</a>
   </span>
   <a id="GG_Extensions_FileExtensions_DirectoryCopy_" data-uid="GG.Extensions.FileExtensions.DirectoryCopy*"></a>
   <h4 id="GG_Extensions_FileExtensions_DirectoryCopy_System_String_System_String_System_Boolean_" data-uid="GG.Extensions.FileExtensions.DirectoryCopy(System.String,System.String,System.Boolean)">DirectoryCopy(String, String, Boolean)</h4>
@@ -158,10 +212,41 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Greener-Games/Unity_Extensions/new/master/apiSpec/new?filename=GG_Extensions_FileExtensions_IsFileInUse_System_IO_FileInfo_.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions.IsFileInUse(System.IO.FileInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Greener-Games/Unity_Extensions/new/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/apiSpec/new?filename=GG_Extensions_FileExtensions_GetResourcesDirectories.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions.GetResourcesDirectories%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/master/Assets/Unity_Extensions/FileExtensions.cs/#L8">View Source</a>
+    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/Assets/Unity_Extensions/FileExtensions.cs/#L118">View Source</a>
+  </span>
+  <a id="GG_Extensions_FileExtensions_GetResourcesDirectories_" data-uid="GG.Extensions.FileExtensions.GetResourcesDirectories*"></a>
+  <h4 id="GG_Extensions_FileExtensions_GetResourcesDirectories" data-uid="GG.Extensions.FileExtensions.GetResourcesDirectories">GetResourcesDirectories()</h4>
+  <div class="markdown level1 summary"><p>Get all available Resources directory paths within the current project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetResourcesDirectories()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Greener-Games/Unity_Extensions/new/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/apiSpec/new?filename=GG_Extensions_FileExtensions_IsFileInUse_System_IO_FileInfo_.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions.IsFileInUse(System.IO.FileInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/Assets/Unity_Extensions/FileExtensions.cs/#L9">View Source</a>
   </span>
   <a id="GG_Extensions_FileExtensions_IsFileInUse_" data-uid="GG.Extensions.FileExtensions.IsFileInUse*"></a>
   <h4 id="GG_Extensions_FileExtensions_IsFileInUse_System_IO_FileInfo_" data-uid="GG.Extensions.FileExtensions.IsFileInUse(System.IO.FileInfo)">IsFileInUse(FileInfo)</h4>
@@ -205,10 +290,58 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Greener-Games/Unity_Extensions/new/master/apiSpec/new?filename=GG_Extensions_FileExtensions_RemoveFileExtension_System_String_.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions.RemoveFileExtension(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Greener-Games/Unity_Extensions/new/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/apiSpec/new?filename=GG_Extensions_FileExtensions_PathIsDirectory_System_String_.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions.PathIsDirectory(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/master/Assets/Unity_Extensions/FileExtensions.cs/#L76">View Source</a>
+    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/Assets/Unity_Extensions/FileExtensions.cs/#L85">View Source</a>
+  </span>
+  <a id="GG_Extensions_FileExtensions_PathIsDirectory_" data-uid="GG.Extensions.FileExtensions.PathIsDirectory*"></a>
+  <h4 id="GG_Extensions_FileExtensions_PathIsDirectory_System_String_" data-uid="GG.Extensions.FileExtensions.PathIsDirectory(System.String)">PathIsDirectory(String)</h4>
+  <div class="markdown level1 summary"><p>Determine whether a given path is a directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PathIsDirectory(string absolutePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">absolutePath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Greener-Games/Unity_Extensions/new/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/apiSpec/new?filename=GG_Extensions_FileExtensions_RemoveFileExtension_System_String_.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions.RemoveFileExtension(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/Assets/Unity_Extensions/FileExtensions.cs/#L77">View Source</a>
   </span>
   <a id="GG_Extensions_FileExtensions_RemoveFileExtension_" data-uid="GG.Extensions.FileExtensions.RemoveFileExtension*"></a>
   <h4 id="GG_Extensions_FileExtensions_RemoveFileExtension_System_String_" data-uid="GG.Extensions.FileExtensions.RemoveFileExtension(System.String)">RemoveFileExtension(String)</h4>
@@ -258,10 +391,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Greener-Games/Unity_Extensions/new/master/apiSpec/new?filename=GG_Extensions_FileExtensions.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Greener-Games/Unity_Extensions/new/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/apiSpec/new?filename=GG_Extensions_FileExtensions.md&amp;value=---%0Auid%3A%20GG.Extensions.FileExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/master/Assets/Unity_Extensions/FileExtensions.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Greener-Games/Unity_Extensions/blob/db18c5ca3c7b0fcc0fccb2ba615f08870a34bb65/Assets/Unity_Extensions/FileExtensions.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
