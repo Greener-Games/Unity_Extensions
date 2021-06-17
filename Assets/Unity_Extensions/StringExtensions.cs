@@ -1,6 +1,8 @@
-﻿using System.Globalization;
+using System.Globalization;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace GG.Extensions
 {
@@ -89,6 +91,45 @@ namespace GG.Extensions
         public static string TitleCase(this string str, CultureInfo cultureInfo)
         {
             return cultureInfo.TextInfo.ToTitleCase(str.ToLower());
+        }
+        
+        
+        public static string[] SplitAtIndexs(this string source, params int[] index)
+        {
+            var indices = new[] {0}.Union(index).Union(new[] {source.Length});
+
+            return indices
+                .Zip(indices.Skip(1), (a, b) => (a, b))
+                .Select(_ => source.Substring(_.a, _.b - _.a)).ToArray();
+        }
+
+        public static string SliceString(this string source, int maxCharacterLengthInLine)
+        {
+            if (source.Length >= maxCharacterLengthInLine)
+            {
+                //get half way number
+                int half = source.Length / 2;
+                bool startOfWord = false;
+
+                while (!startOfWord)
+                {
+                    //while not space, go back a letter
+                    char c = source[half];
+                    if (c == ' ' || half == 0)
+                    {
+                        startOfWord = true;
+                    }
+                    else
+                    {
+                        half++;
+                    }
+                }
+
+                string[] a = source.SplitAtIndexs(half);
+                source = a[0] + "\n" + a[1].TrimStart();
+            }
+
+            return source;
         }
     }
 }
