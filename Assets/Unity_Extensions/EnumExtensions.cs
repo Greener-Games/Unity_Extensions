@@ -131,6 +131,8 @@ namespace GG.Extensions
             return (T) Enum.ToObject(typeof(T), lValue);
         }
 
+        public static T JoinFlags<T>(this T value, T flags) where T : struct => value.SetFlags<T>(flags, true);
+
         public static T SetFlags<T>(this T value, T flags) where T : struct
         {
             return value.SetFlags(flags, true);
