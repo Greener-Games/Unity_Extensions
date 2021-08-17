@@ -2173,6 +2173,19 @@ references:
   fullName.vb: GG.Extensions.EnumExtensions.GetDescription(Of T)(T)
   nameWithType: EnumExtensions.GetDescription<T>(T)
   nameWithType.vb: EnumExtensions.GetDescription(Of T)(T)
+- uid: GG.Extensions.EnumExtensions.GetDescriptionFromObject(System.Object)
+  name: GetDescriptionFromObject(Object)
+  href: api/GG.Extensions.EnumExtensions.html#GG_Extensions_EnumExtensions_GetDescriptionFromObject_System_Object_
+  commentId: M:GG.Extensions.EnumExtensions.GetDescriptionFromObject(System.Object)
+  fullName: GG.Extensions.EnumExtensions.GetDescriptionFromObject(System.Object)
+  nameWithType: EnumExtensions.GetDescriptionFromObject(Object)
+- uid: GG.Extensions.EnumExtensions.GetDescriptionFromObject*
+  name: GetDescriptionFromObject
+  href: api/GG.Extensions.EnumExtensions.html#GG_Extensions_EnumExtensions_GetDescriptionFromObject_
+  commentId: Overload:GG.Extensions.EnumExtensions.GetDescriptionFromObject
+  isSpec: "True"
+  fullName: GG.Extensions.EnumExtensions.GetDescriptionFromObject
+  nameWithType: EnumExtensions.GetDescriptionFromObject
 - uid: GG.Extensions.EnumExtensions.GetDescriptions*
   name: GetDescriptions
   href: api/GG.Extensions.EnumExtensions.html#GG_Extensions_EnumExtensions_GetDescriptions_

@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.AnchorPresets.html",
-          "hash": "PwWclRYCAmzbOve1mukMsg=="
+          "hash": "PU53wqR8G9VTX+c0HPLO7g=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.AwaitExtensions.html",
-          "hash": "ZMUYFkYR+2ey9AsmzyTJFQ=="
+          "hash": "w+B4C+YNn5bv+RhCLWzZqw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.ByteExtensions.html",
-          "hash": "3BMKfev9lVV9Vw2OVhS5fA=="
+          "hash": "PzyZYdb/83WIYKVx18q5Dg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.CameraExtensions.html",
-          "hash": "LpXVjWzFw+jbjhgfIJphXg=="
+          "hash": "ORTUjd8IgXf6pGNIwsVA5g=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.ColorExtensions.html",
-          "hash": "tARja2azLPKHwEV4VNV1AQ=="
+          "hash": "Pu9WkNa7re5URAJ8yUiPdQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.Colors.html",
-          "hash": "qrDzlLOmIiLlb5tQN2K34A=="
+          "hash": "HIFEEOxRspoYjPXXoBT3+w=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.DateTimeExtensions.html",
-          "hash": "YjtW4O4W2TPsKCnRcIV0VA=="
+          "hash": "vvRF3hGfn3kBS35We+PBcg=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.DebugExtension.html",
-          "hash": "Kt42Qwna1OFURhhEMI2tBg=="
+          "hash": "JpY6up20xCIzrh3kottMYA=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.DictionaryExtensions.html",
-          "hash": "NJxslxSOHRIDtZ60aJQfZQ=="
+          "hash": "QDB8ihXF6cff7+vF+Vy26A=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.EnumExtensions.html",
-          "hash": "TB77iI5hzorWxusUFjVZsw=="
+          "hash": "ui+1yVcInACcU272lg1yTQ=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.EnumerableExtensions.html",
-          "hash": "J5luNlGDTflX5+fDn4rrfw=="
+          "hash": "JbAMPwkbnfi2/y8Anwp9Tg=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.FileExtensions.html",
-          "hash": "St8UU+PvwHu0tT3YIz2Cdw=="
+          "hash": "fYdmtth7mqBCAfmxbwMlPQ=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.GameObjectExtensions.html",
-          "hash": "Kp2RrWBESzqTrzkAzhq+FQ=="
+          "hash": "PEYlqPoKGQSaFJYfl5h2aQ=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.Geometry.html",
-          "hash": "xx3752t26Ap/Vda0/6Jyrg=="
+          "hash": "Eoc008fjDTrC5eq5H40dwg=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.ImageExtensions.html",
-          "hash": "GlLSyGEDwLlptKVnqwyhGA=="
+          "hash": "wvV2TPptnhncP5u2RTh9XA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.LayerMaskExtensions.html",
-          "hash": "5IvS3pk5Paw3wGXwGEQY4g=="
+          "hash": "4Zhqp2jGLBzZxmTePWaCjQ=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.MathsExtensions.html",
-          "hash": "Z8z+O2H5JtplJlyANYl4FA=="
+          "hash": "+iWyt/72+mRN4ZA9i+vtZw=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.MiscExtensions.UnityAction-5.html",
-          "hash": "jDyM7b1/QhF/HjZfXrW9WQ=="
+          "hash": "kewIUWYRlsql0YNUldy73w=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.MiscExtensions.html",
-          "hash": "hVCxG+8ywbKN7JBoxSjK2A=="
+          "hash": "IJAwrdPFM2GbhxsS2YC3ng=="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.NumberExtensions.RoundMode.html",
-          "hash": "PwCo8L36ujV9bcZ2zzYh5Q=="
+          "hash": "/sI7DzAoAaRZ+vGCWcNXSQ=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.NumberExtensions.html",
-          "hash": "tULPIhHdpWmYH+vOF0Gy4Q=="
+          "hash": "a9/Y0JTx6Gz5JbjO0Yo7Mw=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.PivotPresets.html",
-          "hash": "ELpodWUsJgXPje/GCrUsWw=="
+          "hash": "EIDHgjjY3tXq2gPDZbXQ3w=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.RectTransformExtensions.html",
-          "hash": "VcESLXVj6YFbQKgCLL6aAw=="
+          "hash": "aAfRnzGaoWdn07pm9iMXaQ=="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.RendererExtensions.html",
-          "hash": "B+XRlGXW8B4Q8mhoY53mcg=="
+          "hash": "JB+K1LmEjFFF481jRKn20g=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.SecurityExtensions.html",
-          "hash": "HQqR0geBgm9W3gsa6oVX3Q=="
+          "hash": "Yij52H7Yd9kJhWiM7mnCzw=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.StringExtensions.html",
-          "hash": "TodZbPCqLuk/cW0bYhlQlw=="
+          "hash": "bTvESFcZEx51sMZopwYSCQ=="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.TransformExtensions.html",
-          "hash": "HDME6a/oGKOrvVTZQA/g8Q=="
+          "hash": "l3/23dPJHGZZMI53Wizhqg=="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.UiExtensions.html",
-          "hash": "pbOZnUSZszrTI5aX+Pobbw=="
+          "hash": "TmeqKseVOuEVNr/r0OfUVQ=="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.VectorExtensions.html",
-          "hash": "7v8/xI5QHz5Y4QXKKbmqeQ=="
+          "hash": "zOqqzFRPt7NZU4uCW9V3Jg=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.VersionExtension.html",
-          "hash": "h9x/RPNGFk6zwmizHPfpDg=="
+          "hash": "oV4xP1i/uA6686KQXUMuIA=="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GG.Extensions.WebExtensions.html",
-          "hash": "y+GgSnD2A8NNT35TI30MBg=="
+          "hash": "ZFIMo5AVLjF5ndaeagJ7Mg=="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "PY7oK/eOh5ThgkoM1l/B1A=="
+          "hash": "UTRRQ/gnWXw5fhkTbU3ivQ=="
         }
       },
       "is_incremental": false,
