@@ -34,6 +34,36 @@ namespace GG.Extensions
             return null;
         }
         
+        /// <summary>
+        /// Returns the description assigned to the enum value throguh system.componentmodel,
+        /// Use this when passing a generic object though thats an enum
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public static string GetDescriptionFromObject(this object o)
+        {
+            if (!o.GetType().IsEnum)
+            {
+                throw new ArgumentException(string.Format("Type '{0}' is not an enum", o.GetType()));
+            }
+            string name = Enum.GetName(o.GetType(), o);
+            if (name != null)
+            {
+                FieldInfo field = o.GetType().GetField(name);
+                if (field != null)
+                {
+                    DescriptionAttribute attr = Attribute.GetCustomAttribute(field, typeof(DescriptionAttribute)) as DescriptionAttribute;
+                    if (attr != null)
+                    {
+                        return attr.Description;
+                    }
+                }
+            }
+
+            return null;
+        }
+        
         public static IEnumerable<string> GetDescriptions<T>()
         {
             List<string> descs = new List<string>();
