@@ -2250,6 +2250,22 @@ references:
   fullName.vb: GG.Extensions.EnumExtensions.IsFlagSet(Of T)(T, T)
   nameWithType: EnumExtensions.IsFlagSet<T>(T, T)
   nameWithType.vb: EnumExtensions.IsFlagSet(Of T)(T, T)
+- uid: GG.Extensions.EnumExtensions.JoinFlags*
+  name: JoinFlags
+  href: api/GG.Extensions.EnumExtensions.html#GG_Extensions_EnumExtensions_JoinFlags_
+  commentId: Overload:GG.Extensions.EnumExtensions.JoinFlags
+  isSpec: "True"
+  fullName: GG.Extensions.EnumExtensions.JoinFlags
+  nameWithType: EnumExtensions.JoinFlags
+- uid: GG.Extensions.EnumExtensions.JoinFlags``1(``0,``0)
+  name: JoinFlags<T>(T, T)
+  href: api/GG.Extensions.EnumExtensions.html#GG_Extensions_EnumExtensions_JoinFlags__1___0___0_
+  commentId: M:GG.Extensions.EnumExtensions.JoinFlags``1(``0,``0)
+  name.vb: JoinFlags(Of T)(T, T)
+  fullName: GG.Extensions.EnumExtensions.JoinFlags<T>(T, T)
+  fullName.vb: GG.Extensions.EnumExtensions.JoinFlags(Of T)(T, T)
+  nameWithType: EnumExtensions.JoinFlags<T>(T, T)
+  nameWithType.vb: EnumExtensions.JoinFlags(Of T)(T, T)
 - uid: GG.Extensions.EnumExtensions.SetFlags*
   name: SetFlags
   href: api/GG.Extensions.EnumExtensions.html#GG_Extensions_EnumExtensions_SetFlags_
@@ -5337,3 +5353,55 @@ references:
   isSpec: "True"
   fullName: GG.Extensions.WebExtensions.SetupPostWebRequest
   nameWithType: WebExtensions.SetupPostWebRequest
+- uid: GG.Extensions.XrExtensions
+  name: XrExtensions
+  href: api/GG.Extensions.XrExtensions.html
+  commentId: T:GG.Extensions.XrExtensions
+  fullName: GG.Extensions.XrExtensions
+  nameWithType: XrExtensions
+- uid: GG.Extensions.XrExtensions.IsHeadsetPresent
+  name: IsHeadsetPresent()
+  href: api/GG.Extensions.XrExtensions.html#GG_Extensions_XrExtensions_IsHeadsetPresent
+  commentId: M:GG.Extensions.XrExtensions.IsHeadsetPresent
+  fullName: GG.Extensions.XrExtensions.IsHeadsetPresent()
+  nameWithType: XrExtensions.IsHeadsetPresent()
+- uid: GG.Extensions.XrExtensions.IsHeadsetPresent*
+  name: IsHeadsetPresent
+  href: api/GG.Extensions.XrExtensions.html#GG_Extensions_XrExtensions_IsHeadsetPresent_
+  commentId: Overload:GG.Extensions.XrExtensions.IsHeadsetPresent
+  isSpec: "True"
+  fullName: GG.Extensions.XrExtensions.IsHeadsetPresent
+  nameWithType: XrExtensions.IsHeadsetPresent
+- uid: Global
+  name: Global
+  href: api/Global.html
+  name.vb: ''
+  fullName: Global
+  fullName.vb: ''
+  nameWithType: Global
+  nameWithType.vb: ''
+- uid: Global.AspectRatio
+  name: AspectRatio
+  href: api/Global.AspectRatio.html
+  commentId: T:Global.AspectRatio
+  fullName: AspectRatio
+  nameWithType: AspectRatio
+- uid: Global.AspectRatio.GetAspectRatio(System.Int32,System.Int32,System.Boolean)
+  name: GetAspectRatio(Int32, Int32, Boolean)
+  href: api/Global.AspectRatio.html#Global_AspectRatio_GetAspectRatio_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Global.AspectRatio.GetAspectRatio(System.Int32,System.Int32,System.Boolean)
+  fullName: AspectRatio.GetAspectRatio(System.Int32, System.Int32, System.Boolean)
+  nameWithType: AspectRatio.GetAspectRatio(Int32, Int32, Boolean)
+- uid: Global.AspectRatio.GetAspectRatio(Vector2,System.Boolean)
+  name: GetAspectRatio(Vector2, Boolean)
+  href: api/Global.AspectRatio.html#Global_AspectRatio_GetAspectRatio_Vector2_System_Boolean_
+  commentId: M:Global.AspectRatio.GetAspectRatio(Vector2,System.Boolean)
+  fullName: AspectRatio.GetAspectRatio(Vector2, System.Boolean)
+  nameWithType: AspectRatio.GetAspectRatio(Vector2, Boolean)
+- uid: Global.AspectRatio.GetAspectRatio*
+  name: GetAspectRatio
+  href: api/Global.AspectRatio.html#Global_AspectRatio_GetAspectRatio_
+  commentId: Overload:Global.AspectRatio.GetAspectRatio
+  isSpec: "True"
+  fullName: AspectRatio.GetAspectRatio
+  nameWithType: AspectRatio.GetAspectRatio
