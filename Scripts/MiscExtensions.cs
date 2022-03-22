@@ -66,6 +66,27 @@ namespace GG.Extensions
             
             return results;
         }
+	    
+	public static List<T> FindObjectsOfTypeAllInScene<T>(Scene scene)
+	{
+		List<T> results = new List<T>();
+		if (scene.isLoaded)
+		{
+			var allGameObjects = scene.GetRootGameObjects();
+			for (int j = 0; j < allGameObjects.Length; j++)
+			{
+				var go = allGameObjects[j];
+				results.AddRange(go.GetComponentsInChildren<T>(true));
+			}
+		}
+
+		foreach (GameObject savedObject in GameObjectExtensions.GetSavedObjects())
+		{
+			results.AddRange(savedObject.GetComponentsInChildren<T>(true));
+		}
+
+		return results;
+	}
 
         public static IEnumerator WaitForSceneToLoad(string sceneName, LoadSceneMode loadSceneMode, UnityAction<float> updateAction, UnityAction OnComplete)
         {
