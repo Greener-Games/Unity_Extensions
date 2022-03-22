@@ -3038,6 +3038,22 @@ references:
   fullName.vb: GG.Extensions.MiscExtensions.FindObjectsOfTypeAll(Of T)()
   nameWithType: MiscExtensions.FindObjectsOfTypeAll<T>()
   nameWithType.vb: MiscExtensions.FindObjectsOfTypeAll(Of T)()
+- uid: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene*
+  name: FindObjectsOfTypeAllInScene
+  href: api/GG.Extensions.MiscExtensions.html#GG_Extensions_MiscExtensions_FindObjectsOfTypeAllInScene_
+  commentId: Overload:GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene
+  isSpec: "True"
+  fullName: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene
+  nameWithType: MiscExtensions.FindObjectsOfTypeAllInScene
+- uid: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene``1(Scene)
+  name: FindObjectsOfTypeAllInScene<T>(Scene)
+  href: api/GG.Extensions.MiscExtensions.html#GG_Extensions_MiscExtensions_FindObjectsOfTypeAllInScene__1_Scene_
+  commentId: M:GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene``1(Scene)
+  name.vb: FindObjectsOfTypeAllInScene(Of T)(Scene)
+  fullName: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene<T>(Scene)
+  fullName.vb: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene(Of T)(Scene)
+  nameWithType: MiscExtensions.FindObjectsOfTypeAllInScene<T>(Scene)
+  nameWithType.vb: MiscExtensions.FindObjectsOfTypeAllInScene(Of T)(Scene)
 - uid: GG.Extensions.MiscExtensions.Frames(System.Int32)
   name: Frames(Int32)
   href: api/GG.Extensions.MiscExtensions.html#GG_Extensions_MiscExtensions_Frames_System_Int32_
