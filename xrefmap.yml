@@ -5295,6 +5295,31 @@ references:
   isSpec: "True"
   fullName: GG.Extensions.VersionExtension.SetVersion
   nameWithType: VersionExtension.SetVersion
+- uid: GG.Extensions.Vr
+  name: GG.Extensions.Vr
+  href: api/GG.Extensions.Vr.html
+  commentId: N:GG.Extensions.Vr
+  fullName: GG.Extensions.Vr
+  nameWithType: GG.Extensions.Vr
+- uid: GG.Extensions.Vr.XrExtensions
+  name: XrExtensions
+  href: api/GG.Extensions.Vr.XrExtensions.html
+  commentId: T:GG.Extensions.Vr.XrExtensions
+  fullName: GG.Extensions.Vr.XrExtensions
+  nameWithType: XrExtensions
+- uid: GG.Extensions.Vr.XrExtensions.IsHeadsetPresent
+  name: IsHeadsetPresent()
+  href: api/GG.Extensions.Vr.XrExtensions.html#GG_Extensions_Vr_XrExtensions_IsHeadsetPresent
+  commentId: M:GG.Extensions.Vr.XrExtensions.IsHeadsetPresent
+  fullName: GG.Extensions.Vr.XrExtensions.IsHeadsetPresent()
+  nameWithType: XrExtensions.IsHeadsetPresent()
+- uid: GG.Extensions.Vr.XrExtensions.IsHeadsetPresent*
+  name: IsHeadsetPresent
+  href: api/GG.Extensions.Vr.XrExtensions.html#GG_Extensions_Vr_XrExtensions_IsHeadsetPresent_
+  commentId: Overload:GG.Extensions.Vr.XrExtensions.IsHeadsetPresent
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.XrExtensions.IsHeadsetPresent
+  nameWithType: XrExtensions.IsHeadsetPresent
 - uid: GG.Extensions.WebExtensions
   name: WebExtensions
   href: api/GG.Extensions.WebExtensions.html
@@ -5353,25 +5378,6 @@ references:
   isSpec: "True"
   fullName: GG.Extensions.WebExtensions.SetupPostWebRequest
   nameWithType: WebExtensions.SetupPostWebRequest
-- uid: GG.Extensions.XrExtensions
-  name: XrExtensions
-  href: api/GG.Extensions.XrExtensions.html
-  commentId: T:GG.Extensions.XrExtensions
-  fullName: GG.Extensions.XrExtensions
-  nameWithType: XrExtensions
-- uid: GG.Extensions.XrExtensions.IsHeadsetPresent
-  name: IsHeadsetPresent()
-  href: api/GG.Extensions.XrExtensions.html#GG_Extensions_XrExtensions_IsHeadsetPresent
-  commentId: M:GG.Extensions.XrExtensions.IsHeadsetPresent
-  fullName: GG.Extensions.XrExtensions.IsHeadsetPresent()
-  nameWithType: XrExtensions.IsHeadsetPresent()
-- uid: GG.Extensions.XrExtensions.IsHeadsetPresent*
-  name: IsHeadsetPresent
-  href: api/GG.Extensions.XrExtensions.html#GG_Extensions_XrExtensions_IsHeadsetPresent_
-  commentId: Overload:GG.Extensions.XrExtensions.IsHeadsetPresent
-  isSpec: "True"
-  fullName: GG.Extensions.XrExtensions.IsHeadsetPresent
-  nameWithType: XrExtensions.IsHeadsetPresent
 - uid: Global
   name: Global
   href: api/Global.html
