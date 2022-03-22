@@ -1,0 +1,22 @@
+{
+    "name": "GG.Extensions.Xr",
+    "rootNamespace": "",
+    "references": [
+        "Unity.XR.Interaction.Toolkit"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.interaction.toolkit",
+            "expression": "2.0.1",
+            "define": "Interaction_Toolkit"
+        }
+    ],
+    "noEngineReferences": false
+}

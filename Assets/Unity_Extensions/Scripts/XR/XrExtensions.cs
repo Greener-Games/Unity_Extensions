@@ -2,15 +2,15 @@
 using UnityEngine;
 using UnityEngine.XR;
 
-namespace GG.Extensions
+namespace GG.Extensions.Vr
 {
     public static class XrExtensions
     {
         public static bool IsHeadsetPresent()
         {
-            var xrDisplaySubsystems = new List<XRDisplaySubsystem>();
+            List<XRDisplaySubsystem> xrDisplaySubsystems = new List<XRDisplaySubsystem>();
             SubsystemManager.GetInstances<XRDisplaySubsystem>(xrDisplaySubsystems);
-            foreach (var xrDisplay in xrDisplaySubsystems)
+            foreach (XRDisplaySubsystem xrDisplay in xrDisplaySubsystems)
             {
                 if (xrDisplay.running)
                 {
