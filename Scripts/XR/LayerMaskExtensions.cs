@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if Interaction_Toolkit
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -126,3 +127,4 @@ namespace GG.Extensions.Vr
         }
     }
 }
+#endif
