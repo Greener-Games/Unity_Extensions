@@ -5317,6 +5317,202 @@ references:
   commentId: N:GG.Extensions.Vr
   fullName: GG.Extensions.Vr
   nameWithType: GG.Extensions.Vr
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions
+  name: InteractionLayerMaskExtensions
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html
+  commentId: T:GG.Extensions.Vr.InteractionLayerMaskExtensions
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions
+  nameWithType: InteractionLayerMaskExtensions
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.AddToMask(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.String[])
+  name: AddToMask(InteractionLayerMask, String[])
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_AddToMask_UnityEngine_XR_Interaction_Toolkit_InteractionLayerMask_System_String___
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.AddToMask(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.String[])
+  name.vb: AddToMask(InteractionLayerMask, String())
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.AddToMask(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask, System.String[])
+  fullName.vb: GG.Extensions.Vr.InteractionLayerMaskExtensions.AddToMask(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask, System.String())
+  nameWithType: InteractionLayerMaskExtensions.AddToMask(InteractionLayerMask, String[])
+  nameWithType.vb: InteractionLayerMaskExtensions.AddToMask(InteractionLayerMask, String())
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.AddToMask*
+  name: AddToMask
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_AddToMask_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.AddToMask
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.AddToMask
+  nameWithType: InteractionLayerMaskExtensions.AddToMask
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.ContainsLayer(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.Int32)
+  name: ContainsLayer(InteractionLayerMask, Int32)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_ContainsLayer_UnityEngine_XR_Interaction_Toolkit_InteractionLayerMask_System_Int32_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.ContainsLayer(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.Int32)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.ContainsLayer(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask, System.Int32)
+  nameWithType: InteractionLayerMaskExtensions.ContainsLayer(InteractionLayerMask, Int32)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.ContainsLayer(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.String)
+  name: ContainsLayer(InteractionLayerMask, String)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_ContainsLayer_UnityEngine_XR_Interaction_Toolkit_InteractionLayerMask_System_String_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.ContainsLayer(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.String)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.ContainsLayer(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask, System.String)
+  nameWithType: InteractionLayerMaskExtensions.ContainsLayer(InteractionLayerMask, String)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.ContainsLayer*
+  name: ContainsLayer
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_ContainsLayer_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.ContainsLayer
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.ContainsLayer
+  nameWithType: InteractionLayerMaskExtensions.ContainsLayer
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask(System.Int32[])
+  name: CreateLayerMask(Int32[])
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_CreateLayerMask_System_Int32___
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask(System.Int32[])
+  name.vb: CreateLayerMask(Int32())
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask(System.Int32[])
+  fullName.vb: GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask(System.Int32())
+  nameWithType: InteractionLayerMaskExtensions.CreateLayerMask(Int32[])
+  nameWithType.vb: InteractionLayerMaskExtensions.CreateLayerMask(Int32())
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask(System.String[])
+  name: CreateLayerMask(String[])
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_CreateLayerMask_System_String___
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask(System.String[])
+  name.vb: CreateLayerMask(String())
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask(System.String[])
+  fullName.vb: GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask(System.String())
+  nameWithType: InteractionLayerMaskExtensions.CreateLayerMask(String[])
+  nameWithType.vb: InteractionLayerMaskExtensions.CreateLayerMask(String())
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask*
+  name: CreateLayerMask
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_CreateLayerMask_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.CreateLayerMask
+  nameWithType: InteractionLayerMaskExtensions.CreateLayerMask
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.Inverse(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask)
+  name: Inverse(InteractionLayerMask)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_Inverse_UnityEngine_XR_Interaction_Toolkit_InteractionLayerMask_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.Inverse(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.Inverse(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask)
+  nameWithType: InteractionLayerMaskExtensions.Inverse(InteractionLayerMask)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.Inverse*
+  name: Inverse
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_Inverse_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.Inverse
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.Inverse
+  nameWithType: InteractionLayerMaskExtensions.Inverse
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.LayerNumbersToMask(System.Int32[])
+  name: LayerNumbersToMask(Int32[])
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_LayerNumbersToMask_System_Int32___
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.LayerNumbersToMask(System.Int32[])
+  name.vb: LayerNumbersToMask(Int32())
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.LayerNumbersToMask(System.Int32[])
+  fullName.vb: GG.Extensions.Vr.InteractionLayerMaskExtensions.LayerNumbersToMask(System.Int32())
+  nameWithType: InteractionLayerMaskExtensions.LayerNumbersToMask(Int32[])
+  nameWithType.vb: InteractionLayerMaskExtensions.LayerNumbersToMask(Int32())
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.LayerNumbersToMask*
+  name: LayerNumbersToMask
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_LayerNumbersToMask_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.LayerNumbersToMask
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.LayerNumbersToMask
+  nameWithType: InteractionLayerMaskExtensions.LayerNumbersToMask
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToNames(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask)
+  name: MaskToNames(InteractionLayerMask)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MaskToNames_UnityEngine_XR_Interaction_Toolkit_InteractionLayerMask_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToNames(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToNames(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask)
+  nameWithType: InteractionLayerMaskExtensions.MaskToNames(InteractionLayerMask)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToNames*
+  name: MaskToNames
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MaskToNames_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToNames
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToNames
+  nameWithType: InteractionLayerMaskExtensions.MaskToNames
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToString(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask)
+  name: MaskToString(InteractionLayerMask)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MaskToString_UnityEngine_XR_Interaction_Toolkit_InteractionLayerMask_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToString(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToString(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask)
+  nameWithType: InteractionLayerMaskExtensions.MaskToString(InteractionLayerMask)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToString(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.String)
+  name: MaskToString(InteractionLayerMask, String)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MaskToString_UnityEngine_XR_Interaction_Toolkit_InteractionLayerMask_System_String_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToString(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.String)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToString(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask, System.String)
+  nameWithType: InteractionLayerMaskExtensions.MaskToString(InteractionLayerMask, String)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToString*
+  name: MaskToString
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MaskToString_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToString
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MaskToString
+  nameWithType: InteractionLayerMaskExtensions.MaskToString
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer(Transform,System.Int32,System.Boolean)
+  name: MoveToLayer(Transform, Int32, Boolean)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MoveToLayer_Transform_System_Int32_System_Boolean_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer(Transform,System.Int32,System.Boolean)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer(Transform, System.Int32, System.Boolean)
+  nameWithType: InteractionLayerMaskExtensions.MoveToLayer(Transform, Int32, Boolean)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer(Transform,System.String,System.Boolean)
+  name: MoveToLayer(Transform, String, Boolean)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MoveToLayer_Transform_System_String_System_Boolean_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer(Transform,System.String,System.Boolean)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer(Transform, System.String, System.Boolean)
+  nameWithType: InteractionLayerMaskExtensions.MoveToLayer(Transform, String, Boolean)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer*
+  name: MoveToLayer
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MoveToLayer_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer
+  nameWithType: InteractionLayerMaskExtensions.MoveToLayer
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer``1(Transform,System.Int32)
+  name: MoveToLayer<T>(Transform, Int32)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MoveToLayer__1_Transform_System_Int32_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer``1(Transform,System.Int32)
+  name.vb: MoveToLayer(Of T)(Transform, Int32)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer<T>(Transform, System.Int32)
+  fullName.vb: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer(Of T)(Transform, System.Int32)
+  nameWithType: InteractionLayerMaskExtensions.MoveToLayer<T>(Transform, Int32)
+  nameWithType.vb: InteractionLayerMaskExtensions.MoveToLayer(Of T)(Transform, Int32)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer``1(Transform,System.String)
+  name: MoveToLayer<T>(Transform, String)
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_MoveToLayer__1_Transform_System_String_
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer``1(Transform,System.String)
+  name.vb: MoveToLayer(Of T)(Transform, String)
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer<T>(Transform, System.String)
+  fullName.vb: GG.Extensions.Vr.InteractionLayerMaskExtensions.MoveToLayer(Of T)(Transform, System.String)
+  nameWithType: InteractionLayerMaskExtensions.MoveToLayer<T>(Transform, String)
+  nameWithType.vb: InteractionLayerMaskExtensions.MoveToLayer(Of T)(Transform, String)
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.NamesToMask(System.String[])
+  name: NamesToMask(String[])
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_NamesToMask_System_String___
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.NamesToMask(System.String[])
+  name.vb: NamesToMask(String())
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.NamesToMask(System.String[])
+  fullName.vb: GG.Extensions.Vr.InteractionLayerMaskExtensions.NamesToMask(System.String())
+  nameWithType: InteractionLayerMaskExtensions.NamesToMask(String[])
+  nameWithType.vb: InteractionLayerMaskExtensions.NamesToMask(String())
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.NamesToMask*
+  name: NamesToMask
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_NamesToMask_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.NamesToMask
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.NamesToMask
+  nameWithType: InteractionLayerMaskExtensions.NamesToMask
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.RemoveFromMask(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.String[])
+  name: RemoveFromMask(InteractionLayerMask, String[])
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_RemoveFromMask_UnityEngine_XR_Interaction_Toolkit_InteractionLayerMask_System_String___
+  commentId: M:GG.Extensions.Vr.InteractionLayerMaskExtensions.RemoveFromMask(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask,System.String[])
+  name.vb: RemoveFromMask(InteractionLayerMask, String())
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.RemoveFromMask(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask, System.String[])
+  fullName.vb: GG.Extensions.Vr.InteractionLayerMaskExtensions.RemoveFromMask(UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask, System.String())
+  nameWithType: InteractionLayerMaskExtensions.RemoveFromMask(InteractionLayerMask, String[])
+  nameWithType.vb: InteractionLayerMaskExtensions.RemoveFromMask(InteractionLayerMask, String())
+- uid: GG.Extensions.Vr.InteractionLayerMaskExtensions.RemoveFromMask*
+  name: RemoveFromMask
+  href: api/GG.Extensions.Vr.InteractionLayerMaskExtensions.html#GG_Extensions_Vr_InteractionLayerMaskExtensions_RemoveFromMask_
+  commentId: Overload:GG.Extensions.Vr.InteractionLayerMaskExtensions.RemoveFromMask
+  isSpec: "True"
+  fullName: GG.Extensions.Vr.InteractionLayerMaskExtensions.RemoveFromMask
+  nameWithType: InteractionLayerMaskExtensions.RemoveFromMask
 - uid: GG.Extensions.Vr.XrExtensions
   name: XrExtensions
   href: api/GG.Extensions.Vr.XrExtensions.html
