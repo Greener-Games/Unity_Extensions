@@ -11,12 +11,6 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [
-        {
-            "name": "com.unity.xr.interaction.toolkit",
-            "expression": "2.0.1",
-            "define": "Interaction_Toolkit"
-        }
-    ],
+    "versionDefines": [],
     "noEngineReferences": false
 }
