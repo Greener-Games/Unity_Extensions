@@ -4,7 +4,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 namespace GG.Extensions.Vr
 {
-#if Interaction_Toolkit
     public static class InteractionLayerMaskExtensions
     {
         public static InteractionLayerMask CreateLayerMask(params string[] layerNames)
@@ -126,5 +125,4 @@ namespace GG.Extensions.Vr
             return ((1 << InteractionLayerMask.NameToLayer(layer)) & mask) > 0;
         }
     }
-#endif
 }
