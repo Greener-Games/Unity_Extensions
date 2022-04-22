@@ -1,4 +1,8 @@
 {
-  "image_url": "https://i.redd.it/tu3gt6ysfxq71.png",
+  "image_url": 
+  [
+    "https://i.redd.it/tu3gt6ysfxq71.png",
+    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.verizon.com%2Fabout%2Fnews%2Fverizon-unity-partner-5g-mec-gaming-enterprise&psig=AOvVaw3SCxqc3WZ3wqRgffco69vL&ust=1650732448747000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCR4dyPqPcCFQAAAAAdAAAAABAD"
+  ],
   "description": "This is a description to see how it pulls though into the website"
 }
