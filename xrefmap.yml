@@ -2462,6 +2462,19 @@ references:
   fullName.vb: GG.Extensions.GameObjectExtensions.GetComponentInParentIgnoreSelf(Of T)(GameObject)
   nameWithType: GameObjectExtensions.GetComponentInParentIgnoreSelf<T>(GameObject)
   nameWithType.vb: GameObjectExtensions.GetComponentInParentIgnoreSelf(Of T)(GameObject)
+- uid: GG.Extensions.GameObjectExtensions.GetDontDestroyOnLoadObjects
+  name: GetDontDestroyOnLoadObjects()
+  href: api/GG.Extensions.GameObjectExtensions.html#GG_Extensions_GameObjectExtensions_GetDontDestroyOnLoadObjects
+  commentId: M:GG.Extensions.GameObjectExtensions.GetDontDestroyOnLoadObjects
+  fullName: GG.Extensions.GameObjectExtensions.GetDontDestroyOnLoadObjects()
+  nameWithType: GameObjectExtensions.GetDontDestroyOnLoadObjects()
+- uid: GG.Extensions.GameObjectExtensions.GetDontDestroyOnLoadObjects*
+  name: GetDontDestroyOnLoadObjects
+  href: api/GG.Extensions.GameObjectExtensions.html#GG_Extensions_GameObjectExtensions_GetDontDestroyOnLoadObjects_
+  commentId: Overload:GG.Extensions.GameObjectExtensions.GetDontDestroyOnLoadObjects
+  isSpec: "True"
+  fullName: GG.Extensions.GameObjectExtensions.GetDontDestroyOnLoadObjects
+  nameWithType: GameObjectExtensions.GetDontDestroyOnLoadObjects
 - uid: GG.Extensions.GameObjectExtensions.GetOrAddComponent*
   name: GetOrAddComponent
   href: api/GG.Extensions.GameObjectExtensions.html#GG_Extensions_GameObjectExtensions_GetOrAddComponent_
@@ -2487,19 +2500,6 @@ references:
   fullName.vb: GG.Extensions.GameObjectExtensions.GetOrAddComponent(Of T)(GameObject)
   nameWithType: GameObjectExtensions.GetOrAddComponent<T>(GameObject)
   nameWithType.vb: GameObjectExtensions.GetOrAddComponent(Of T)(GameObject)
-- uid: GG.Extensions.GameObjectExtensions.GetSavedObjects
-  name: GetSavedObjects()
-  href: api/GG.Extensions.GameObjectExtensions.html#GG_Extensions_GameObjectExtensions_GetSavedObjects
-  commentId: M:GG.Extensions.GameObjectExtensions.GetSavedObjects
-  fullName: GG.Extensions.GameObjectExtensions.GetSavedObjects()
-  nameWithType: GameObjectExtensions.GetSavedObjects()
-- uid: GG.Extensions.GameObjectExtensions.GetSavedObjects*
-  name: GetSavedObjects
-  href: api/GG.Extensions.GameObjectExtensions.html#GG_Extensions_GameObjectExtensions_GetSavedObjects_
-  commentId: Overload:GG.Extensions.GameObjectExtensions.GetSavedObjects
-  isSpec: "True"
-  fullName: GG.Extensions.GameObjectExtensions.GetSavedObjects
-  nameWithType: GameObjectExtensions.GetSavedObjects
 - uid: GG.Extensions.Geometry
   name: Geometry
   href: api/GG.Extensions.Geometry.html
@@ -3045,15 +3045,15 @@ references:
   isSpec: "True"
   fullName: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene
   nameWithType: MiscExtensions.FindObjectsOfTypeAllInScene
-- uid: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene``1(Scene)
-  name: FindObjectsOfTypeAllInScene<T>(Scene)
-  href: api/GG.Extensions.MiscExtensions.html#GG_Extensions_MiscExtensions_FindObjectsOfTypeAllInScene__1_Scene_
-  commentId: M:GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene``1(Scene)
-  name.vb: FindObjectsOfTypeAllInScene(Of T)(Scene)
-  fullName: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene<T>(Scene)
-  fullName.vb: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene(Of T)(Scene)
-  nameWithType: MiscExtensions.FindObjectsOfTypeAllInScene<T>(Scene)
-  nameWithType.vb: MiscExtensions.FindObjectsOfTypeAllInScene(Of T)(Scene)
+- uid: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene``1(Scene,System.Boolean)
+  name: FindObjectsOfTypeAllInScene<T>(Scene, Boolean)
+  href: api/GG.Extensions.MiscExtensions.html#GG_Extensions_MiscExtensions_FindObjectsOfTypeAllInScene__1_Scene_System_Boolean_
+  commentId: M:GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene``1(Scene,System.Boolean)
+  name.vb: FindObjectsOfTypeAllInScene(Of T)(Scene, Boolean)
+  fullName: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene<T>(Scene, System.Boolean)
+  fullName.vb: GG.Extensions.MiscExtensions.FindObjectsOfTypeAllInScene(Of T)(Scene, System.Boolean)
+  nameWithType: MiscExtensions.FindObjectsOfTypeAllInScene<T>(Scene, Boolean)
+  nameWithType.vb: MiscExtensions.FindObjectsOfTypeAllInScene(Of T)(Scene, Boolean)
 - uid: GG.Extensions.MiscExtensions.Frames(System.Int32)
   name: Frames(Int32)
   href: api/GG.Extensions.MiscExtensions.html#GG_Extensions_MiscExtensions_Frames_System_Int32_
