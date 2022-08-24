@@ -48,18 +48,11 @@ namespace GG.Extensions
             for (int i = 0; i < SceneManager.sceneCount; i++)
             {
                 var s = SceneManager.GetSceneAt(i);
-                if (s.isLoaded)
-                {
-                    var allGameObjects = s.GetRootGameObjects();
-                    for (int j = 0; j < allGameObjects.Length; j++)
-                    {
-                        var go = allGameObjects[j];
-                        results.AddRange(go.GetComponentsInChildren<T>(true));
-                    }
-                }
+                
+                results.AddRange(FindObjectsOfTypeAllInScene<T>(s, false));
             }
 
-            foreach (GameObject savedObject in GameObjectExtensions.GetSavedObjects())
+            foreach (GameObject savedObject in GameObjectExtensions.GetDontDestroyOnLoadObjects())
             {
                 results.AddRange(savedObject.GetComponentsInChildren<T>(true));
             }
@@ -67,25 +60,26 @@ namespace GG.Extensions
             return results;
         }
 	    
-	public static List<T> FindObjectsOfTypeAllInScene<T>(Scene scene)
+	public static List<T> FindObjectsOfTypeAllInScene<T>(Scene scene, bool includeDontDestroyOnLoad = true)
 	{
 		List<T> results = new List<T>();
-		if (scene.isLoaded)
+
+		var allGameObjects = scene.GetRootGameObjects();
+		for (int j = 0; j < allGameObjects.Length; j++)
 		{
-			var allGameObjects = scene.GetRootGameObjects();
-			for (int j = 0; j < allGameObjects.Length; j++)
-			{
-				var go = allGameObjects[j];
-				results.AddRange(go.GetComponentsInChildren<T>(true));
-			}
+			var go = allGameObjects[j];
+			results.AddRange(go.GetComponentsInChildren<T>(true));
 		}
 
-		foreach (GameObject savedObject in GameObjectExtensions.GetSavedObjects())
-		{
-			results.AddRange(savedObject.GetComponentsInChildren<T>(true));
-		}
+        if (includeDontDestroyOnLoad)
+        {
+            foreach (GameObject savedObject in GameObjectExtensions.GetDontDestroyOnLoadObjects())
+            {
+                results.AddRange(savedObject.GetComponentsInChildren<T>(true));
+            }
+        }
 
-		return results;
+        return results;
 	}
 
         public static IEnumerator WaitForSceneToLoad(string sceneName, LoadSceneMode loadSceneMode, UnityAction<float> updateAction, UnityAction OnComplete)
