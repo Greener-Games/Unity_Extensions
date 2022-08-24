@@ -6,7 +6,7 @@ namespace GG.Extensions
 {
 	public static class GameObjectExtensions
 	{
-		static List<GameObject> savedObjects = new List<GameObject>();
+		static List<GameObject> dontDestoryOnLoadObjects = new List<GameObject>();
 		
 		/// <summary>
 		/// Gets or add a component. Usage example:
@@ -59,20 +59,20 @@ namespace GG.Extensions
 		/// <param name="obj"></param>
 		public static void DontDestroyOnLoad(this GameObject obj)
 		{
-			savedObjects.Add(obj);
+			dontDestoryOnLoadObjects.Add(obj);
 			Object.DontDestroyOnLoad(obj);
 		}
      
 		public static void DestoryDontDestroyOnLoad(this GameObject obj)
 		{
-			savedObjects.Remove(obj); 
+			dontDestoryOnLoadObjects.Remove(obj); 
 			Object.Destroy(obj);
 		}
      
-		public static List<GameObject> GetSavedObjects()
+		public static List<GameObject> GetDontDestroyOnLoadObjects()
 		{
-			savedObjects = savedObjects.Where(x => x != null).ToList();
-			return new List<GameObject>(savedObjects); 
+			dontDestoryOnLoadObjects = dontDestoryOnLoadObjects.Where(x => x != null).ToList();
+			return new List<GameObject>(dontDestoryOnLoadObjects); 
 		}
 		
 		/// <summary>
