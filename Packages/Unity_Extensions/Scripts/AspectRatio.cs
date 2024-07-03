@@ -22,3 +22,4 @@ public static class AspectRatio
         return new Vector2((float)System.Math.Round(f * i, 2), i);
     }
 }
+

@@ -27,7 +27,7 @@ namespace GG.Extensions
         /// <param name="uri">The URI to send to</param>
         public static UnityWebRequest SetupPostWebRequest(string json, string uri)
         {
-            UnityWebRequest request = UnityWebRequest.Post(uri, "");
+            UnityWebRequest request = UnityWebRequest.PostWwwForm(uri, "");
             byte[] bodyRaw = new UTF8Encoding().GetBytes(json);
             request.uploadHandler = new UploadHandlerRaw(bodyRaw) {contentType = "application/json"};
             request.downloadHandler = new DownloadHandlerBuffer();
