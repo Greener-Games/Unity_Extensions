@@ -2,6 +2,9 @@
 
 namespace GG.Extensions
 {
+    /// <summary>
+    /// Defines preset anchor positions for RectTransforms.
+    /// </summary>
     public enum AnchorPresets
     {
         TopLeft,
@@ -27,7 +30,9 @@ namespace GG.Extensions
  
         StretchAll
     }
- 
+    /// <summary>
+    /// Defines preset pivot positions for RectTransforms.
+    /// </summary>
     public enum PivotPresets
     {
         TopLeft,
@@ -45,6 +50,13 @@ namespace GG.Extensions
     
     public static class RectTransformExtensions
     {
+        /// <summary>
+        /// Sets the anchor of a RectTransform to a predefined preset.
+        /// </summary>
+        /// <param name="source">The RectTransform to modify.</param>
+        /// <param name="allign">The AnchorPresets value to apply.</param>
+        /// <param name="offsetX">Optional X offset from the anchor position.</param>
+        /// <param name="offsetY">Optional Y offset from the anchor position.</param>
         public static void SetAnchor(this RectTransform source, AnchorPresets allign, int offsetX=0, int offsetY=0)
         {
             source.anchoredPosition = new Vector3(offsetX, offsetY, 0);
@@ -154,7 +166,12 @@ namespace GG.Extensions
                 }
             }
         }
- 
+
+        /// <summary>
+        /// Sets the pivot of a RectTransform to a predefined preset.
+        /// </summary>
+        /// <param name="source">The RectTransform to modify.</param>
+        /// <param name="preset">The PivotPresets value to apply.</param>
         public static void SetPivot(this RectTransform source, PivotPresets preset)
         {
  

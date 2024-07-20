@@ -11,10 +11,10 @@ using UnityEngine.UI;
 
 namespace GG.Extensions
 {
-    public static class MiscExtensions 
+    public static class MiscExtensions
     {
         public delegate void UnityAction<T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4);
-        
+
         /// <summary>
         /// An actual quit that will stop play mode in editor as well
         /// </summary>
@@ -26,7 +26,7 @@ namespace GG.Extensions
              Application.Quit();
 #endif
         }
-        
+
         /// <summary>
         ///     Ensure the resources directory lives at 'Assets' level
         /// </summary>
@@ -39,16 +39,20 @@ namespace GG.Extensions
                 Directory.CreateDirectory(path);
             }
         }
-        
-		/// Use this method to get all loaded objects of some type, including inactive objects. 
-        /// This is an alternative to Resources.FindObjectsOfTypeAll (returns project assets, including prefabs), and GameObject.FindObjectsOfTypeAll (deprecated).
+
+        /// <summary>
+        /// Finds all objects of type T in all loaded scenes, including inactive objects.
+        /// This method is an alternative to Resources.FindObjectsOfTypeAll (which returns project assets, including prefabs),
+        /// and GameObject.FindObjectsOfTypeAll (which is deprecated).
+        /// </summary>
+        /// <typeparam name="T">The type of the objects to find.</typeparam>
+        /// <returns>A list of objects of type T found in all loaded scenes.</returns>
         public static List<T> FindObjectsOfTypeAll<T>()
         {
             List<T> results = new List<T>();
             for (int i = 0; i < SceneManager.sceneCount; i++)
             {
                 var s = SceneManager.GetSceneAt(i);
-                
                 results.AddRange(FindObjectsOfTypeAllInScene<T>(s, false));
             }
 
@@ -56,59 +60,70 @@ namespace GG.Extensions
             {
                 results.AddRange(savedObject.GetComponentsInChildren<T>(true));
             }
-            
+
             return results;
         }
-	    
-	public static List<T> FindObjectsOfTypeAllInScene<T>(Scene scene, bool includeDontDestroyOnLoad = true)
-	{
-		List<T> results = new List<T>();
 
-		var allGameObjects = scene.GetRootGameObjects();
-		for (int j = 0; j < allGameObjects.Length; j++)
-		{
-			var go = allGameObjects[j];
-			results.AddRange(go.GetComponentsInChildren<T>(true));
-		}
-
-        if (includeDontDestroyOnLoad)
+        /// <summary>
+        /// Finds all objects of type T in a specific scene, including inactive objects.
+        /// Optionally includes objects marked as DontDestroyOnLoad.
+        /// </summary>
+        /// <typeparam name="T">The type of the objects to find.</typeparam>
+        /// <param name="scene">The scene to search within.</param>
+        /// <param name="includeDontDestroyOnLoad">Whether to include objects marked as DontDestroyOnLoad.</param>
+        /// <returns>A list of objects of type T found in the specified scene.</returns>
+        public static List<T> FindObjectsOfTypeAllInScene<T>(Scene scene, bool includeDontDestroyOnLoad = true)
         {
-            foreach (GameObject savedObject in GameObjectExtensions.GetDontDestroyOnLoadObjects())
+            List<T> results = new List<T>();
+
+            var allGameObjects = scene.GetRootGameObjects();
+            for (int j = 0; j < allGameObjects.Length; j++)
             {
-                results.AddRange(savedObject.GetComponentsInChildren<T>(true));
+                var go = allGameObjects[j];
+                results.AddRange(go.GetComponentsInChildren<T>(true));
             }
+
+            if (includeDontDestroyOnLoad)
+            {
+                foreach (GameObject savedObject in GameObjectExtensions.GetDontDestroyOnLoadObjects())
+                {
+                    results.AddRange(savedObject.GetComponentsInChildren<T>(true));
+                }
+            }
+
+            return results;
         }
 
-        return results;
-	}
-
-        public static IEnumerator WaitForSceneToLoad(string sceneName, LoadSceneMode loadSceneMode, UnityAction<float> updateAction, UnityAction OnComplete)
+        /// <summary>
+        /// Asynchronously loads a scene by name and provides progress updates and a completion callback.
+        /// </summary>
+        /// <param name="sceneName">The name of the scene to load.</param>
+        /// <param name="loadSceneMode">Specifies whether to load the scene additively or replace the current scene.</param>
+        /// <param name="updateAction">An action to perform with the loading progress (0.0 to 0.9).</param>
+        /// <param name="OnComplete">An action to perform once the scene is fully loaded and activated.</param>
+        /// <returns>An IEnumerator for coroutine support, allowing this method to yield until the scene has loaded.</returns>
+        public static IEnumerator WaitForSceneToLoad(string sceneName, LoadSceneMode loadSceneMode,
+            UnityAction<float> updateAction, UnityAction OnComplete)
         {
             AsyncOperation async = SceneManager.LoadSceneAsync(sceneName, loadSceneMode);
             async.allowSceneActivation = false;
 
             while (async.progress < 0.9f)
             {
-                if (updateAction != null)
-                {
-                    updateAction(async.progress);
-                }
+                updateAction?.Invoke(async.progress);
                 yield return null;
             }
 
             async.allowSceneActivation = true;
 
-            while (SceneManager.GetSceneByName(sceneName).isLoaded == false)
+            while (!SceneManager.GetSceneByName(sceneName).isLoaded)
             {
                 yield return new WaitForSeconds(0.1f);
             }
 
-            if (OnComplete != null)
-            {
-                OnComplete();
-            }
+            OnComplete?.Invoke();
         }
-        
+
         /// <summary>
         /// Clone data from an object into a new version of it
         /// </summary>
@@ -117,7 +132,7 @@ namespace GG.Extensions
         /// <returns></returns>
         public static T Clone<T>(T obj)
         {
-            DataContractSerializer dcSer = new  DataContractSerializer(obj.GetType());
+            DataContractSerializer dcSer = new DataContractSerializer(obj.GetType());
             MemoryStream memoryStream = new MemoryStream();
 
             dcSer.WriteObject(memoryStream, obj);
@@ -136,16 +151,27 @@ namespace GG.Extensions
         /// <param name="target"></param>
         /// <typeparam name="T"></typeparam>
         /// <typeparam name="T2"></typeparam>
-        public static void CopyAll<T,T2>(this T source, T2 target)
+        public static void CopyAll<T, T2>(this T source, T2 target)
         {
             Type type = typeof(T);
             foreach (FieldInfo sourceField in type.GetFields())
             {
                 FieldInfo targetField = type.GetField(sourceField.Name);
                 targetField.SetValue(target, sourceField.GetValue(source));
-            }       
+            }
         }
-        
+
+        /// <summary>
+        /// Calculates the number of columns and rows in a vertical grid layout based on the active children.
+        /// </summary>
+        /// <param name="glg">The GridLayoutGroup for which to calculate columns and rows.</param>
+        /// <param name="column">The number of columns in the grid. Output parameter.</param>
+        /// <param name="row">The number of rows in the grid. Output parameter.</param>
+        /// <remarks>
+        /// This method assumes that the grid starts with at least one column and one row.
+        /// It iterates through all child objects of the GridLayoutGroup, counting the number of columns and rows
+        /// based on the positions of the child objects. It only considers active child objects.
+        /// </remarks>
         public static void GetColumnAndRowForVerticalGrid(this GridLayoutGroup glg, out int column, out int row)
         {
             column = 0;
@@ -170,7 +196,7 @@ namespace GG.Extensions
                 {
                     continue;
                 }
-                
+
                 //Get the next child
                 RectTransform currentChildObj = glg.transform.GetChild(i).GetComponent<RectTransform>();
 
@@ -188,24 +214,29 @@ namespace GG.Extensions
                 }
             }
         }
-        
+
         /// <summary>
-        /// warpper for index of comming from an array
+        /// Finds the index of the first occurrence of an object in an array.
         /// </summary>
-        /// <param name="array"></param>
-        /// <param name="obj"></param>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
+        /// <param name="array">The array to search.</param>
+        /// <param name="obj">The object to find the index of.</param>
+        /// <typeparam name="T">The type of the objects in the array.</typeparam>
+        /// <returns>The index of the first occurrence of the object in the array; -1 if not found.</returns>
         public static int IndexOf<T>(this T[] array, T obj)
         {
             return Array.IndexOf(array, obj);
         }
-        
+
+        /// <summary>
+        /// Trims the milliseconds from a DateTime object, returning a new DateTime object.
+        /// </summary>
+        /// <param name="dt">The DateTime object to trim milliseconds from.</param>
+        /// <returns>A new DateTime object with the milliseconds set to 0.</returns>
         public static DateTime TrimMilliseconds(this DateTime dt)
         {
             return new DateTime(dt.Year, dt.Month, dt.Day, dt.Hour, dt.Minute, dt.Second, 0, dt.Kind);
         }
-        
+
         /// <summary>
         /// Wait a set number of frames in a coroutine
         /// </summary>
@@ -220,7 +251,7 @@ namespace GG.Extensions
                 yield return frame;
             }
         }
-        
+
         /// <summary>
         /// Creates a runtime sprite from a texture2D
         /// </summary>
@@ -234,4 +265,3 @@ namespace GG.Extensions
         }
     }
 }
-

@@ -131,83 +131,102 @@ namespace GG.Extensions
 
 #region Salt Key Encryption
 
-        public static List<string> SaltKeyEncrypt(string data, string salt)
+/// <summary>
+/// Encrypts the given data using HMAC SHA512 hashing with a specified salt key.
+/// </summary>
+/// <param name="data">The data to encrypt.</param>
+/// <param name="salt">The salt key to use for encryption.</param>
+/// <returns>A list containing the base64 encoded payload and its HMAC SHA512 hash.</returns>
+public static List<string> SaltKeyEncrypt(string data, string salt)
+{
+    byte[] key = Encoding.UTF8.GetBytes(salt);
+    using (HMACSHA512 sha512 = new HMACSHA512(key))
+    {
+        byte[] payload = Encoding.UTF8.GetBytes(data);
+        byte[] binaryHash = sha512.ComputeHash(payload);
+        string stringHash = Convert.ToBase64String(binaryHash);
+
+        List<string> l = new List<string>
         {
-            byte[] key = Encoding.UTF8.GetBytes(salt);
-            using (HMACSHA512 sha512 = new HMACSHA512(key))
-            {
-                byte[] payload = Encoding.UTF8.GetBytes(data);
-                byte[] binaryHash = sha512.ComputeHash(payload);
-                string stringHash = Convert.ToBase64String(binaryHash);
+            Convert.ToBase64String(payload),
+            stringHash
+        };
 
-                List<string> l = new List<string>
-                {
-                    Convert.ToBase64String(payload),
-                    stringHash
-                };
+        return l;
+    }
+}
 
-                return l;
-            }
-        }
-        
-        public static string SaltKeyDecrypt(string[] data, string salt)
+/// <summary>
+/// Decrypts the given data using HMAC SHA512 hashing with a specified salt key, comparing it against a known hash.
+/// </summary>
+/// <param name="data">An array where the first element is the base64 encoded payload and the second element is its hash.</param>
+/// <param name="salt">The salt key used during encryption.</param>
+/// <returns>The decrypted data if the hash matches, otherwise an empty string.</returns>
+public static string SaltKeyDecrypt(string[] data, string salt)
+{
+    string hash = data[1];
+    byte[] key = Encoding.UTF8.GetBytes(salt);
+    using (HMACSHA512 sha512 = new HMACSHA512(key))
+    {
+        byte[] payload = Convert.FromBase64String(data[0]);
+        byte[] binaryHash = sha512.ComputeHash(payload);
+        string stringHash = Convert.ToBase64String(binaryHash);
+
+        if (hash == stringHash)
         {
-            string hash = data[1];
-            byte[] key = Encoding.UTF8.GetBytes(salt);
-            using (HMACSHA512 sha512 = new HMACSHA512(key))
-            {
-                byte[] payload = Convert.FromBase64String(data[0]);
-                byte[] binaryHash = sha512.ComputeHash(payload);
-                string stringHash = Convert.ToBase64String(binaryHash);
-
-                if (hash == stringHash)
-                {
-                    string d = Encoding.UTF8.GetString(payload);
-                    return d;
-                }
-            }
-
-            return "";
+            string d = Encoding.UTF8.GetString(payload);
+            return d;
         }
+    }
+
+    return "";
+}
 
 #endregion
 
 #region AES
-        public static string AesEncryption(string rawValue, string key, string iv)
+   /// <summary>
+/// Encrypts a given string using AES encryption with a specified key and initialization vector (IV).
+/// </summary>
+/// <param name="rawValue">The string to encrypt.</param>
+/// <param name="key">The encryption key as a string. It will be converted to bytes internally.</param>
+/// <param name="iv">The initialization vector as a string. It will be converted to bytes internally.</param>
+/// <returns>The encrypted string, converted from bytes to a string representation.</returns>
+public static string AesEncryption(string rawValue, string key, string iv)
+{
+    byte[] keyByte = StringToBytes(key); // Convert the key from string to bytes
+    byte[] ivByte = StringToBytes(iv); // Convert the IV from string to bytes
+
+    byte[] encrypted; // To hold the encrypted data bytes
+    string s = string.Empty; // Initialize an empty string to hold the final encrypted string
+    using (Aes aesAlg = Aes.Create()) // Create a new instance of the Aes class
+    {
+        aesAlg.Key = keyByte; // Set the encryption key
+        aesAlg.IV = ivByte; // Set the initialization vector
+
+        // Create an encryptor to perform the stream transform.
+        ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+
+        // Create the streams used for encryption.
+        using (MemoryStream msEncrypt = new MemoryStream())
         {
-            byte[] keyByte = StringToBytes(key);
-            byte[] ivByte = StringToBytes(iv);
-            
-            byte[] encrypted;
-            string s = string.Empty;
-            using (Aes aesAlg = Aes.Create())
+            using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
             {
-                aesAlg.Key = keyByte;
-                aesAlg.IV = ivByte;
-                
-                // Create an encryptor to perform the stream transform.
-                ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
-
-                // Create the streams used for encryption.
-                using (MemoryStream msEncrypt = new MemoryStream())
+                using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
                 {
-                    using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
-                    {
-                        using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
-                        {
-                            //Write all data to the stream.
-                            swEncrypt.Write(rawValue);
-                        }
-
-                        encrypted = msEncrypt.ToArray();
-
-                        s = BytesToString(encrypted);
-                    }
+                    //Write all data to the stream.
+                    swEncrypt.Write(rawValue);
                 }
-            }
 
-            return s;
+                encrypted = msEncrypt.ToArray(); // Convert the encrypted data stream to a byte array
+
+                s = BytesToString(encrypted); // Convert the encrypted bytes to a string
+            }
         }
+    }
+
+    return s; // Return the encrypted string
+}
 
         /// <summary>
         ///  Decrypt the byte array into a ascii readable string

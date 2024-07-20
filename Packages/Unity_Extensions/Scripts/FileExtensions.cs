@@ -6,28 +6,37 @@ namespace GG.Extensions
 {
     public static class FileExtensions
     {
-        public static bool IsFileInUse(FileInfo file)
-        {
-            FileStream stream = null;
+        /// <summary>
+/// Checks if the specified file is currently in use by another process.
+/// </summary>
+/// <param name="file">The FileInfo object representing the file to check.</param>
+/// <returns>True if the file is in use; otherwise, false.</returns>
+/// <remarks>
+/// This method attempts to open the file with read/write access and no sharing.
+/// If an IOException is caught, it is assumed the file is in use.
+/// The file stream is closed immediately in the finally block if it was successfully opened.
+/// </remarks>
+public static bool IsFileInUse(FileInfo file)
+{
+    FileStream stream = null;
 
-            try
-            {
-                stream = file.Open(FileMode.Open, FileAccess.ReadWrite, FileShare.None);
-            }
-            catch (IOException)
-            {
-                //the file is unavailable because it is:
-                //still being written to
-                //or being processed by another thread
-                //or does not exist (has already been processed)
-                return true;
-            }
-            finally
-            {
-                stream?.Close();
-            }
-            return false; 
-        }
+    try
+    {
+        // Attempt to open the file with exclusive access.
+        stream = file.Open(FileMode.Open, FileAccess.ReadWrite, FileShare.None);
+    }
+    catch (IOException)
+    {
+        // IOException caught indicates the file is in use or does not exist.
+        return true;
+    }
+    finally
+    {
+        // Ensure the file stream is closed if it was opened.
+        stream?.Close();
+    }
+    return false;
+}
 
         /// <summary>
         /// Copy a whole directory with option to copy all sub folders
@@ -74,10 +83,15 @@ namespace GG.Extensions
             }
         }
         
-        public static string RemoveFileExtension(string filePath)
-        {
-            return Path.ChangeExtension(filePath, null);
-        }
+/// <summary>
+/// Removes the file extension from a given file path.
+/// </summary>
+/// <param name="filePath">The full path of the file including its extension.</param>
+/// <returns>The file path without its extension.</returns>
+public static string RemoveFileExtension(string filePath)
+{
+    return Path.ChangeExtension(filePath, null);
+}
         
         /// <summary>
 	/// Determine whether a given path is a directory.

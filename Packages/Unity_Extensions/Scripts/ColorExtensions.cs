@@ -4,13 +4,25 @@ namespace GG.Extensions
 {
     public static class ColorExtensions
     {
-        // Note that Color32 and Color implictly convert to each other. You may pass a Color object to this method without first casting it.
+        /// <summary>
+        /// Converts a Color32 to a hexadecimal string representation.
+        /// </summary>
+        /// <param name="color">The Color32 to convert.</param>
+        /// <returns>A hexadecimal string representing the color.</returns>
         public static string ColorToHex(this Color32 color)
         {
             string hex = color.r.ToString("X2") + color.g.ToString("X2") + color.b.ToString("X2");
             return hex;
         }
 
+        /// <summary>
+        /// Converts a hexadecimal string to a Color.
+        /// </summary>
+        /// <param name="hex">The hexadecimal string to convert. Can be prefixed with "0x" or "#".</param>
+        /// <returns>A Color represented by the hexadecimal string.</returns>
+        /// <remarks>
+        /// Assumes the color is fully opaque unless an alpha value is specified in the hex string.
+        /// </remarks>
         public static Color HexToColor(string hex)
         {
             hex = hex.Replace("0x", ""); //in case the string is formatted 0xFFFFFF

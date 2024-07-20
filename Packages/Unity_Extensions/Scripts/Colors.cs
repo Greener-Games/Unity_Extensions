@@ -4,8 +4,10 @@ namespace GG.Extensions
 {
     public class Colors
     {
-        // NOTE: The follwing color names come from the CSS3 specification, Section 4.3 Extended Color Keywords
-        // http://www.w3.org/TR/css3-color/#svg-color
+        /// <summary>
+        /// Generates a random color with each RGB component ranging from 0 to 1.
+        /// </summary>
+        /// <returns>A new Color instance with random RGB values.</returns>
         public static Color Random
         {
             get
